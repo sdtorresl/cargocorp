@@ -50,7 +50,7 @@ $cakeDescription = 'CargoCorp UW es una reaseguradora....';
             <nav class="navbar navbar-expand-lg navbar-dark p-0">
                 <a class="navbar-brand" href="#">
                     <figure>
-                        <img src="img/Group.png" alt="#" class="logo">
+                        <?= $this->Html->image('Group.png', ['alt' => 'CargoCorp-logo', 'class'=>'logo']); ?>
                     </figure>
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
