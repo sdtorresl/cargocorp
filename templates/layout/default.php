@@ -46,37 +46,7 @@ $cakeDescription = 'CargoCorp UW es una reaseguradora....';
 
 <body>
     <header>
-        <div class="menu-container">
-            <nav class="navbar navbar-expand-lg navbar-dark p-0">
-                <a class="navbar-brand" href="#">
-                    <figure>
-                        <?= $this->Html->image('Group.png', ['alt' => 'CargoCorp-logo', 'class'=>'logo']); ?>
-                    </figure>
-                </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ml-auto menu mb-3 mt-3">
-                        <li class="nav-item mb-3">
-                            <a class="white-leter" href="#">Inicio<span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item mb-3">
-                            <a class="white-leter " href="#">Noticias</a>
-                        </li>
-                        <li class="nav-item mb-3">
-                            <a class="white-leter" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                Sobre nosotros
-                            </a>
-                        </li>
-                        <li class="nav-item mb-3">
-                            <a class="white-leter" href="#">Inicio sesión</a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
-        </div>
+        <?= $this->element('menu') ?>
     </header>
 
     <main class="main">

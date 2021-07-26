@@ -4,6 +4,7 @@ body {
     background: #ffffff;
     font-style: normal;
     overflow-x: hidden;
+    font-family: "Open Sans", sans-serif;
 }
 body {
     position: relative;
@@ -41,7 +42,6 @@ header {
     width: 100%;
     height: 100%;
     margin: 0%;
-    font-family: "Open Sans", sans-serif;
 }
 
 div.menu-container {
@@ -67,7 +67,6 @@ a.white-leter {
     color: white;
     margin-left: 18px;
     margin-right: 18px;
-    font-family: "Open Sans", sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 14px;
@@ -83,20 +82,19 @@ a.white-leter:hover {
     padding-bottom: 1px;
 }
 
-section.contacto-container {
+.contacto-container {
     background: #033a74;
     position: relative;
     color: white;
     width: 100%;
     height: 530px;
-    font-family: "Open Sans", sans-serif;
     font-style: normal;
     text-align: center;
     padding-top: 90px;
     z-index: 1000;
 }
 
-section.contacto-container:after {
+.contacto-container:after {
     content: "";
     position: absolute;
     left: 0px;
@@ -108,8 +106,8 @@ section.contacto-container:after {
     transform: translateY(0px);
     z-index: -10;
 }
+
 h1.title {
-    font-family: "Open Sans", sans-serif;
     color: white;
     font-size: 20px;
     font-weight: normal;
@@ -133,7 +131,6 @@ div.boton {
 a.boton-contacto {
     background-color: #ffda31;
     color: #033a74;
-    font-family: "Open Sans", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
@@ -193,7 +190,6 @@ h3.trititle {
     color: #000000;
     text-align: center;
     text-transform: uppercase;
-    font-family: "Open Sans", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -210,7 +206,6 @@ h3.trititle::after {
 }
 
 h2.subtitle-somos {
-    font-family: "Open Sans", sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 24px;
@@ -220,7 +215,6 @@ h2.subtitle-somos {
     transform: translateY(-30px);
 }
 p.text-cobertura {
-    font-family: "Open Sans", sans-serif;
     font-weight: 300;
     font-size: 18px;
     line-height: 30px;
@@ -240,7 +234,6 @@ section.la-diferencia {
 }
 div.grid-diferencia {
     color: #333333;
-    font-family: "Open Sans", sans-serif;
     font-style: normal;
     font-weight: 300;
     font-size: 14px;
@@ -250,19 +243,16 @@ div.text-d {
     margin-left: 15px;
 }
 p.title-p {
-    font-family: "Open Sans", sans-serif;
     font-weight: 700;
     font-size: 18px;
     margin-bottom: 8px;
 }
 p.text-p {
-    font-family: "Open Sans", sans-serif;
     font-weight: 300;
     font-size: 14px;
 }
 section.nuestros-productos {
     position: relative;
-    font-family: "Open Sans", sans-serif;
     color: white;
     background: #333333;
     width: 100%;
@@ -286,7 +276,6 @@ h3.title-n {
     position: relative;
     text-align: center;
     text-transform: uppercase;
-    font-family: "Open Sans", sans-serif;
     font-style: normal;
     font-size: 14px;
     color: white;
@@ -326,7 +315,6 @@ img.image-slide {
     overflow: hidden;
 }
 p.title-slide {
-    font-family: "Open Sans", sans-serif;
     font-size: 24px;
     font-weight: 700;
     line-height: 33px;
@@ -334,7 +322,6 @@ p.title-slide {
     padding-top: 20px;
 }
 p.text-slide {
-    font-family: "Open Sans", sans-serif;
     font-size: 16px;
     font-weight: 300;
     line-height: 24px;
@@ -343,7 +330,6 @@ p.text-slide {
 a.slide-link {
     color: #333333;
     text-decoration: underline;
-    font-family: "Open Sans", sans-serif;
     font-size: 16px;
     font-weight: 600;
     line-height: 24px;
@@ -364,7 +350,6 @@ h3.title-m {
 }
 h2.region {
     color: #333333;
-    font-family: "Open Sans", sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 18px;
@@ -375,7 +360,6 @@ h2.region {
 
 div.mercados-text {
     color: #333333;
-    font-family: "Open Sans", sans-serif;
     font-style: normal;
 }
 li.country {
@@ -461,7 +445,6 @@ img.image-news {
 }
 p.noticias-fecha {
     color: #333333;
-    font-family: "Open Sans", sans-serif;
     font-style: normal;
     font-weight: 300;
     font-size: 14px;
@@ -470,7 +453,6 @@ p.noticias-fecha {
 }
 h3.noticias-title {
     color: #333333;
-    font-family: "Open Sans", sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 18px;
@@ -478,7 +460,6 @@ h3.noticias-title {
     padding-bottom: 15px;
 }
 p.noticias-text {
-    font-family: "Open Sans", sans-serif;
     color: #333333;
     font-style: normal;
     font-weight: 300;
@@ -494,7 +475,6 @@ div.aling {
 }
 a.noticias-link {
     color: #333333;
-    font-family: "Open Sans", sans-serif;
     text-decoration-line: underline;
     font-style: normal;
     font-weight: 600;
@@ -514,7 +494,6 @@ a.bottom-button {
     padding-right: 1.5em;
     font-weight: bold;
     font-size: 16px;
-    font-family: "Open Sans", sans-serif;
 }
 
 /*Estilos de news-article*/
@@ -539,7 +518,6 @@ div.icons-conteiner {
     margin-left: 30px;
 }
 p#social-media {
-    font-family: "Open Sans", sans-serif;
     color: #3173a8;
     font-weight: 400;
     font-size: 14px;
@@ -558,7 +536,6 @@ div#email-icon {
 }
 h1.article-title {
     color: #333333;
-    font-family: "Open Sans", sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 36px;
@@ -572,7 +549,6 @@ p.article-p {
     color: #333333;
     padding-top: 15px;
     padding-bottom: 15px;
-    font-family: "Open Sans", sans-serif;
     font-style: normal;
     font-weight: 300;
     font-size: 16px;
@@ -611,7 +587,6 @@ div.container-products {
     margin-right: 19%;
 }
 h2#about-title {
-    font-family: "Open Sans", sans-serif;
     color: #333333;
     font-weight: bold;
     font-size: 24px;
@@ -619,7 +594,6 @@ h2#about-title {
     padding-bottom: 30px;
 }
 p#about-text {
-    font-family: "Open Sans", sans-serif;
     color: #333333;
     font-style: normal;
     font-weight: 300;
@@ -659,7 +633,6 @@ footer {
 section.container-top-icons {
     background: #033a74;
     position: relative;
-    font-family: "Open Sans", sans-serif;
     color: white;
     width: 100%;
     height: 230px;
@@ -723,7 +696,6 @@ div.paddings {
     border-radius: 50% !important;
 }
 p.team-member-name {
-    font-family: "Open Sans", sans-serif;
     font-weight: bold;
     font-size: 18px;
     line-height: 25px;
@@ -731,7 +703,6 @@ p.team-member-name {
     padding-bottom: 10px;
 }
 p.team-member-ocupation {
-    font-family: "Open Sans", sans-serif;
     font-weight: 600;
     font-size: 14px;
     line-height: 24px;
@@ -740,7 +711,6 @@ p.team-member-ocupation {
     padding-bottom: 10px;
 }
 p.team-member-description {
-    font-family: "Open Sans", sans-serif;
     font-weight: 300;
     font-size: 14px;
     line-height: 26px;
@@ -749,7 +719,6 @@ p.team-member-description {
     padding-bottom: 10px;
 }
 a.team-member-email {
-    font-family: "Open Sans", sans-serif;
     font-weight: 600;
     font-size: 16px;
     line-height: 24px;
@@ -775,7 +744,6 @@ p.contact-title {
     padding-bottom: 20px;
 }
 p.contact-text {
-    font-family: "Open Sans", sans-serif;
     color: #333333;
     font-weight: 300;
     font-size: 14px;
@@ -789,7 +757,6 @@ section.filtro {
     padding-bottom: 50px;
 }
 h2.f-title {
-    font-family: "Open Sans", sans-serif;
     color: #333333;
     font-weight: bold;
     font-size: 24px;
@@ -801,7 +768,6 @@ div.button-container {
     text-align: center;
 }
 a.buttom-fil {
-    font-family: "Open Sans", sans-serif;
     font-weight: 400;
     font-size: 14px;
     line-height: 19px;
@@ -834,7 +800,6 @@ h3.boletin-title {
     position: relative;
     text-align: center;
     text-transform: uppercase;
-    font-family: "Open Sans", sans-serif;
     font-style: normal;
     font-size: 14px;
     color: #333333;
