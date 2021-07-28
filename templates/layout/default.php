@@ -33,6 +33,7 @@ $cakeDescription = 'CargoCorp UW es una reaseguradora....';
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700;800&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/d8ec7601ad.js" crossorigin="anonymous"></script>
 
     <?= $this->Html->css('normalize') ?>
     <?= $this->Html->css('/vendor/slick/slick.css') ?>
@@ -46,37 +47,7 @@ $cakeDescription = 'CargoCorp UW es una reaseguradora....';
 
 <body>
     <header>
-        <div class="menu-container">
-            <nav class="navbar navbar-expand-lg navbar-dark p-0">
-                <a class="navbar-brand" href="#">
-                    <figure>
-                        <img src="img/Group.png" alt="#" class="logo">
-                    </figure>
-                </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ml-auto menu mb-3 mt-3">
-                        <li class="nav-item mb-3">
-                            <a class="white-leter" href="#">Inicio<span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item mb-3">
-                            <a class="white-leter " href="#">Noticias</a>
-                        </li>
-                        <li class="nav-item mb-3">
-                            <a class="white-leter" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                Sobre nosotros
-                            </a>
-                        </li>
-                        <li class="nav-item mb-3">
-                            <a class="white-leter" href="#">Inicio sesión</a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
-        </div>
+        <?= $this->element('menu') ?>
     </header>
 
     <main class="main">
