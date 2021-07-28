@@ -163,11 +163,16 @@
                 <div class="col-11 col-sm-11 col-md-8 col-lg-8 col-xl-8 mb-3 block-d">
                     <div class="d-flex container-news grey-background">
                         <figure class="align-content-center">
-                            <?= $this->Html->image($value->image, ['alt' => 'plants-image', 'class' => "image-news"]); ?>
+                            <?= $this->Html->image($value->image, ['alt' => $value->titulo_ES, 'class' => "image-news"]); ?>
                         </figure>
                         <div class="news-text pt-3">
                             <p class="noticias-fecha ">
-                                <?= $value->fecha_creacion ?>
+                                <?= $this->Time->format(
+                                    $value->fecha_creacion,
+                                    'MMMM dd, YYYY',
+                                    'es_CO',
+                                    'America/Bogota'
+                                ); ?>
                             </p>
                             <h3 class=" noticias-title">
                                 <?= $value->titulo_ES ?>
@@ -186,4 +191,13 @@
             <?php endforeach; ?>
         </div>
     </div>
+
+    <nav class="d-flex justify-content-center">
+        <ul class="pagination">
+            <?= $this->Paginator->prev('') ?>
+            <?= $this->Paginator->numbers() ?>
+            <?= $this->Paginator->next('') ?>
+        </ul>
+    </nav>
+
 </section>

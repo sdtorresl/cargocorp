@@ -1,4 +1,5 @@
 <?php
+
 declare(strict_types=1);
 
 /**
@@ -14,9 +15,13 @@ declare(strict_types=1);
  * @since     0.2.9
  * @license   https://opensource.org/licenses/mit-license.php MIT License
  */
+
 namespace App\Controller;
 
+use Cake\Core\Configure;
 use Cake\Controller\Controller;
+use Cake\I18n\I18n;
+use Cake\Event\EventInterface;
 
 /**
  * Application Controller
@@ -49,5 +54,14 @@ class AppController extends Controller
          * see https://book.cakephp.org/4/en/controllers/components/form-protection.html
          */
         //$this->loadComponent('FormProtection');
+    }
+
+    public function beforeFilter(EventInterface $event)
+    {
+        $session = $this->getRequest()->getSession();
+        if ($session->read('Config.language') == 'es')
+            I18n::setLocale('es_CO');
+        else
+            I18n::setLocale('en_US');
     }
 }

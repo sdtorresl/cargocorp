@@ -1,3 +1,8 @@
+<?php
+
+use Cake\I18n\I18n;
+?>
+
 <aside class="menu-container">
     <nav class="navbar navbar-expand-lg navbar-dark p-0">
         <?= $this->Html->link(
@@ -15,13 +20,21 @@
                     <?= $this->Html->link(_("Inicio"), ['controller' => 'Pages', 'action' => 'display', 'home'], ['class' => 'white-leter']) ?>
                 </li>
                 <li class="nav-item mb-3">
-                    <?= $this->Html->link(_("Noticias"), ['controller' => 'Pages', 'action' => 'display', 'news'], ['class' => 'white-leter']) ?>
+                    <?= $this->Html->link(_("Noticias"), ['controller' => 'News', 'action' => 'index'], ['class' => 'white-leter']) ?>
                 </li>
                 <li class="nav-item mb-3">
                     <?= $this->Html->link(_("Sobre nosotros"), ['controller' => 'Pages', 'action' => 'display', 'about'], ['class' => 'white-leter']) ?>
                 </li>
                 <li class="nav-item mb-3">
                     <?= $this->Html->link(_("Inicio sesión"), 'https://107.190.136.34/cargocorpuw/', ['class' => 'white-leter', 'target' => '_blank']) ?>
+                </li>
+                <li class="nav-item mb-3">
+                    <?php if (I18n::getLocale() == 'en_US') {
+                        echo $this->Html->link(_("Español"), ['controller' => 'Languages', 'action' => 'es'], ['class' => 'white-leter']);
+                    } else {
+                        echo $this->Html->link(_("Inglés"), ['controller' => 'Languages', 'action' => 'en'], ['class' => 'white-leter']);
+                    }
+                    ?>
                 </li>
             </ul>
         </div>

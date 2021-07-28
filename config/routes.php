@@ -54,7 +54,6 @@ $routes->scope('/', function (RouteBuilder $builder) {
      */
     $builder->connect('/', ['controller' => 'Pages', 'action' => 'display', 'home']);
     $builder->connect('/about', ['controller' => 'Pages', 'action' => 'display', 'about']);
-    //$builder->connect('/news', ['controller' => 'Pages', 'action' => 'display', 'news']);
     $builder->connect('/products', ['controller' => 'Pages', 'action' => 'display', 'products']);
 
     /*

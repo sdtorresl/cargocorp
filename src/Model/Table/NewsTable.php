@@ -40,7 +40,7 @@ class NewsTable extends Table
 
         $this->setTable('sistema_blog');
         $this->setDisplayField('id_blog');
-        $this->setPrimaryKey('id_blog');
+        $this->setPrimaryKey('titulo_pagina');
     }
 
     /**

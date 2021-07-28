@@ -31,16 +31,14 @@ class NewsController extends AppController
     /**
      * View method
      *
-     * @param string|null $id News id.
+     * @param string|null $title News title.
      * @return \Cake\Http\Response|null|void Renders view
      * @throws \Cake\Datasource\Exception\RecordNotFoundException When record not found.
      */
-    public function view($id = null)
+    public function view($title = null)
     {
-        $news = $this->News->get($id, [
-            'contain' => [],
-        ]);
+        $article = $this->News->get($title);
 
-        $this->set(compact('news'));
+        $this->set(compact('article'));
     }
 }
