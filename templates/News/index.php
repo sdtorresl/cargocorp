@@ -181,7 +181,7 @@
                                 <?= $value->descripcion_corta_ES ?>
                             </p>
                             <?= $this->Html->link(
-                                _('Leer más'),
+                                __('Leer más'),
                                 ['controller' => 'News', 'action' => 'view', $value->titulo_pagina],
                                 ['class' => 'noticias-link']
                             ); ?>
