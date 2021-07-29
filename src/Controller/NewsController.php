@@ -4,6 +4,8 @@ declare(strict_types=1);
 
 namespace App\Controller;
 
+use Cake\ORM\TableRegistry;
+
 /**
  * News Controller
  *
@@ -25,7 +27,10 @@ class NewsController extends AppController
             $item->image = 'https://www.cargorisk.com/site/crm/files/blog/articulo_' . $item->id_blog . '/' . $item->nombre_archivo_corto;
         }
 
-        $this->set(compact('news'));
+        $newsCategoriesTable = TableRegistry::getTableLocator()->get('NewsCategories');
+        $newsCategories = $newsCategoriesTable->find();
+        
+        $this->set(compact('news', 'newsCategories'));
     }
 
     /**
@@ -41,4 +46,5 @@ class NewsController extends AppController
 
         $this->set(compact('article'));
     }
+    
 }
