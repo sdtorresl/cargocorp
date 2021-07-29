@@ -6,21 +6,13 @@
     </div>
     <div class="container">
         <div class="row justify-content-center">
+            <?php foreach ($newsCategories as $newsCategory): ?>            
             <div class="col-6 col-sm-6 col-md-2 col-lg-2 col-xl-2 justify-content-center p-0">
                 <div class="button-container">
-                    <a href="#boletin-enlace" class="buttom-fil">Boletin</a>
+                    <a href="#boletin-enlace" class="buttom-fil"><?= $newsCategory->nombre_ES ?> </a>
                 </div>
             </div>
-            <div class="col-6 col-sm-6 col-md-2 col-lg-2 col-xl-2 justify-content-center p-0">
-                <div class="button-container">
-                    <a href="#siniestros-enlace" class="buttom-fil">siniestros</a>
-                </div>
-            </div>
-            <div class="col-6 col-sm-6 col-md-2 col-lg-2 col-xl-2 justify-content-center p-0">
-                <div class="button-container">
-                    <a href="#todas-las-noticias-enlace" class="buttom-fil">todas</a>
-                </div>
-            </div>
+            <?php endforeach; ?>
         </div>
     </div>
 </section>

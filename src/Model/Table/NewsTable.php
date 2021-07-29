@@ -41,6 +41,10 @@ class NewsTable extends Table
         $this->setTable('sistema_blog');
         $this->setDisplayField('id_blog');
         $this->setPrimaryKey('titulo_pagina');
+
+        $this->belongsTo('NewsCategories')
+            ->setForeignKey('id_categoria')
+            ->setProperty('id_categoria');
     }
 
     /**
