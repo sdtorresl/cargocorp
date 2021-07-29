@@ -1,3 +1,8 @@
+<?php
+
+use Cake\I18n\I18n;
+?>
+
 <section class="article-picture">
     <figure>
         <?= $this->Html->image('c.png', ['alt' => 'containers-image-background']); ?>
@@ -43,10 +48,22 @@
                     </h1>
                 </div>
 
-                <article class="article-text">
-                    <p class="headline"><?= $article->descripcion_corta_ES ?></p>
+                <article class="article-body">
+                    <p class="date">
+                        <?= $article->fecha_creacion ?>
+                    </p>
 
-                    <p class="article-p"><?= $article->descripcion_larga_ES ?></p>
+                    <p class="headline">
+                        <?= I18n::getLocale() == 'en_US' ? $article->descripcion_corta_EN : $article->descripcion_corta_ES ?>
+                    </p>
+
+                    <figure class="article-image">
+                        <?= $this->Html->image($article->image, ['alt' => $article->titulo_ES, 'class' => "w-100"]); ?>
+                    </figure>
+
+                    <p class="article-text">
+                        <?= I18n::getLocale() == 'en_US' ? $article->descripcion_larga_EN : $article->descripcion_larga_ES ?>
+                    </p>
                 </article>
             </div>
 

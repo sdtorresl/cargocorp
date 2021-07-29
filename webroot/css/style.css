@@ -214,7 +214,7 @@ h2.subtitle-somos {
     margin-right: 20%;
     transform: translateY(-30px);
 }
-p.text-cobertura {
+.text-cobertura {
     font-weight: 300;
     font-size: 18px;
     line-height: 30px;
@@ -243,12 +243,12 @@ div.grid-diferencia {
 div.text-d {
     margin-left: 15px;
 }
-p.title-p {
+.title-p {
     font-weight: 700;
     font-size: 18px;
     margin-bottom: 8px;
 }
-p.text-p {
+.text-p {
     font-weight: 300;
     font-size: 14px;
 }
@@ -315,14 +315,14 @@ img.image-slide {
     border-top-right-radius: 5px;
     overflow: hidden;
 }
-p.title-slide {
+.title-slide {
     font-size: 24px;
     font-weight: 700;
     line-height: 33px;
     padding-bottom: 20px;
     padding-top: 20px;
 }
-p.text-slide {
+.text-slide {
     font-size: 16px;
     font-weight: 300;
     line-height: 24px;
@@ -444,7 +444,7 @@ img.image-news {
     height: 250px;
     object-fit: cover;
 }
-p.noticias-fecha {
+.noticias-fecha {
     color: #333333;
     font-style: normal;
     font-weight: 300;
@@ -460,7 +460,7 @@ h3.noticias-title {
     line-height: 25px;
     padding-bottom: 15px;
 }
-p.noticias-text {
+.noticias-text {
     color: #333333;
     font-style: normal;
     font-weight: 300;
@@ -566,12 +566,21 @@ h1.article-title {
     font-size: 36px;
     line-height: 49px;
 }
-p.headline {
+.headline {
     padding-top: 50px !important;
     padding-bottom: 50px !important;
     font-size: 18px;
 }
-p.article-p {
+.article-body .date {
+    color: #333333;
+    font-weight: 300;
+    font-size: 14px;
+    margin-top: 1rem;
+}
+.article-body br {
+    margin-bottom: 0.7rem;
+}
+.article-text {
     color: #333333;
     padding-top: 15px;
     padding-bottom: 15px;
@@ -692,7 +701,7 @@ section.about-us {
 h2.about-us-title {
     padding-bottom: 30px;
 }
-p.about-us-text {
+.about-us-text {
     color: #333333;
     font-weight: 300;
     font-size: 18px;
@@ -723,14 +732,14 @@ div.paddings {
     background: black !important;
     border-radius: 50% !important;
 }
-p.team-member-name {
+.team-member-name {
     font-weight: bold;
     font-size: 18px;
     line-height: 25px;
     color: #333333;
     padding-bottom: 10px;
 }
-p.team-member-ocupation {
+.team-member-ocupation {
     font-weight: 600;
     font-size: 14px;
     line-height: 24px;
@@ -738,7 +747,7 @@ p.team-member-ocupation {
     padding-top: 10px;
     padding-bottom: 10px;
 }
-p.team-member-description {
+.team-member-description {
     font-weight: 300;
     font-size: 14px;
     line-height: 26px;
@@ -764,14 +773,14 @@ h3#translate {
 div.contact-information {
     padding-bottom: 40px;
 }
-p.contact-title {
+.contact-title {
     font-weight: bold;
     font-size: 18px;
     line-height: 25px;
     color: #333333;
     padding-bottom: 20px;
 }
-p.contact-text {
+.contact-text {
     color: #333333;
     font-weight: 300;
     font-size: 14px;
@@ -953,7 +962,7 @@ section.todas-las-noticias {
         margin-left: 25%;
         margin-right: 25%;
     }
-    p.text-cobertura {
+    .text-cobertura {
         margin-left: 25%;
         margin-right: 25%;
     }
@@ -1053,7 +1062,7 @@ section.todas-las-noticias {
         margin-left: 25%;
         margin-right: 25%;
     }
-    p.text-cobertura {
+    .text-cobertura {
         margin-left: 25%;
         margin-right: 25%;
     }

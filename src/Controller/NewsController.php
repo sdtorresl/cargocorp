@@ -21,6 +21,10 @@ class NewsController extends AppController
      */
     public function index()
     {
+        $this->paginate = [
+            'order' => ['fecha_creacion' => 'desc'],
+            'limit' => 5
+        ];
         $news = $this->paginate($this->News);
 
         foreach ($news as $item) {
@@ -29,7 +33,7 @@ class NewsController extends AppController
 
         $newsCategoriesTable = TableRegistry::getTableLocator()->get('NewsCategories');
         $newsCategories = $newsCategoriesTable->find();
-        
+
         $this->set(compact('news', 'newsCategories'));
     }
 
@@ -44,7 +48,12 @@ class NewsController extends AppController
     {
         $article = $this->News->get($title);
 
+        // Update visits
+        $article->num_visitas = $article->num_visitas + 1 ?? 1;
+        $this->News->save($article);
+
+        $article->image = 'https://www.cargorisk.com/site/crm/files/blog/articulo_' . $article->id_blog . '/' . $article->nombre_archivo_corto;
+
         $this->set(compact('article'));
     }
-    
 }
