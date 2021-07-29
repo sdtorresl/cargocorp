@@ -1,4 +1,5 @@
 <?php
+
 declare(strict_types=1);
 
 namespace App\Model\Table;
@@ -40,6 +41,10 @@ class NewsCategoriesTable extends Table
         $this->setTable('sistema_blog_categoria');
         $this->setDisplayField('id_categoria');
         $this->setPrimaryKey('id_categoria');
+
+        $this->hasMany('News')
+            ->setForeignKey('id_categoria')
+            ->setProperty('id_categoria');
     }
 
     /**
