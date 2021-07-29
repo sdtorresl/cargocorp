@@ -1,3 +1,5 @@
+<?php use Cake\I18n\I18n; ?>
+
 <section class="filtro">
     <div>
         <h2 class="f-title">
@@ -6,10 +8,19 @@
     </div>
     <div class="container">
         <div class="row justify-content-center">
-            <?php foreach ($newsCategories as $newsCategory): ?>            
+        
+        <?php foreach ($newsCategories as $newsCategory): ?>            
             <div class="col-6 col-sm-6 col-md-2 col-lg-2 col-xl-2 justify-content-center p-0">
                 <div class="button-container">
-                    <a href="#boletin-enlace" class="buttom-fil"><?= $newsCategory->nombre_ES ?> </a>
+                    <a href="#boletin-enlace" class="buttom-fil">   
+                        <?php
+                            if (I18n::getLocale() == 'en_US'){
+                                echo ($newsCategory->nombre_EN);
+                            } else{
+                                echo ($newsCategory->nombre_ES);
+                            }
+                        ?>
+                    </a>
                 </div>
             </div>
             <?php endforeach; ?>
