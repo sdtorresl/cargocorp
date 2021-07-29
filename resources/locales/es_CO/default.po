@@ -43,3 +43,8 @@ msgstr "Español"
 msgid "Inglés"
 msgstr "Inglés"
 
+msgid "Lo más leído"
+msgstr "Lo más leído"
+
+msgid "Compartir"
+msgstr "Compartir"
