@@ -50,36 +50,7 @@
                 </article>
             </div>
 
-            <div class="col-11 col-sm-11 col-md-4 col-lg-4 col-xl-4">
-                <div class="row justify-content-center">
-                    <div class="col-11 col-sm-11 col-md-11 col-lg-11 col-xl-11" id="transparent-grid"></div>
-                    <div class="col-11 col-sm-11 col-md-11 col-lg-11 col-xl-11 pt-5 pb-5" <aside>
-                        <div class="d-flex justify-content-center" id="justify-left">
-                            <h3 class="trititle d-inline-flex justify-content-center" id="aside-title">
-                                lo más leído
-                            </h3>
-                        </div>
-                        <div class=" container-news grey-background">
-                            <figure>
-                                <?= $this->Html->image('containers-image.png', ['alt' => 'containers-image', 'class' => "w-100"]); ?>
-                            </figure>
-                            <div class="news-text">
-                                <p class="noticias-fecha pt-3">
-                                    16 de junio 2021
-                                </p>
-                                <h5 class="noticias-title">
-                                    Pérdidas millonarias en el transporte de carga en Colombia
-                                </h5>
-                                <p class="noticias-text">
-                                    En el primer Q del 2021 se han perdido 1.127 contenedores de transporte marítimo, estimando una perdida en mercancía equivalente a unos 54 millones de dólares aproximadamente.
-                                </p>
-                                <a href="#" class="noticias-link">Leer más</a>
-                            </div>
-                        </div>
-                        </aside>
-                    </div>
-                </div>
-            </div>
+            <?= $cell = $this->cell('MostRead', [$article->id_categoria, [$article->id_blog]]); ?>
         </div>
     </div>
 </section>

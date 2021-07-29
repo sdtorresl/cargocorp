@@ -6,7 +6,7 @@ use Cake\I18n\I18n;
 <section class="boletin" id="boletin-enlace">
     <div class="d-flex justify-content-center pseudo-lines">
         <h3 class="d-inline-flex boletin-title">
-            <?= I18n::getLocale() == 'en_US' ? $category->nombre_EN : $category->nombre_EN ?>
+            <?= I18n::getLocale() == 'en_US' ? $category->nombre_EN : $category->nombre_ES ?>
         </h3>
     </div>
     <div class="container p-0">
