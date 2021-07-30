@@ -16,9 +16,9 @@ $totalNews = array_slice($news->toArray(), 3, count($news->toArray()));
         <div class="row justify-content-center">
             <?php foreach ($newsCategories as $newsCategory) : ?>
                 <div class="col-6 col-sm-6 col-md-2 col-lg-2 col-xl-2 justify-content-center p-0">
-                    <div class="button-container">
+                    <div class="button-container <?= $currentCategory->id_categoria == $newsCategory->id_categoria ? 'active' : '' ?>">
                         <?php $title = I18n::getLocale() == 'en_US' ?  $newsCategory->nombre_EN : $newsCategory->nombre_ES; ?> </a>
-                        <?= $this->Html->link($title, ['controller' => 'News', 'action' => 'index', $newsCategory->id_categoria], ['class' => 'buttom-fil']) ?>
+                        <?= $this->Html->link($title, ['controller' => 'News', 'action' => 'index', $newsCategory->id_categoria], ['class' => 'link-button']) ?>
                     </div>
                 </div>
             <?php endforeach; ?>

@@ -804,20 +804,20 @@ h2.f-title {
 div.button-container {
     text-align: center;
 }
-a.buttom-fil {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 19px;
-    text-transform: uppercase;
+.link-button {
+    border: 1px solid transparent;
     color: black;
-    text-decoration: none;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 40px;
-    padding-right: 40px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19px;
+    padding: 10px 40px;
+    text-transform: uppercase;
+    transition: all 0.125s ease-in-out;
 }
-a.buttom-fil:hover {
+.link-button:hover,
+.button-container.active .link-button {
     font-weight: 700;
+    text-decoration: none;
     color: #023a74;
     border: 1px solid #023a74;
 }

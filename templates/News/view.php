@@ -24,7 +24,7 @@ use Cake\I18n\I18n;
                             </a>
                         </div>
                         <div id="twitter" class="social-media-icons">
-                            <a href="#">
+                            <a href="https://twitter.com/intent/tweet?text=<?= "Check this article" ?>" target="_blank">
                                 <i class="fab fa-twitter"></i>
                             </a>
                         </div>
