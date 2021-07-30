@@ -19,13 +19,23 @@ class NewsController extends AppController
      *
      * @return \Cake\Http\Response|null|void Renders view
      */
-    public function index()
+    public function index($categoryId = null)
     {
         $this->paginate = [
             'order' => ['fecha_creacion' => 'desc'],
-            'limit' => 5
+            'limit' => 8
         ];
-        $news = $this->paginate($this->News);
+
+        if ($categoryId == null || $categoryId == 1) {
+            $query = $this->News->find();
+            $categoryId = 1;
+        } else {
+            $query = $this->News
+                ->find()
+                ->where(['id_categoria =' => $categoryId]);
+        }
+
+        $news = $this->paginate($query);
 
         foreach ($news as $item) {
             $item->image = 'https://www.cargorisk.com/site/crm/files/blog/articulo_' . $item->id_blog . '/' . $item->nombre_archivo_corto;
@@ -33,8 +43,9 @@ class NewsController extends AppController
 
         $newsCategoriesTable = TableRegistry::getTableLocator()->get('NewsCategories');
         $newsCategories = $newsCategoriesTable->find();
+        $currentCategory = $newsCategoriesTable->findByIdCategoria($categoryId)->first();
 
-        $this->set(compact('news', 'newsCategories'));
+        $this->set(compact('news', 'newsCategories', 'currentCategory'));
     }
 
     /**
