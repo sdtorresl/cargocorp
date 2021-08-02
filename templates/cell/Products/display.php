@@ -1,43 +1,3 @@
-<aside class="product-picture">
-    <figure>
-        <?= $this->Html->image('ship-background.png', ['alt' => 'ship-image-background']); ?>
-    </figure>
-</aside>
-
-<section class="about-product">
-    <div class="container-products">
-        <div class="d-flex justify-content-center content-left">
-            <h3 class="trititle d-inline-flex " id="transform-title">
-                sobre el producto
-            </h3>
-        </div>
-
-        <h2 id="about-title">
-            Transporte general
-        </h2>
-        <p id="about-text">
-            Ofrece un seguro de tránsito que brinda soluciones de seguros innovadores y amplios para satisfacer las necesidades de nuestros asegurados en tránsito internacional. Los límites de hasta $ 15M USD en capacidad están disponibles, sujetos a las directrices corporativas; Sin embargo, la capacidad adicional está disponible si es necesario. Además del riesgo de tránsito, podemos extender nuestra política para incluir riesgos de almacenamiento para satisfacer las necesidades de nuestros asegurados
-        </p>
-    </div>
-</section>
-
-<section class="recognition">
-    <div class="container-products">
-        <div>
-            <h2 class="recognition-title">
-                Reconocimiento especializado de linea a través de Latinoamérica
-            </h2>
-        </div>
-        <div>
-            <ul>
-                <li class="recognition-list-item">Generadores de carga</li>
-                <li class="recognition-list-item">Grandes superficies</li>
-                <li class="recognition-list-item">Compañías de industria y comercio</li>
-            </ul>
-        </div>
-    </div>
-</section>
-
 <section class="nuestros-productos">
     <div class="title-box d-flex justify-content-center">
         <h3 class="title-n d-flex">
@@ -111,6 +71,5 @@
                 </div>
             </div>
         </div>
-    </div>
     </div>
 </section>
