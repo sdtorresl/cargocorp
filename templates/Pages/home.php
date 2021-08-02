@@ -327,4 +327,4 @@
     </div>
 </section>
 
-<?= $cell = $this->cell('Home'); ?>
+<?= $cell = $this->cell('LatestNews'); ?>

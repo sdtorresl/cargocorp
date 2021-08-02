@@ -17,7 +17,7 @@ use Cake\I18n\I18n;
                     <?php $shortDescription = I18n::getLocale() == 'en_US' ? $value->descripcion_corta_EN : $value->descripcion_corta_ES; ?>
                     
                     <figure class="picture">
-                    <?= $this->Html->image($value->image, ['alt' => $title, 'class' => "image-news"]); ?>   
+                        <?= $this->Html->image($value->image, ['alt' => $title, 'class' => "image-news"]); ?>   
                     </figure>
                 </div>
             

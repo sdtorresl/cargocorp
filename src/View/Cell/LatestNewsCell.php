@@ -7,9 +7,9 @@ use Cake\View\Cell;
 use Cake\ORM\TableRegistry;
 
 /**
- * Home cell
+ * LatestNews cell
  */
-class HomeCell extends Cell
+class LatestNewsCell extends Cell
 {
     /**
      * List of valid options that can be passed into this
@@ -35,7 +35,6 @@ class HomeCell extends Cell
      */
     public function display()
     {
-        $this->loadModel('News');
         $newsTable = TableRegistry::getTableLocator()->get('News');
         $news = $newsTable->find('all') -> order(['fecha_creacion' => 'desc']) -> limit(3);
         
