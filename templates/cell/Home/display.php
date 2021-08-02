@@ -12,8 +12,12 @@ use Cake\I18n\I18n;
         <?php foreach  ($news as $value) : ?> 
             <div class="featured-news">
                 <div class="picture-container">
+
+                    <?php $title = I18n::getLocale() == 'en_US' ? $value->titulo_EN : $value->titulo_ES; ?>
+                    <?php $shortDescription = I18n::getLocale() == 'en_US' ? $value->descripcion_corta_EN : $value->descripcion_corta_ES; ?>
+                    
                     <figure class="picture">
-                    <?= $this->Html->image($value->image, ['alt' => $value->titulo_ES, 'class' => "image-news"]); ?>   
+                    <?= $this->Html->image($value->image, ['alt' => $title, 'class' => "image-news"]); ?>   
                     </figure>
                 </div>
             
@@ -22,10 +26,10 @@ use Cake\I18n\I18n;
                         <?=$this->Time->format($value->fecha_creacion);?>   
                     </p>
                     <h3 class="noticias-title"> 
-                        <?= $value->titulo_ES ?> 
+                        <?= $title ?> 
                     </h3>
                     <p class="noticias-text">
-                                <?= $value->descripcion_corta_ES ?>
+                        <?= $shortDescription?>
                     </p>
                     <?= $this->Html->link(
                         __('Leer más'),
