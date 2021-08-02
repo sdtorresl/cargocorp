@@ -19,16 +19,15 @@ class NewsController extends AppController
      *
      * @return \Cake\Http\Response|null|void Renders view
      */
-    public function index($categoryId = null)
+    public function index($categoryId = 1)
     {
         $this->paginate = [
             'order' => ['fecha_creacion' => 'desc'],
             'limit' => 8
         ];
 
-        if ($categoryId == null || $categoryId == 1) {
+        if ($categoryId == 1) {
             $query = $this->News->find();
-            $categoryId = 1;
         } else {
             $query = $this->News
                 ->find()
@@ -57,7 +56,7 @@ class NewsController extends AppController
      */
     public function view($title = null)
     {
-        $article = $this->News->get($title);
+        $article = $this->News->get($title, ['contain' => 'NewsCategories']);
 
         // Update visits
         $article->num_visitas = $article->num_visitas + 1 ?? 1;

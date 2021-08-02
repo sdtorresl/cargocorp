@@ -62,7 +62,7 @@ li.nav-item {
     margin-right: 10px;
 }
 
-a.white-leter {
+.menu-link {
     position: relative;
     color: white;
     margin-left: 18px;
@@ -71,15 +71,20 @@ a.white-leter {
     font-weight: 600;
     font-size: 14px;
     text-decoration: none;
+    border-bottom: 3px solid transparent;
+    transition: all 0.125s ease-in-out;
 }
-a.white-leter:hover {
+.menu-link:hover,
+.menu-link.active {
     position: relative;
-    border-bottom: 3px solid #ffda31;
     bottom: 0;
     top: 0;
     right: 0;
     left: 0;
     padding-bottom: 1px;
+    color: white;
+    text-decoration: none;
+    border-color: #ffda31;
 }
 
 .contacto-container {
@@ -504,6 +509,10 @@ section.article-container {
     padding-bottom: 20px;
     font-size: 16px;
 }
+.breadcrumb {
+    background-color: #f6f6f6;
+}
+
 div#social-media-container {
     border-left: 1px solid #48a8ee;
     margin-top: 15px;

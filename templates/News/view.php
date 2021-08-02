@@ -1,16 +1,44 @@
 <?php
 
 use Cake\I18n\I18n;
+
+$this->Breadcrumbs->add(
+    __('Noticias'),
+    ['controller' => 'News', 'action' => 'index', 1]
+);
+
+$this->Breadcrumbs->add(
+    I18n::getLocale() == 'en_US' ? $article->id_categoria->nombre_EN : $article->id_categoria->nombre_ES,
+    ['controller' => 'news', 'action' => 'index', $article->id_categoria->id_categoria]
+);
+
+$this->Breadcrumbs->setTemplates(
+    [
+        'wrapper' => '<ol{{attrs}}>{{content}}</ol>',
+        'item' => '<li class="breadcrumb-item" {{attrs}}><a href="{{url}}"{{innerAttrs}}>{{title}}</a></li>{{separator}}',
+        'itemWithoutLink' => '<li{{attrs}}><span{{innerAttrs}}>{{title}}</span></li>{{separator}}',
+        'separator' => ''
+    ]
+);
+
 ?>
 
-<section class="article-picture">
+<aside class="article-picture">
     <figure>
         <?= $this->Html->image('c.png', ['alt' => 'containers-image-background']); ?>
     </figure>
-</section>
+</aside>
 
 <section class="article container p-0 mt-5">
     <div class="container">
+        <div class="row">
+            <nav aria-label="breadcrumb" class="col">
+                <?= $this->Breadcrumbs->render(
+                    ['class' => 'breadcrumb'],
+                    ['separator' => '<i class="fa fa-angle-right"></i>']
+                ); ?>
+            </nav>
+        </div>
         <div class="row justify-content-center">
             <div class="col-11 col-sm-11 col-md-1 col-lg-1 col-xl-1 p-0">
                 <div id="social-media-container">
@@ -44,7 +72,7 @@ use Cake\I18n\I18n;
             <div class="col-11 col-sm-11 col-md-6 col-lg-6 col-xl-6">
                 <div>
                     <h1 class="article-title">
-                        <?= $article->titulo_notificacion_ES ?>
+                        <?= I18n::getLocale() == 'en_US' ? $article->titulo_notificacion_EN : $article->titulo_notificacion_ES ?>
                     </h1>
                 </div>
 
@@ -67,9 +95,11 @@ use Cake\I18n\I18n;
                 </article>
             </div>
 
-            <?= $cell = $this->cell('MostRead', [$article->id_categoria, [$article->id_blog]]); ?>
+            <aside class="col-11 col-sm-11 col-md-4 col-lg-4 col-xl-4">
+                <?= $cell = $this->cell('MostRead', [$article->id_categoria->id_categoria, [$article->id_blog]]); ?>
+            </aside>
         </div>
     </div>
 </section>
 
-<?= $cell = $this->cell('Related', [$article->id_categoria, [$article->id_blog]]); ?>
+<?= $cell = $this->cell('Related', [$article->id_categoria->id_categoria, [$article->id_blog]]); ?>
