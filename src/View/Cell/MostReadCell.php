@@ -37,7 +37,7 @@ class MostReadCell extends Cell
     public function display($categoryId, $exceptions)
     {
         $date = new Date();
-        $date->modify('-90 days');
+        $date->modify('-120 days');
 
         $this->loadModel('News');
 
@@ -50,7 +50,10 @@ class MostReadCell extends Cell
             ])
             ->order(['num_visitas' => 'desc'])
             ->first();
-        $mostRead->image = 'https://www.cargorisk.com/site/crm/files/blog/articulo_' . $mostRead->id_blog . '/' . $mostRead->nombre_archivo_corto;
+
+        if ($mostRead) {
+            $mostRead->image = 'https://www.cargorisk.com/site/crm/files/blog/articulo_' . $mostRead->id_blog . '/' . $mostRead->nombre_archivo_corto;
+        }
 
         $this->set(compact('mostRead'));
     }

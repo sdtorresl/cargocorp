@@ -48,3 +48,9 @@ msgstr "Lo más leído"
 
 msgid "Compartir"
 msgstr "Compartir"
+
+msgid "Todas las noticias"
+msgstr "Todas las noticias"
+
+msgid "Filtra tus noticias"
+msgstr "Filtra tus noticias"
