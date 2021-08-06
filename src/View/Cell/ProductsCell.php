@@ -1,4 +1,5 @@
 <?php
+
 declare(strict_types=1);
 
 namespace App\View\Cell;
@@ -34,5 +35,9 @@ class ProductsCell extends Cell
      */
     public function display()
     {
+        $this->loadModel('Products');
+        $products = $this->Products->find();
+
+        $this->set(compact('products'));
     }
 }

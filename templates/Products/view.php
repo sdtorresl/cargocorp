@@ -8,12 +8,12 @@
 use Cake\I18n\I18n;
 
 $englishLang = I18n::getLocale() == 'en_US';
-
+$title = $englishLang ? $product->titulo_EN : $product->titulo_ES
 ?>
 
 <aside class="product-picture">
     <figure>
-        <?= $this->Html->image($product->imagen_larga, ['alt' => __('Imagen de producto')]); ?>
+        <?= $this->Html->image($product->imagen_larga, ['alt' => $title]); ?>
     </figure>
 </aside>
 
@@ -29,7 +29,7 @@ $englishLang = I18n::getLocale() == 'en_US';
             <?= $englishLang ? $product->titulo_EN : $product->titulo_ES ?>
         </h2>
         <p id="about-text">
-            <?= $englishLang ? $product->descripcion_corta_EN : $product->descripcion_corta_ES ?>
+            <?= $title ?>
         </p>
     </div>
 </section>
@@ -41,5 +41,5 @@ $englishLang = I18n::getLocale() == 'en_US';
 </article>
 
 <aside>
-    <?= $this->Html->cell
+    <?= $this->cell('Products') ?>
 </aside>
