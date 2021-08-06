@@ -54,3 +54,7 @@ msgstr "All news"
 
 msgid "Filtra tus noticias"
 msgstr "Filter news"
+
+#: News/view.php:50
+msgid "He visto este artículo y me ha parecido interesante"
+msgstr "I seen this article and I found it interesting"
