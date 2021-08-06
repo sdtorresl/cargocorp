@@ -106,9 +106,9 @@ $totalNews = array_slice($news->toArray(), 3, count($news->toArray()));
     </div>
 
     <nav class="d-flex justify-content-center">
-        <ul class="pagination">
+        <ul class="pagination pagination-sm">
             <?= $this->Paginator->prev('') ?>
-            <?= $this->Paginator->numbers() ?>
+            <?= $this->Paginator->numbers(["modulus" => 6]) ?>
             <?= $this->Paginator->next('') ?>
         </ul>
     </nav>

@@ -885,6 +885,13 @@ section.siniestros {
 section.todas-las-noticias {
     padding-bottom: 80px;
 }
+.pagination .page-item.active .page-link {
+    background-color: #033a74;
+    border-color: #033a74;
+}
+.pagination .page-link {
+    color: #033a74;
+}
 
 /*Estilos @media*/
 @media (min-width: 476px) {
