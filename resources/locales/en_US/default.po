@@ -125,7 +125,7 @@ msgstr "HOW ARE WE DIFFERENT:"
 
 #: "Pages/home.php: 117
 msgid "Profesionales 1"
-msgstr "1.	EXPERIENCE"
+msgstr "experience"
 
 #: "Pages/home.php: 121
 msgid "Tenemos una amplia cobertura que proteje carga en tránsito 1"
@@ -133,7 +133,7 @@ msgstr "We have been present on the market for over 23 years."
 
 #: "Pages/home.php: 133
 msgid "Profesionales 2"
-msgstr "2.	COVERAGE"
+msgstr "coverage"
 
 #: "Pages/home.php: 137
 msgid "Tenemos una amplia cobertura que proteje carga en tránsito 2"
@@ -141,7 +141,7 @@ msgstr "We have presence in strategic countries along the region: Miami, CDMX, B
 
 #: "Pages/home.php: 149
 msgid "Profesionales 3"
-msgstr "3.	OUR TEAM"
+msgstr "our team"
 
 #: "Pages/home.php: 152
 msgid "Tenemos una amplia cobertura que proteje carga en tránsito 3"
@@ -149,11 +149,11 @@ msgstr "All of our Underwriters are certified by Lloyds and ALSUM."
 
 #: "Pages/home.php: 164
 msgid "Profesionales 4"
-msgstr "4.	RISK MANAGEMENT"
+msgstr "risk management"
 
 #: "Pages/home.php: 164
 msgid "Profesionales 4"
-msgstr "4.	RISK MANAGEMENT"
+msgstr "risk management"
 
 #: "Pages/home.php: 167
 msgid "Tenemos una amplia cobertura que proteje carga en tránsito 4"
@@ -161,7 +161,7 @@ msgstr "Our Risk Management proposal is essential to our underwriting process."
 
 #: "Pages/home.php: 179
 msgid "Profesionales 5"
-msgstr "5.	DATA DRIVEN"
+msgstr "data driven"
 
 #: "Pages/home.php: 182
 msgid "Tenemos una amplia cobertura que proteje carga en tránsito 5"
@@ -169,7 +169,7 @@ msgstr "Data is the Key. We embrace new technology to disrupt our culture."
 
 #: "Pages/home.php: 194
 msgid "Profesionales 6"
-msgstr "6.	SUPPORT"
+msgstr "support"
 
 #: "Pages/home.php: 197
 msgid "Tenemos una amplia cobertura que proteje carga en tránsito 6"
@@ -178,7 +178,7 @@ msgstr "Capacity Providers are the heart of our organization."
 
 #: "Pages/home.php: 209
 msgid "Profesionales 7"
-msgstr "7.	CLAIMS ADVOCACY"
+msgstr "claims advocacy"
 
 #: "Pages/home.php: 212
 msgid "Tenemos una amplia cobertura que proteje carga en tránsito 7"
@@ -190,7 +190,7 @@ msgstr "We can do Risks located in?"
 
 #: "Pages/home.php: 331
 msgid "América del sur"
-msgstr "SOUTH AMERICA"
+msgstr "south america"
 
 
 #: "Pages/home.php: 334
@@ -227,7 +227,7 @@ msgstr "Peru"
 
 #: "Pages/home.php: 348
 msgid "América central"
-msgstr "CENTRAL AMÉRICA"
+msgstr "central américa"
 
 #: "Pages/home.php: 351
 msgid "Guatemala"
@@ -247,7 +247,7 @@ msgstr "El Salvador"
 
 #: "Pages/home.php: 361
 msgid "Caribe"
-msgstr "CARIBBEAN"
+msgstr "caribbean"
 
 #: "Pages/home.php: 364
 msgid "Puerto Rico"
