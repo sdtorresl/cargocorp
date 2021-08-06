@@ -265,7 +265,7 @@ section.nuestros-productos {
     height: 100%;
     padding-top: 115px;
     padding-bottom: 80px;
-    z-index: -20;
+    z-index: 20;
 }
 div.title-box {
     width: 100%;
