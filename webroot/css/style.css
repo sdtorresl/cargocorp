@@ -368,7 +368,7 @@ div.mercados-text {
     color: #333333;
     font-style: normal;
 }
-li.country {
+.country li {
     font-weight: 300;
     font-size: 15px;
     line-height: 24px;

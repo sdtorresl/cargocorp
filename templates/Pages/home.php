@@ -326,43 +326,43 @@
                 <div class="col-12 col-sm-12 col-md-12 col-lg-7 col-xl-7">
                     <div class="row pt-5 pl-4 big-scale">
                         <div class="col-10 col-sm-10 col-md-4 col-lg-4 col-xl-4 ">
-                            <div class="country-list">
+                            <div class="country">
                                 <h2 class="region">
                                     <?=__('América del sur')?>
                                 </h2>
                                 <ul>
-                                    <li class="country"> <?=__('Argentina')?></li>
-                                    <li class="country"> <?=__('Bolivia')?></li>
-                                    <li class="country"> <?=__('Chile')?></li>
-                                    <li class="country"> <?=__('Colombia')?></li>
-                                    <li class="country"> <?=__('Ecuador')?></li>
-                                    <li class="country"> <?=__('Paraguay')?></li>
-                                    <li class="country"> <?=__('Uruguay')?></li>
-                                    <li class="country"> <?=__('Perú')?></li>
+                                    <li> <?=__('Argentina')?></li>
+                                    <li> <?=__('Bolivia')?></li>
+                                    <li> <?=__('Chile')?></li>
+                                    <li> <?=__('Colombia')?></li>
+                                    <li> <?=__('Ecuador')?></li>
+                                    <li> <?=__('Paraguay')?></li>
+                                    <li> <?=__('Uruguay')?></li>
+                                    <li> <?=__('Perú')?></li>
                                 </ul>
                             </div>
                         </div>
                         <div class="col-10 col-sm-10 col-md-4 col-lg-4 col-xl-4">
-                            <div class="country-list">
+                            <div class="country">
                                 <h2 class="region">
                                     <?=__('América central')?>
                                 </h2>
                                 <ul>
-                                    <li class="country"><?=__('Guatemala')?></li>
-                                    <li class="country"><?=__('Honduras')?></li>
-                                    <li class="country"><?=__('Panamá')?></li>
-                                    <li class="country"><?=__('El Salvador')?></li>
+                                    <li><?=__('Guatemala')?></li>
+                                    <li><?=__('Honduras')?></li>
+                                    <li><?=__('Panamá')?></li>
+                                    <li><?=__('El Salvador')?></li>
                                 </ul>
                             </div>
                         </div>
                         <div class="col-10 col-sm-10 col-md-4 col-lg-4 col-xl-4">
-                            <div class="country-list">
+                            <div class="country">
                                 <h2 class="region">
                                     <?=__('Caribe')?>
                                 </h2>
                                 <ul>
-                                    <li class="country"><?=__('Puerto Rico')?></li>
-                                    <li class="country"><?=__('República Dominicana')?></li>
+                                    <li><?=__('Puerto Rico')?></li>
+                                    <li><?=__('República Dominicana')?></li>
                                     <li class="mexico"><?=__('México')?></li>
                                 </ul>
                             </div>
