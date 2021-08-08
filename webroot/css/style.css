@@ -265,7 +265,7 @@ section.nuestros-productos {
     height: 100%;
     padding-top: 115px;
     padding-bottom: 80px;
-    z-index: -20;
+    z-index: 20;
 }
 div.title-box {
     width: 100%;
@@ -628,10 +628,6 @@ section.about-product {
 h3#transform-title {
     transform: translateY(-30px);
 }
-div.container-products {
-    margin-left: 19%;
-    margin-right: 19%;
-}
 h2#about-title {
     color: #333333;
     font-weight: bold;
@@ -646,18 +642,19 @@ p#about-text {
     font-size: 18px;
     line-height: 30px;
 }
-section.recognition {
+#product-description {
     padding-top: 80px;
     padding-bottom: 80px;
+    margin-left: 19%;
+    margin-right: 19%;
 }
-h2.recognition-title {
+#product-description h2 {
     color: #333333;
     font-weight: bold;
     font-size: 24px;
-    line-height: 33px;
-    padding-bottom: 30px;
+    margin: 2rem 0 1.5rem 0;
 }
-li.recognition-list-item {
+#product-description ul li {
     color: #333333;
     font-weight: 300;
     font-size: 18px;
@@ -887,6 +884,13 @@ section.siniestros {
 }
 section.todas-las-noticias {
     padding-bottom: 80px;
+}
+.pagination .page-item.active .page-link {
+    background-color: #033a74;
+    border-color: #033a74;
+}
+.pagination .page-link {
+    color: #033a74;
 }
 
 /*Estilos @media*/

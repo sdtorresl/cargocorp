@@ -9,15 +9,15 @@
         </h1>
     </div>
     <div class="boton">
-        <a href="#" class="boton-contacto" >Contáctanos</a>		
+        <a href="#" class="boton-contacto">Contáctanos</a>
     </div>
-    
+
     <div class="container white-grid pl-3 pr-3">
         <div class="row justify-content-center top-text d-flex align-content-center flex-wrap">
             <div class="top-box col-10 col-sm-10 col-md-4 col-lg-4 col-xl-4 pl-0 pr-0 mb-5">
                 <div class="d-flex align-content-center pl-3">
                     <figure class="align-content-center">
-                        <?= $this->Html->image('clock.png', ['alt' => 'clock-logo', 'class'=> "image-c pr-3 pl-3"]); ?>  
+                        <?= $this->Html->image('clock.png', ['alt' => 'clock-logo', 'class' => "image-c pr-3 pl-3"]); ?>
                     </figure>
                     <div>
                         <p class="align-content-center">
@@ -29,7 +29,7 @@
             <div class="top-box col-10 col-sm-10 col-md-4 col-lg-4 col-xl-4 pl-0 pr-0 mb-5">
                 <div class="d-flex align-content-center">
                     <figure class="align-content-center">
-                    <?= $this->Html->image('world.png', ['alt' => 'world-logo', 'class'=> "image-c pr-3 pl-3"]); ?>
+                        <?= $this->Html->image('world.png', ['alt' => 'world-logo', 'class' => "image-c pr-3 pl-3"]); ?>
                     </figure>
                     <div>
                         <p class="align-content-center">
@@ -41,9 +41,9 @@
             <div class="top-box col-10 col-sm-10 col-md-4 col-lg-4 col-xl-4 pl-0 pr-0 mb-5">
                 <div class="d-flex align-content-center pr-1">
                     <figure class="align-content-center">
-                        <?= $this->Html->image('badge.png', ['alt' => 'badge-logo', 'class'=> "image-c pr-3 pl-3"]); ?>
+                        <?= $this->Html->image('badge.png', ['alt' => 'badge-logo', 'class' => "image-c pr-3 pl-3"]); ?>
                     </figure>
-                    <div> 
+                    <div>
                         <p class="align-content-center">
                             <?= __('Calificacion A-Fitch Rattings, A.M. Best, Standard & Poors, A-')?>
                         </p>
@@ -51,9 +51,9 @@
                 </div>
             </div>
         </div>
-    </div>	
+    </div>
 </section>
-    
+
 <section class="container-somos">
     <div class="lo-que-somos ">
         <div class="d-flex justify-content-center">
@@ -61,9 +61,7 @@
                 <?=__('Lo que somos')?>
             </h3>
         </div>
-        <h2 class="subtitle-somos"> 
-            
-        </h2>
+        <h2 class="subtitle-somos"></h2>
         <p class="text-cobertura mb-5">
             <?=__('Tenemos una amplia cobertura que proteje carga en tránsito y almacenamiento. ademas ofrecemos la capacidad de reaseguramiento')?> 
             <span><?=__('para sabotaje, terrorismo y riesgos politicos')?></span>
@@ -98,7 +96,7 @@
         </p>
     </div>
 </section>
-    
+
 <section class="la-diferencia">
     <div class="d-flex justify-content-center">
         <h3 class="trititle d-inline-flex">
@@ -116,7 +114,7 @@
                         <p class="title-p">
                             <?=__('Profesionales 1')?>
                         </p>
-                
+
                         <p class="text-p">
                             <?=__('Tenemos una amplia cobertura que proteje carga en tránsito 1')?>
                         </p>
@@ -132,7 +130,7 @@
                         <p class="title-p">
                             <?=__('Profesionales 2')?>
                         </p>
-            
+
                         <p class="text-p">
                             <?=__('Tenemos una amplia cobertura que proteje carga en tránsito 2')?>
                         </p>
@@ -158,8 +156,8 @@
                 <div class="d-flex">
                     <figure>
                         <?= $this->Html->image('truck.png', ['alt' => 'truck-logo']); ?>
-                    </figure>				
-                    <div class="text-d">			
+                    </figure>
+                    <div class="text-d">
                         <p class="title-p">
                             <?=__('Profesionales 4')?>
                         </p>
@@ -218,87 +216,7 @@
     </div>
 </section>
 
-
-
-
-
-<section class="nuestros-productos">
-    <div class="title-box d-flex justify-content-center">
-        <h3 class="title-n d-flex">
-            Nuestros productos
-        </h3>
-    </div>
-    <div class="container">
-        <div class="products-slider">
-            <div class="d-inline-flex justify-content-center ">
-                <div class="white-background pb-4">
-                    <figure>
-                        <?= $this->Html->image('ship-image.png', ['alt' => 'ship-image-logo', 'class'=> "image-slide"]); ?>  
-                    </figure>
-                    <div class="pl-4 pr-4">
-                        <p class="title-slide">
-                            Transporte general
-                        </p>
-                        <p class="text-slide">
-                            Ofrece un seguro de tránsito que brinda soluciones de seguros innovadores y amplios para satisfacer las necesidades de nuestros asegurados en tránsito internacional. 
-                        </p>
-                        <a href="#" class="slide-link">Saber más</a>
-                    </div>	
-                </div>
-            </div>
-            <div class="d-inline-flex justify-content-center ">
-                <div class="white-background pb-5">
-                    <figure>
-                        <?= $this->Html->image('shipload-image.png', ['alt' => 'shipload-image-logo', 'class'=> "image-slide"]); ?>  
-                    </figure>
-                    <div class="pl-4 pr-4">
-                        <p class="title-slide">
-                            Stock Throughput
-                        </p>
-                        <p class="text-slide">
-                            Exposiciones más allá del curso normal de tránsito. La cobertura suele estar respaldada por las políticas estándar de tránsito.
-                        </p>
-                        <a href="#" class="slide-link">Saber más</a>
-                    </div>
-                </div>
-            </div>
-            <div class="d-inline-flex justify-content-center ">
-                <div class="white-background pb-5">
-                    <figure>
-                        <?= $this->Html->image('loaded-ship-image.png', ['alt' => 'loaded-ship-image-logo', 'class'=> "image-slide"]); ?>  
-                    </figure>
-                    <div class="pl-4 pr-4">
-                        <p class="title-slide">
-                            Carga proyecto
-                        </p>
-                        <p class="text-slide">
-                            Cobertura de equipos destinados a proyectos de infraestructura e instalaciones industriales, La cobertura de la póliza incluye pérdidas físicas.
-                        </p>
-                        <a href="#" class="slide-link">Saber más</a>
-                    </div>	
-                </div>
-            </div>
-            <div class="d-inline-flex justify-content-center ">
-                <div class="white-background pb-5">
-                        <figure>
-                            <img src="img/image-slide.png" alt="#" class="image-slide">
-                        </figure>
-                        <div class="pl-4 pr-4">
-                            <p class="title-slide">
-                                Transporte general
-                            </p>
-                            <p class="text-slide">
-                                Ofrece un seguro de tránsito que brinda soluciones de seguros innovadores y amplios para satisfacer las necesidades de nuestros asegurados en tránsito internacional. 
-                            </p>
-                            <a href="#" class="slide-link">Saber más</a>
-                        </div>
-                    </div>	
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
+<?= $this->cell('Products') ?>
 
 
 <section class="nuestros-mercados">
@@ -307,7 +225,7 @@
             <div class="col-12 col-sm-12 col-md-1 col-lg-5 col-xl-5">
             </div>
             <div class="col-12 col-sm-12 col-md-12 col-lg-7 col-xl-7 left-aling">
-                <div class="d-flex justify-content-center" >
+                <div class="d-flex justify-content-center">
                     <h3 class="trititle title-m">
                         <?=__('Nuestros mercados')?>
                     </h3>
@@ -319,18 +237,18 @@
                 <div class="col-10 col-sm-10 col-md-10 col-lg-5 col-xl-5">
                     <div>
                         <figure>
-                            <?= $this->Html->image('map-image.png', ['alt' => 'map-image-logo', 'class'=> "mapa"]); ?>  
+                            <?= $this->Html->image('map-image.png', ['alt' => 'map-image-logo', 'class' => "mapa"]); ?>
                         </figure>
                     </div>
                 </div>
                 <div class="col-12 col-sm-12 col-md-12 col-lg-7 col-xl-7">
                     <div class="row pt-5 pl-4 big-scale">
                         <div class="col-10 col-sm-10 col-md-4 col-lg-4 col-xl-4 ">
-                            <div class="country">
+                            <div>
                                 <h2 class="region">
                                     <?=__('América del sur')?>
                                 </h2>
-                                <ul>
+                                <ul class="country">
                                     <li> <?=__('Argentina')?></li>
                                     <li> <?=__('Bolivia')?></li>
                                     <li> <?=__('Chile')?></li>
