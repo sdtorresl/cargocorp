@@ -54,3 +54,217 @@ msgstr "All news"
 
 msgid "Filtra tus noticias"
 msgstr "Filter news"
+
+#: "Pages/home.php: 4
+msgid "La industria de seguros con"
+msgstr "EXPERIENCED | DATA DRIVEN | CAPABLE"
+
+#: "Pages/home.php: 7
+msgid "La industria de seguros con,"
+msgstr "THAT´S HOW WE PROVIDE OUTSTANDING RESULTS"
+
+#: "Pages/home.php: 8
+msgid "todas las linas marine"
+msgstr "OUTSTANDING RESULTS"
+
+#: "Pages/home.php: 24
+msgid "Más de 20 años de experiencia en seguros"
+msgstr "LATAM Marine Leader MGA"
+
+#: "Pages/home.php: 36
+msgid "Nos encontramos en más de 14 países"
+msgstr "Own Risk Management Team"
+
+#: "Pages/home.php: 48
+msgid "Calificacion A-Fitch Rattings, A.M. Best, Standard & Poors, A-"
+msgstr "First MGA assessed by AM Best as Exceptional."
+
+#: "Pages/home.php: 61
+msgid "Lo que somos"
+msgstr "Who we are?"
+
+#: "Pages/home.php: 68
+msgid " Tenemos una amplia cobertura que proteje carga en tránsito y almacenamiento. ademas ofrecemos la capacidad de reaseguramiento"
+msgstr "We are a Managing General Agent (MGA)"
+
+#: "Pages/home.php: 69
+msgid "para sabotaje, terrorismo y riesgos politicos"
+msgstr "specialized in providing capacity for the Marine lines "
+
+#: "Pages/home.php: 70
+msgid ". Asegura tu negocio en las mejores manos"
+msgstr "(Cargo, STP, Project Cargo, Hull, P&I, Marine Liabilities) and Terrorism."
+
+#: "Pages/home.php: 75
+msgid "titulo temporal 1"
+msgstr "What matters to us?"
+
+#: "Pages/home.php: 79
+msgid "texto temporal 1"
+msgstr "What matters to you, matters to us. We strive to provide the highest quality and best possible experience and outcome for every one of our stakeholders."
+
+#: "Pages/home.php: 84
+msgid "titulo temporal 2"
+msgstr "What we do?"
+
+#: "Pages/home.php: 88
+msgid "texto temporal 2"
+msgstr "We offer reinsurance capacity in a different, diversified, sophisticated and professional manner with the support of specialized advice in risk management and loss control."
+
+#: "Pages/home.php: 93
+msgid "titulo temporal 3"
+msgstr "How we do it?"
+
+#: "Pages/home.php: 97
+msgid "texto temporal 3"
+msgstr "We have more than 20 years of experience and knowledge of the Latin American market, supported by specialized underwriters and great human talent supported by a unique technological platform to provide our brokers and clients with a value proposition tailored to their risks."
+
+#: "Pages/home.php: 105
+msgid "La diferencia"
+msgstr "HOW ARE WE DIFFERENT:"
+
+#: "Pages/home.php: 117
+msgid "Profesionales 1"
+msgstr "experience"
+
+#: "Pages/home.php: 121
+msgid "Tenemos una amplia cobertura que proteje carga en tránsito 1"
+msgstr "We have been present on the market for over 23 years."
+
+#: "Pages/home.php: 133
+msgid "Profesionales 2"
+msgstr "coverage"
+
+#: "Pages/home.php: 137
+msgid "Tenemos una amplia cobertura que proteje carga en tránsito 2"
+msgstr "We have presence in strategic countries along the region: Miami, CDMX, Bogotá."
+
+#: "Pages/home.php: 149
+msgid "Profesionales 3"
+msgstr "our team"
+
+#: "Pages/home.php: 152
+msgid "Tenemos una amplia cobertura que proteje carga en tránsito 3"
+msgstr "All of our Underwriters are certified by Lloyds and ALSUM."
+
+#: "Pages/home.php: 164
+msgid "Profesionales 4"
+msgstr "risk management"
+
+#: "Pages/home.php: 164
+msgid "Profesionales 4"
+msgstr "risk management"
+
+#: "Pages/home.php: 167
+msgid "Tenemos una amplia cobertura que proteje carga en tránsito 4"
+msgstr "Our Risk Management proposal is essential to our underwriting process."
+
+#: "Pages/home.php: 179
+msgid "Profesionales 5"
+msgstr "data driven"
+
+#: "Pages/home.php: 182
+msgid "Tenemos una amplia cobertura que proteje carga en tránsito 5"
+msgstr "Data is the Key. We embrace new technology to disrupt our culture."
+
+#: "Pages/home.php: 194
+msgid "Profesionales 6"
+msgstr "support"
+
+#: "Pages/home.php: 197
+msgid "Tenemos una amplia cobertura que proteje carga en tránsito 6"
+msgstr "Capacity Providers are the heart of our organization."
+
+
+#: "Pages/home.php: 209
+msgid "Profesionales 7"
+msgstr "claims advocacy"
+
+#: "Pages/home.php: 212
+msgid "Tenemos una amplia cobertura que proteje carga en tránsito 7"
+msgstr "We provide you with the benefit of our loss management experience."
+
+#: "Pages/home.php: 312
+msgid "Nuestros mercados"
+msgstr "We can do Risks located in?"
+
+#: "Pages/home.php: 331
+msgid "América del sur"
+msgstr "south america"
+
+
+#: "Pages/home.php: 334
+msgid "Argentina"
+msgstr "Argentina"
+
+#: "Pages/home.php: 335
+msgid "Bolivia"
+msgstr "Bolivia"
+
+#: "Pages/home.php: 336
+msgid "Chile"
+msgstr "Chile"
+
+#: "Pages/home.php: 337
+msgid "Colombia"
+msgstr "Colombia"
+
+#: "Pages/home.php: 338
+msgid "Ecuador"
+msgstr "Ecuador"
+
+#: "Pages/home.php: 339
+msgid "Paraguay"
+msgstr "Paraguay"
+
+#: "Pages/home.php: 340
+msgid "Uruguay"
+msgstr "Uruguay"
+
+#: "Pages/home.php: 341
+msgid "Perú"
+msgstr "Peru"
+
+#: "Pages/home.php: 348
+msgid "América central"
+msgstr "central américa"
+
+#: "Pages/home.php: 351
+msgid "Guatemala"
+msgstr "Guatemala"
+
+#: "Pages/home.php: 352
+msgid "Honduras"
+msgstr "Honduras"
+
+#: "Pages/home.php: 353
+msgid "Panamá"
+msgstr "Panamá"
+
+#: "Pages/home.php: 354
+msgid "El Salvador"
+msgstr "El Salvador"
+
+#: "Pages/home.php: 361
+msgid "Caribe"
+msgstr "caribbean"
+
+#: "Pages/home.php: 364
+msgid "Puerto Rico"
+msgstr "Puerto Rico"
+
+#: "Pages/home.php: 365
+msgid "República Dominicana"
+msgstr "Dominican Republic"
+
+#: "Pages/home.php: 366
+msgid "México"
+msgstr "Mexico"
+
+#: "LatestNews/display.php: 8
+msgid "Noticias de interés"
+msgstr "Noticias de interés"
+
+#: "LatestNews/display.php: 44
+msgid "Ver todas las noticias"
+msgstr "Ver todas las noticias"

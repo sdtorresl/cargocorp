@@ -54,3 +54,211 @@ msgstr "Todas las noticias"
 
 msgid "Filtra tus noticias"
 msgstr "Filtra tus noticias"
+
+#: "Pages/home.php: 4
+msgid "La industria de seguros con"
+msgstr "La industria de seguros con"
+
+#: "Pages/home.php: 7
+msgid "La industria de seguros con,"
+msgstr "La industria de seguros con todas las linas marine"
+
+#: "Pages/home.php: 8
+msgid "todas las linas marine"
+msgstr "todas las linas marine"
+
+#: "Pages/home.php: 24
+msgid "Más de 20 años de experiencia en seguros"
+msgstr "Más de 20 años de experiencia en seguros"
+
+#: "Pages/home.php: 36
+msgid "Nos encontramos en más de 14 países"
+msgstr "Nos encontramos en más de 14 países"
+
+#: "Pages/home.php: 48
+msgid "Calificacion A-Fitch Rattings, A.M. Best, Standard & Poors, A-"
+msgstr "Calificacion A-Fitch Rattings, A.M. Best, Standard & Poors, A-"
+
+#: "Pages/home.php: 61
+msgid "Lo que somos"
+msgstr "Lo que somos"
+
+#: "Pages/home.php: 68
+msgid " Tenemos una amplia cobertura que proteje carga en tránsito y almacenamiento. ademas ofrecemos la capacidad de reaseguramiento"
+msgstr " Tenemos una amplia cobertura que proteje carga en tránsito y almacenamiento. ademas ofrecemos la capacidad de reaseguramiento"
+
+#: "Pages/home.php: 69
+msgid "para sabotaje, terrorismo y riesgos politicos"
+msgstr "para sabotaje, terrorismo y riesgos politicos"
+
+#: "Pages/home.php: 70
+msgid ". Asegura tu negocio en las mejores manos"
+msgstr ". Asegura tu negocio en las mejores manos"
+
+#: "Pages/home.php: 75
+msgid "titulo temporal 1"
+msgstr "titulo temporal 1"
+
+#: "Pages/home.php: 79
+msgid "texto temporal 1"
+msgstr "texto temporal 1"
+
+#: "Pages/home.php: 84
+msgid "titulo temporal 2"
+msgstr "titulo temporal 2"
+
+#: "Pages/home.php: 88
+msgid "texto temporal 2"
+msgstr "texto temporal 2"
+
+#: "Pages/home.php: 93
+msgid "titulo temporal 3"
+msgstr "titulo temporal 3"
+
+#: "Pages/home.php: 97
+msgid "texto temporal 3"
+msgstr "texto temporal 3"
+
+#: "Pages/home.php: 105
+msgid "La diferencia"
+msgstr "La diferencia"
+
+#: "Pages/home.php: 117
+msgid "Profesionales 1"
+msgstr "Profesionales 1"
+
+#: "Pages/home.php: 121
+msgid "Tenemos una amplia cobertura que proteje carga en tránsito 1"
+msgstr "Tenemos una amplia cobertura que proteje carga en tránsito 1"
+
+#: "Pages/home.php: 133
+msgid "Profesionales 2"
+msgstr "Profesionales 2"
+
+#: "Pages/home.php: 137
+msgid "Tenemos una amplia cobertura que proteje carga en tránsito 2"
+msgstr "Tenemos una amplia cobertura que proteje carga en tránsito 2"
+
+#: "Pages/home.php: 149
+msgid "Profesionales 3"
+msgstr "Profesionales 3"
+
+#: "Pages/home.php: 152
+msgid "Tenemos una amplia cobertura que proteje carga en tránsito 3"
+msgstr "Tenemos una amplia cobertura que proteje carga en tránsito 3"
+
+#: "Pages/home.php: 164
+msgid "Profesionales 4"
+msgstr "Profesionales 4"
+
+#: "Pages/home.php: 167
+msgid "Tenemos una amplia cobertura que proteje carga en tránsito 4"
+msgstr "Tenemos una amplia cobertura que proteje carga en tránsito 4"
+
+#: "Pages/home.php: 179
+msgid "Profesionales 5"
+msgstr "Profesionales 5"
+
+#: "Pages/home.php: 182
+msgid "Tenemos una amplia cobertura que proteje carga en tránsito 5"
+msgstr "Tenemos una amplia cobertura que proteje carga en tránsito 5"
+
+#: "Pages/home.php: 194
+msgid "Profesionales 6"
+msgstr "Profesionales 6"
+
+#: "Pages/home.php: 197
+msgid "Tenemos una amplia cobertura que proteje carga en tránsito 6"
+msgstr "Tenemos una amplia cobertura que proteje carga en tránsito 6"
+
+#: "Pages/home.php: 209
+msgid "Profesionales 7"
+msgstr "Profesionales 7"
+
+#: "Pages/home.php: 212
+msgid "Tenemos una amplia cobertura que proteje carga en tránsito 7"
+msgstr "Tenemos una amplia cobertura que proteje carga en tránsito 7"
+
+#: "Pages/home.php: 312
+msgid "Nuestros mercados"
+msgstr "Nuestros mercados"
+
+#: "Pages/home.php: 331
+msgid "América del sur"
+msgstr "América del sur"
+
+#: "Pages/home.php: 334
+msgid "Argentina"
+msgstr "Argentina"
+
+#: "Pages/home.php: 335
+msgid "Bolivia"
+msgstr "Bolivia"
+
+#: "Pages/home.php: 336
+msgid "Chile"
+msgstr "Chile"
+
+#: "Pages/home.php: 337
+msgid "Colombia"
+msgstr "Colombia"
+
+#: "Pages/home.php: 338
+msgid "Ecuador"
+msgstr "Ecuador"
+
+#: "Pages/home.php: 339
+msgid "Paraguay"
+msgstr "Paraguay"
+
+#: "Pages/home.php: 340
+msgid "Uruguay"
+msgstr "Uruguay"
+
+#: "Pages/home.php: 341
+msgid "Perú"
+msgstr "Perú"
+
+#: "Pages/home.php: 348
+msgid "América central"
+msgstr "América central"
+
+#: "Pages/home.php: 351
+msgid "Guatemala"
+msgstr "Guatemala"
+
+#: "Pages/home.php: 352
+msgid "Honduras"
+msgstr "Honduras"
+
+#: "Pages/home.php: 353
+msgid "Panamá"
+msgstr "Panamá"
+
+#: "Pages/home.php: 354
+msgid "El Salvador"
+msgstr "El Salvador"
+
+#: "Pages/home.php: 361
+msgid "Caribe"
+msgstr "Caribe"
+
+#: "Pages/home.php: 364
+msgid "Puerto Rico"
+msgstr "Puerto Rico"
+
+#: "Pages/home.php: 365
+msgid "República Dominicana"
+msgstr "República Dominicana"
+
+#: "Pages/home.php: 366
+msgid "México"
+msgstr "México"
+
+#: "LatestNews/display.php: 8
+msgid "Noticias de interés"
+msgstr "Noticias de interés"
+
+#: "LatestNews/display.php: 44
+msgid "Ver todas las noticias"
+msgstr "Ver todas las noticias"
