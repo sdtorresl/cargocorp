@@ -56,44 +56,67 @@
     </div>
 </section>
 
-<section class="our-team">
-    <div class="d-flex justify-content-center">
-        <h3 class="trititle d-inlie-flex">
-            Nuestro equipo
-        </h3>
-    </div>
-    <div class="our-team-slide">
-        <div class="container paddings">
-            <div class="row justify-content-center">
-                <div class="col-10 col-sm-10 col-md-4 col-lg-3 col-xl-3 justify-content-right">
-                    <figure>
-                        <?= $this->Html->image('team-member-image.png', ['alt' => 'team-member-photo']); ?>
-                    </figure>
+<section class="container team-section">
+    <div class="our-team">
+
+        <div class="d-flex justify-content-center">
+            <h3 class="trititle d-inlie-flex">
+                Nuestro equipo
+            </h3>
+        </div>
+        <div class="our-team-slide">
+            <div>
+                <div class="container paddings">
+                    <div class="row justify-content-center">
+                        <div class="col-10 col-sm-10 col-md-4 col-lg-3 col-xl-3 justify-content-right px-0">
+                            <figure class="h-100 d-flex justify-content-center overflow-hidden">
+                                <?= $this->Html->image('team-member-image.png', ['alt' => 'team-member-photo', 'class' => 'team-member-photo']); ?>
+                            </figure>
+                        </div>
+                        <div class="col-10 col-sm-10 col-md-6 col-lg-6 col-xl-6 team-slide">
+                            <p class="team-member-name">Ana MarÍa Díaz</p>
+                            <p class="team-member-ocupation">Chief Financial Officer (C.F.O.)</p>
+                            <p class="team-member-description">Lorem ipsum dolor sit amet consectetur adipiscing, elit pretium dui aliquet lacus mauris gravida, neque bibendum velit metus sollicitudin. Nec himenaeos interdum sociis nisi tempor diam</p>
+                            <a href="#" class="team-member-email">Enviar correo </a>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-10 col-sm-10 col-md-6 col-lg-6 col-xl-6 team-slide">
-                    <p class="team-member-name">Ana MarÍa Díaz</p>
-                    <p class="team-member-ocupation">Chief Financial Officer (C.F.O.)</p>
-                    <p class="team-member-description">Lorem ipsum dolor sit amet consectetur adipiscing, elit pretium dui aliquet lacus mauris gravida, neque bibendum velit metus sollicitudin. Nec himenaeos interdum sociis nisi tempor diam</p>
-                    <a href="#" class="team-member-email">Enviar correo </a>
+            </div>
+            <div>
+                <div class="container paddings">
+                    <div class="row justify-content-center">
+                        <div class="col-10 col-sm-10 col-md-4 col-lg-3 col-xl-3 justify-content-right px-0">
+                            <figure class="h-100 d-flex justify-content-center overflow-hidden">
+                                <?= $this->Html->image('team-member-image.png', ['alt' => 'team-member-photo', 'class' => 'team-member-photo']); ?>
+                            </figure>
+                        </div>
+                        <div class="col-10 col-sm-10 col-md-6 col-lg-6 col-xl-6 team-slide ">
+                            <p class="team-member-name">Ana MarÍa Díaz</p>
+                            <p class="team-member-ocupation">Chief Financial Officer (C.F.O.)</p>
+                            <p class="team-member-description">Lorem ipsum dolor sit amet consectetur adipiscing, elit pretium dui aliquet lacus mauris gravida, neque bibendum velit metus sollicitudin. Nec himenaeos interdum sociis nisi tempor diam</p>
+                            <a href="#" class="team-member-email">Enviar correo </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="container paddings">
+                    <div class="row justify-content-center">
+                        <div class="col-10 col-sm-10 col-md-4 col-lg-3 col-xl-3 justify-content-right px-0">
+                            <figure class="h-100 d-flex justify-content-center overflow-hidden">
+                                <?= $this->Html->image('team-member-image.png', ['alt' => 'team-member-photo', 'class' => 'team-member-photo']); ?>
+                            </figure>
+                        </div>
+                        <div class="col-10 col-sm-10 col-md-6 col-lg-6 col-xl-6 team-slide ">
+                            <p class="team-member-name">Ana MarÍa Díaz</p>
+                            <p class="team-member-ocupation">Chief Financial Officer (C.F.O.)</p>
+                            <p class="team-member-description">Lorem ipsum dolor sit amet consectetur adipiscing, elit pretium dui aliquet lacus mauris gravida, neque bibendum velit metus sollicitudin. Nec himenaeos interdum sociis nisi tempor diam</p>
+                            <a href="#" class="team-member-email">Enviar correo </a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="container paddings">
-            <div class="row justify-content-center">
-                <div class="col-10 col-sm-10 col-md-4 col-lg-3 col-xl-3 justify-content-right">
-                    <figure>
-                        <?= $this->Html->image('team-member-image.png', ['alt' => 'team-member-photo']); ?>
-                    </figure>
-                </div>
-                <div class="col-10 col-sm-10 col-md-6 col-lg-6 col-xl-6 team-slide ">
-                    <p class="team-member-name">Ana MarÍa Díaz</p>
-                    <p class="team-member-ocupation">Chief Financial Officer (C.F.O.)</p>
-                    <p class="team-member-description">Lorem ipsum dolor sit amet consectetur adipiscing, elit pretium dui aliquet lacus mauris gravida, neque bibendum velit metus sollicitudin. Nec himenaeos interdum sociis nisi tempor diam</p>
-                    <a href="#" class="team-member-email">Enviar correo </a>
-                </div>
-            </div>
-        </div>
-    </div>
     </div>
 </section>
 
@@ -101,52 +124,52 @@
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-11 col-sm-11 col-md-11 col-lg-11 col-xl-11 p-0">
-                <div class="d-flex justify-content-center" id="movil-style">
+                <div class="d-flex justify-content-center">
                     <h3 class="trititle d-inlie-flex" id="translate">
                         contáctenos
                     </h3>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-10 col-sm-10 col-md-6 col-lg-6 col-xl-6">
-                    <p class="contact-title">
-                        Miami
+        </div>
+        <div class="row">
+            <div class="col-10 col-sm-10 col-md-6 col-lg-6 col-xl-6">
+                <p class="contact-title">
+                    Miami
+                </p>
+                <div class="contact-information">
+                    <p class="contact-text">
+                        701 Brickell Avenue, Suite 1550, Miami FL 33131
                     </p>
-                    <div class="contact-information">
-                        <p class="contact-text">
-                            701 Brickell Avenue, Suite 1550, Miami FL 33131
-                        </p>
-                        <p class="contact-text">
-                            Phone: (305) 433 6492 / (305) 433 6342
-                        </p>
-                        <p class="contact-text">
-                            Phone: (57) 1 317 502 5065 Fax: (305) 728 5278
-                        </p>
-                    </div>
-                    <figure>
-                        <?= $this->Html->image('temporary-map-one.png', ['alt' => 'temporary-map-one']); ?>
-                    </figure>
-                </div>
-                <div class="col-10 col-sm-10 col-md-6 col-lg-6 col-xl-6 contact-col">
-                    <p class="contact-title">
-                        México
+                    <p class="contact-text">
+                        Phone: (305) 433 6492 / (305) 433 6342
                     </p>
-                    <div class="contact-information">
-                        <p class="contact-text">
-                            Aristóteles N° 77, Oficina 510
-                        </p>
-                        <p class="contact-text">
-                            Colonia Polanco IV Sección
-                        </p>
-                        <p class="contact-text">
-                            C.P. 11550. Ciudad de México
-                        </p>
-                    </div>
-                    <figure>
-                        <?= $this->Html->image('temporary-map-two.png', ['alt' => 'temporary-map-two']); ?>
-                        <img src="img/temporary-map-two.png" alt="">
-                    </figure>
+                    <p class="contact-text">
+                        Phone: (57) 1 317 502 5065 Fax: (305) 728 5278
+                    </p>
                 </div>
+                <figure>
+                    <?= $this->Html->image('temporary-map-one.png', ['alt' => 'temporary-map-one']); ?>
+                </figure>
+            </div>
+            <div class="col-10 col-sm-10 col-md-6 col-lg-6 col-xl-6">
+                <p class="contact-title">
+                    México
+                </p>
+                <div class="contact-information">
+                    <p class="contact-text">
+                        Aristóteles N° 77, Oficina 510
+                    </p>
+                    <p class="contact-text">
+                        Colonia Polanco IV Sección
+                    </p>
+                    <p class="contact-text">
+                        C.P. 11550. Ciudad de México
+                    </p>
+                </div>
+                <figure>
+                    <?= $this->Html->image('temporary-map-two.png', ['alt' => 'temporary-map-two']); ?>
+                    <img src="img/temporary-map-two.png" alt="">
+                </figure>
             </div>
         </div>
     </div>

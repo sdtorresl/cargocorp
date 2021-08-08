@@ -40,7 +40,7 @@
 
 <section class="nuestros-productos">
     <div class="title-box d-flex justify-content-center">
-        <h3 class="title-n d-flex">
+        <h3 class="title-n d-flex px-3">
             Nuestros productos
         </h3>
     </div>
