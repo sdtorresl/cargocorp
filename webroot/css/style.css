@@ -701,8 +701,8 @@ section.container-top-icons:after {
     right: 0px;
     bottom: 0px;
     border-top: 0px solid transparent;
-    border-left: 6000px solid #033a74;
-    border-bottom: 300px solid #f9f9f9;
+    border-left: 2500px solid #033a74;
+    border-bottom: 100px solid #f9f9f9;
     transform: translateY(0px);
     z-index: -10;
 }
@@ -710,9 +710,11 @@ div#grid-about-us {
     transform: translateY(20px);
 }
 section.about-us {
-    padding-top: 200px;
+    position: relative;
+    padding-top: 320px;
     padding-bottom: 100px;
     background-color: #f9f9f9;
+    z-index: -1000;
 }
 h2.about-us-title {
     padding-bottom: 30px;
