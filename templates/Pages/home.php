@@ -4,8 +4,8 @@
             <?=__('La industria de seguros con')?>
         </h1>
         <h1 class ="title" >
-            <?=__('La industria de seguros con,')?> 
-            <strong><?=__('todas las linas marine')?></strong> 
+            <?=__('La industria de seguros con,')?>
+            <strong><?=__('todas las linas marine')?></strong>
         </h1>
     </div>
     <div class="boton">
@@ -14,10 +14,10 @@
 
     <div class="container white-grid pl-3 pr-3">
         <div class="row justify-content-center top-text d-flex align-content-center flex-wrap">
-            <div class="top-box col-10 col-sm-10 col-md-4 col-lg-4 col-xl-4 pl-0 pr-0 mb-5">
-                <div class="d-flex align-content-center pl-3">
+            <div class="top-box col-10 col-sm-10 col-md-4 col-lg-4 col-xl-4 px-2 pr-md-3 pl-md-4 my-4">
+                <div class="d-flex align-content-center">
                     <figure class="align-content-center">
-                        <?= $this->Html->image('clock.png', ['alt' => 'clock-logo', 'class' => "image-c pr-3 pl-3"]); ?>
+                        <?= $this->Html->image('clock.png', ['alt' => 'clock-logo', 'class' => "image-c pr-3"]); ?>
                     </figure>
                     <div>
                         <p class="align-content-center">
@@ -26,10 +26,10 @@
                     </div>
                 </div>
             </div>
-            <div class="top-box col-10 col-sm-10 col-md-4 col-lg-4 col-xl-4 pl-0 pr-0 mb-5">
+            <div class="top-box col-10 col-sm-10 col-md-4 col-lg-4 col-xl-4 px-2 px-md-3 my-4">
                 <div class="d-flex align-content-center">
                     <figure class="align-content-center">
-                        <?= $this->Html->image('world.png', ['alt' => 'world-logo', 'class' => "image-c pr-3 pl-3"]); ?>
+                        <?= $this->Html->image('world.png', ['alt' => 'world-logo', 'class'=> "image-c pr-3"]); ?>
                     </figure>
                     <div>
                         <p class="align-content-center">
@@ -38,10 +38,10 @@
                     </div>
                 </div>
             </div>
-            <div class="top-box col-10 col-sm-10 col-md-4 col-lg-4 col-xl-4 pl-0 pr-0 mb-5">
-                <div class="d-flex align-content-center pr-1">
+            <div class="top-box col-10 col-sm-10 col-md-4 col-lg-4 col-xl-4 px-2 pl-md-3 pr-md-4 my-4">
+                <div class="d-flex align-content-center">
                     <figure class="align-content-center">
-                        <?= $this->Html->image('badge.png', ['alt' => 'badge-logo', 'class' => "image-c pr-3 pl-3"]); ?>
+                        <?= $this->Html->image('badge.png', ['alt' => 'badge-logo', 'class'=> "image-c pr-3"]); ?>
                     </figure>
                     <div>
                         <p class="align-content-center">
@@ -63,7 +63,7 @@
         </div>
         <h2 class="subtitle-somos"></h2>
         <p class="text-cobertura mb-5">
-            <?=__('Tenemos una amplia cobertura que proteje carga en tránsito y almacenamiento. ademas ofrecemos la capacidad de reaseguramiento')?> 
+            <?=__('Tenemos una amplia cobertura que proteje carga en tránsito y almacenamiento. ademas ofrecemos la capacidad de reaseguramiento')?>
             <span><?=__('para sabotaje, terrorismo y riesgos politicos')?></span>
             <?=__('. Asegura tu negocio en las mejores manos')?>
         </p>
@@ -74,7 +74,7 @@
             </h3>
         </div>
         <p class="text-cobertura">
-            <?=__('texto temporal 1')?> 
+            <?=__('texto temporal 1')?>
         </p>
 
         <div class="d-flex justify-content-center">
@@ -83,7 +83,7 @@
             </h3>
         </div>
         <p class="text-cobertura">
-            <?=__('texto temporal 2')?> 
+            <?=__('texto temporal 2')?>
         </p>
 
         <div class="d-flex justify-content-center">
@@ -92,7 +92,7 @@
             </h3>
         </div>
         <p class="text-cobertura">
-            <?=__('texto temporal 3')?> 
+            <?=__('texto temporal 3')?>
         </p>
     </div>
 </section>
@@ -105,16 +105,15 @@
     </div>
     <div class="container p pl-5 pr-5">
         <div class="row justify-content-center grid-diferencia">
-            <div class="col-12 col-sm-10 col-md-6 col-lg-4 col-xl-4 mb-5 pb-4">
+            <div class="col-12 col-sm-10 col-md-6 col-lg-4 col-xl-4 mb-5">
                 <div class="d-flex">
-                    <figure>
+                    <figure class="differences-logo">
                         <?= $this->Html->image('engineer.png', ['alt' => 'engineer-logo']); ?>
                     </figure>
                     <div class="text-d">
                         <p class="title-p">
                             <?=__('Profesionales 1')?>
                         </p>
-
                         <p class="text-p">
                             <?=__('Tenemos una amplia cobertura que proteje carga en tránsito 1')?>
                         </p>
@@ -123,14 +122,13 @@
             </div>
             <div class="col-12 col-sm-10 col-md-6 col-lg-4 col-xl-4 mb-5">
                 <div class="d-flex">
-                    <figure>
+                    <figure class="differences-logo">
                         <?= $this->Html->image('clipboard.png', ['alt' => 'clipboard-logo']); ?>
                     </figure>
                     <div class="text-d">
                         <p class="title-p">
                             <?=__('Profesionales 2')?>
                         </p>
-
                         <p class="text-p">
                             <?=__('Tenemos una amplia cobertura que proteje carga en tránsito 2')?>
                         </p>
@@ -139,7 +137,7 @@
             </div>
             <div class="col-12 col-sm-10 col-md-6 col-lg-4 col-xl-4 mb-5">
                 <div class="d-flex">
-                    <figure>
+                    <figure class="differences-logo">
                         <?= $this->Html->image('boxes.png', ['alt' => 'boxes-logo']); ?>
                     </figure>
                     <div class="text-d">
@@ -154,7 +152,7 @@
             </div>
             <div class="col-12 col-sm-10 col-md-6 col-lg-4 col-xl-4 mb-5">
                 <div class="d-flex">
-                    <figure>
+                    <figure class="differences-logo">
                         <?= $this->Html->image('truck.png', ['alt' => 'truck-logo']); ?>
                     </figure>
                     <div class="text-d">
@@ -169,7 +167,7 @@
             </div>
             <div class="col-12 col-sm-10 col-md-6 col-lg-4 col-xl-4 mb-5">
                 <div class="d-flex">
-                    <figure>
+                    <figure class="differences-logo">
                         <?= $this->Html->image('ship-icon.png', ['alt' => 'ship-icon-logo']); ?>
                     </figure>
                     <div class="text-d">
@@ -184,7 +182,7 @@
             </div>
             <div class="col-12 col-sm-10 col-md-6 col-lg-4 col-xl-4 mb-5">
                 <div class="d-flex">
-                    <figure>
+                    <figure class="differences-logo">
                         <?= $this->Html->image('shield.png', ['alt' => 'shield-logo']); ?>
                     </figure>
                     <div class="text-d">
@@ -201,8 +199,8 @@
                 <div class="d-flex">
                     <figure>
                         <?= $this->Html->image('truck.png', ['alt' => 'truck-logo']); ?>
-                    </figure>				
-                    <div class="text-d">			
+                    </figure>
+                    <div class="text-d">
                         <p class="title-p">
                             <?=__('Profesionales 7')?>
                         </p>
@@ -232,9 +230,9 @@
                 </div>
             </div>
         </div>
-        <div class="contrys-container ">
+        <div class="contries-container ">
             <div class="row">
-                <div class="col-10 col-sm-10 col-md-10 col-lg-5 col-xl-5">
+                <div class="col-10 col-sm-10 col-md-10 col-lg-5 col-xl-5 mx-auto">
                     <div>
                         <figure>
                             <?= $this->Html->image('map-image.png', ['alt' => 'map-image-logo', 'class' => "mapa"]); ?>
@@ -242,7 +240,7 @@
                     </div>
                 </div>
                 <div class="col-12 col-sm-12 col-md-12 col-lg-7 col-xl-7">
-                    <div class="row pt-5 pl-4 big-scale">
+                    <div class="row pt-5 pt-lg-0 px-4 big-scale">
                         <div class="col-10 col-sm-10 col-md-4 col-lg-4 col-xl-4 ">
                             <div>
                                 <h2 class="region">
