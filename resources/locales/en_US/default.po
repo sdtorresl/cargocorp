@@ -55,6 +55,12 @@ msgstr "All news"
 msgid "Filtra tus noticias"
 msgstr "Filter news"
 
+msgid "Sobre el producto"
+msgstr "About the product"
+
+msgid "Nuestros productos"
+msgstr "Our products"
+
 #: "Pages/home.php: 4
 msgid "La industria de seguros con"
 msgstr "EXPERIENCED | DATA DRIVEN | CAPABLE"

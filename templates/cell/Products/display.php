@@ -26,7 +26,7 @@ $langEn = I18n::getLocale() == 'en_US';
                             <p class="text-slide">
                                 <?= $langEn ? $product->descripcion_corta_EN : $product->descripcion_corta_ES ?>
                             </p>
-                            <?= $this->Html->link(__('Leer más'), ['controller' => 'product', 'action' => 'view', $product->id], ['class' => 'slide-link']) ?>
+                            <?= $this->Html->link(__('Leer más'), ['controller' => 'products', 'action' => 'view', $product->id], ['class' => 'slide-link']) ?>
                         </div>
                     </div>
                 </div>

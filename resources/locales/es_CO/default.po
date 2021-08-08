@@ -55,6 +55,12 @@ msgstr "Todas las noticias"
 msgid "Filtra tus noticias"
 msgstr "Filtra tus noticias"
 
+msgid "Sobre el producto"
+msgstr "Sobre el producto"
+
+msgid "Nuestros productos"
+msgstr "Nuestros productos"
+
 #: "Pages/home.php: 4
 msgid "La industria de seguros con"
 msgstr "La industria de seguros con"
