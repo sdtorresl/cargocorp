@@ -17,22 +17,22 @@ use Cake\I18n\I18n;
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto menu mb-3 mt-3">
                 <li class="nav-item mb-3">
-                    <?= $this->Html->link(__("Inicio"), ['controller' => 'Pages', 'action' => 'display', 'home'], ['class' => 'white-leter']) ?>
+                    <?= $this->Html->link(__("Inicio"), ['controller' => 'Pages', 'action' => 'display', 'home'], ['class' => 'menu-link']) ?>
                 </li>
                 <li class="nav-item mb-3">
-                    <?= $this->Html->link(__("Noticias"), ['controller' => 'News', 'action' => 'index'], ['class' => 'white-leter']) ?>
+                    <?= $this->Html->link(__("Noticias"), ['controller' => 'News', 'action' => 'index'], ['class' => 'menu-link']) ?>
                 </li>
                 <li class="nav-item mb-3">
-                    <?= $this->Html->link(__("Sobre nosotros"), ['controller' => 'Pages', 'action' => 'display', 'about'], ['class' => 'white-leter']) ?>
+                    <?= $this->Html->link(__("Sobre nosotros"), ['controller' => 'Pages', 'action' => 'display', 'about'], ['class' => 'menu-link']) ?>
                 </li>
                 <li class="nav-item mb-3">
-                    <?= $this->Html->link(__("Inicio sesión"), 'https://107.190.136.34/cargocorpuw/', ['class' => 'white-leter', 'target' => '_blank']) ?>
+                    <?= $this->Html->link(__("Inicio sesión"), 'https://107.190.136.34/cargocorpuw/', ['class' => 'menu-link', 'target' => '_blank']) ?>
                 </li>
                 <li class="nav-item mb-3">
                     <?php if (I18n::getLocale() == 'en_US') {
-                        echo $this->Html->link(__("Español"), ['controller' => 'Languages', 'action' => 'es'], ['class' => 'white-leter']);
+                        echo $this->Html->link(__("Español"), ['controller' => 'Languages', 'action' => 'es'], ['class' => 'menu-link']);
                     } else {
-                        echo $this->Html->link(__("Inglés"), ['controller' => 'Languages', 'action' => 'en'], ['class' => 'white-leter']);
+                        echo $this->Html->link(__("Inglés"), ['controller' => 'Languages', 'action' => 'en'], ['class' => 'menu-link']);
                     }
                     ?>
                 </li>

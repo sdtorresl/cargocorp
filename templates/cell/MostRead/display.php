@@ -2,8 +2,8 @@
 
 use Cake\I18n\I18n;
 ?>
+<?php if ($mostRead != null) : ?>
 
-<aside class="col-11 col-sm-11 col-md-4 col-lg-4 col-xl-4">
     <div class="row justify-content-center">
         <div class="col-11 col-sm-11 col-md-11 col-lg-11 col-xl-11" id="transparent-grid"></div>
         <div class="col-11 col-sm-11 col-md-11 col-lg-11 col-xl-11 pt-5 pb-5">
@@ -35,4 +35,5 @@ use Cake\I18n\I18n;
             </div>
         </div>
     </div>
-</aside>
+
+<?php endif; ?>

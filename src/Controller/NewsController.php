@@ -19,13 +19,22 @@ class NewsController extends AppController
      *
      * @return \Cake\Http\Response|null|void Renders view
      */
-    public function index()
+    public function index($categoryId = 1)
     {
         $this->paginate = [
             'order' => ['fecha_creacion' => 'desc'],
-            'limit' => 5
+            'limit' => 8
         ];
-        $news = $this->paginate($this->News);
+
+        if ($categoryId == 1) {
+            $query = $this->News->find();
+        } else {
+            $query = $this->News
+                ->find()
+                ->where(['id_categoria =' => $categoryId]);
+        }
+
+        $news = $this->paginate($query);
 
         foreach ($news as $item) {
             $item->image = 'https://www.cargorisk.com/site/crm/files/blog/articulo_' . $item->id_blog . '/' . $item->nombre_archivo_corto;
@@ -33,8 +42,9 @@ class NewsController extends AppController
 
         $newsCategoriesTable = TableRegistry::getTableLocator()->get('NewsCategories');
         $newsCategories = $newsCategoriesTable->find();
+        $currentCategory = $newsCategoriesTable->findByIdCategoria($categoryId)->first();
 
-        $this->set(compact('news', 'newsCategories'));
+        $this->set(compact('news', 'newsCategories', 'currentCategory'));
     }
 
     /**
@@ -46,7 +56,7 @@ class NewsController extends AppController
      */
     public function view($title = null)
     {
-        $article = $this->News->get($title);
+        $article = $this->News->get($title, ['contain' => 'NewsCategories']);
 
         // Update visits
         $article->num_visitas = $article->num_visitas + 1 ?? 1;
