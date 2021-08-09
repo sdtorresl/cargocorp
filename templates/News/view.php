@@ -42,10 +42,10 @@ $this->Breadcrumbs->setTemplates(
         <div class="row justify-content-center">
             <div class="col-11 col-sm-11 col-md-1 col-lg-1 col-xl-1 p-0">
                 <div id="social-media-container">
-                    <p id="social-media">
+                    <p id="social-media" class="text-left">
                         <?= __('Compartir') ?>
                     </p>
-                    <div class="icons-container">
+                    <div class="icons-container d-flex flex-row flex-md-column">
                         <div id="facebook" class="social-media-icons">
                             <a href="#">
                                 <i class="fab fa-facebook"></i>
