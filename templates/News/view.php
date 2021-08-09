@@ -99,10 +99,10 @@ $this->Breadcrumbs->setTemplates(
             </div>
 
             <aside class="col-11 col-sm-11 col-md-4 col-lg-4 col-xl-4">
-                <?= $cell = $this->cell('MostRead', [$article->id_categoria->id_categoria, [$article->id_blog]]); ?>
+                <?= $this->cell('MostRead', [$article->id_categoria->id_categoria, [$article->id_blog]]); ?>
             </aside>
         </div>
     </div>
 </section>
 
-<?= $cell = $this->cell('Related', [$article->id_categoria->id_categoria, [$article->id_blog]]); ?>
+<?= $this->cell('Related', [$article->id_categoria->id_categoria, [$article->id_blog]]); ?>

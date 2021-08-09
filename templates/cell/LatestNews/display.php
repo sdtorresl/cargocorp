@@ -5,7 +5,7 @@ use Cake\I18n\I18n;
 <section class="noticias">
     <div class="d-flex justify-content-center ">
         <h3 class="trititle d-inline-flex">
-            Noticias de interés
+            <?=__('Noticias de interés')?>
         </h3>
     </div>
     <div id="featured" class="container block-g">
@@ -41,6 +41,6 @@ use Cake\I18n\I18n;
         <?php endforeach; ?>
     </div>
     <div class="buttom-noticias">
-        <a href="#" class="bottom-button">Ver todas las noticias</a> 
+        <a href="#" class="bottom-button"><?=__('Ver todas las noticias')?></a> 
     </div>
 </section>
