@@ -49,6 +49,8 @@ div.menu-container {
 }
 
 img.logo {
+    width: 231px;
+    height: 55px;
     margin-top: 10px;
     margin-left: 30px;
     margin-bottom: 10px;
@@ -152,6 +154,7 @@ div.white-grid {
     position: relative;
     background-color: white;
     color: black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     max-width: 70%;
     height: auto;
     padding-top: 30px;
@@ -180,7 +183,7 @@ section.container-somos {
     width: 100%;
     height: 100%;
     padding-bottom: 150px;
-    padding-top: 320px;
+    padding-top: 170px;
     z-index: -1000;
 }
 
@@ -198,13 +201,12 @@ h3.trititle {
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    padding-bottom: 100px;
 }
 h3.trititle::after {
     content: "";
     position: absolute;
     top: 0px;
-    bottom: 90px;
+    bottom: -5px;
     left: 2px;
     right: 2px;
     border-bottom: 0.5px solid #000000;
@@ -255,6 +257,7 @@ div.text-d {
     font-weight: 700;
     font-size: 18px;
     margin-bottom: 8px;
+    text-transform: uppercase;
 }
 .text-p {
     font-weight: 300;
@@ -377,6 +380,7 @@ h2.region {
     line-height: 25px;
     margin-bottom: 20px;
     list-style: none;
+    text-transform: capitalize;
 }
 
 div.mercados-text {
@@ -713,7 +717,7 @@ div#grid-about-us {
 }
 section.about-us {
     position: relative;
-    padding-top: 320px;
+    padding-top: 150px;
     padding-bottom: 100px;
     background-color: #f9f9f9;
     z-index: -1000;

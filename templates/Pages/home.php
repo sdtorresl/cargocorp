@@ -9,7 +9,7 @@
         </h1>
     </div>
     <div class="boton">
-        <a href="#" class="boton-contacto">Contáctanos</a>
+        <?= $this->Html->link(__("Contáctanos"), ['controller' => 'Pages', 'action' => 'display', 'about'], ['class' => 'boton-contacto']) ?>
     </div>
 
     <div class="container white-grid pl-3 pr-3">
@@ -56,49 +56,48 @@
 
 <section class="container-somos">
     <div class="lo-que-somos ">
-        <div class="d-flex justify-content-center">
+        <div class="d-flex justify-content-center pb-3">
             <h3 class="trititle d-flex">
                 <?= __('Lo que somos') ?>
             </h3>
         </div>
-        <h2 class="subtitle-somos"></h2>
-        <p class="text-cobertura mb-5">
-            <?= __('Tenemos una amplia cobertura que proteje carga en tránsito y almacenamiento. ademas ofrecemos la capacidad de reaseguramiento') ?>
-            <span><?= __('para sabotaje, terrorismo y riesgos politicos') ?></span>
+        <p class="text-cobertura pb-5 mb-5">
+            
+            <?= __('Tenemos una amplia cobertura que protege carga en tránsito y almacenamiento. Además ofrecemos la capacidad de reaseguramiento para sabotaje, terrorismo y riesgos politicos') ?>
             <?= __('. Asegura tu negocio en las mejores manos') ?>
         </p>
 
-        <div class="d-flex justify-content-center">
-            <h3 class="trititle d-flex mt-5">
+        <div class="d-flex justify-content-center pb-3 pt-5">
+            <h3 class="trititle d-flex">
                 <?= __('titulo temporal 1') ?>
             </h3>
         </div>
-        <p class="text-cobertura">
+        <p class="text-cobertura pb-5">
             <?= __('texto temporal 1') ?>
         </p>
 
-        <div class="d-flex justify-content-center">
+        <div class="d-flex justify-content-center pb-3 pt-5">
             <h3 class="trititle d-flex mt-5">
                 <?= __('titulo temporal 2') ?>
             </h3>
         </div>
-        <p class="text-cobertura">
+        <p class="text-cobertura pb-5">
             <?= __('texto temporal 2') ?>
         </p>
 
-        <div class="d-flex justify-content-center">
+        <div class="d-flex justify-content-center pb-3 pt-5">
             <h3 class="trititle d-flex mt-5">
                 <?= __('titulo temporal 3') ?>
             </h3>
         </div>
-        <p class="text-cobertura">
+        <p class="text-cobertura pb-5">
             <?= __('texto temporal 3') ?>
         </p>
     </div>
 </section>
 
 <section class="la-diferencia">
-    <div class="d-flex justify-content-center">
+    <div class="d-flex justify-content-center pb-5 mb-5">
         <h3 class="trititle d-inline-flex">
             <?= __('La diferencia') ?>
         </h3>
@@ -115,7 +114,7 @@
                             <?= __('Profesionales 1') ?>
                         </p>
                         <p class="text-p">
-                            <?= __('Tenemos una amplia cobertura que proteje carga en tránsito 1') ?>
+                            <?= __('Tenemos una amplia cobertura que protege carga en tránsito 1') ?>
                         </p>
                     </div>
                 </div>
@@ -130,7 +129,7 @@
                             <?= __('Profesionales 2') ?>
                         </p>
                         <p class="text-p">
-                            <?= __('Tenemos una amplia cobertura que proteje carga en tránsito 2') ?>
+                            <?= __('Tenemos una amplia cobertura que protege carga en tránsito 2') ?>
                         </p>
                     </div>
                 </div>
@@ -145,7 +144,7 @@
                             <?= __('Profesionales 3') ?>
                         </p>
                         <p class="text-p">
-                            <?= __('Tenemos una amplia cobertura que proteje carga en tránsito 3') ?>
+                            <?= __('Tenemos una amplia cobertura que protege carga en tránsito 3') ?>
                         </p>
                     </div>
                 </div>
@@ -160,7 +159,7 @@
                             <?= __('Profesionales 4') ?>
                         </p>
                         <p class="text-p">
-                            <?= __('Tenemos una amplia cobertura que proteje carga en tránsito 4') ?>
+                            <?= __('Tenemos una amplia cobertura que protege carga en tránsito 4') ?>
                         </p>
                     </div>
                 </div>
@@ -175,7 +174,7 @@
                             <?= __('Profesionales 5') ?>
                         </p>
                         <p class="text-p">
-                            <?= __('Tenemos una amplia cobertura que proteje carga en tránsito 5') ?>
+                            <?= __('Tenemos una amplia cobertura que protege carga en tránsito 5') ?>
                         </p>
                     </div>
                 </div>
@@ -190,7 +189,7 @@
                             <?= __('Profesionales 6') ?>
                         </p>
                         <p class="text-p">
-                            <?= __('Tenemos una amplia cobertura que proteje carga en tránsito 6') ?>
+                            <?= __('Tenemos una amplia cobertura que protege carga en tránsito 6') ?>
                         </p>
                     </div>
                 </div>
@@ -205,7 +204,7 @@
                             <?= __('Profesionales 7') ?>
                         </p>
                         <p class="text-p">
-                            <?= __('Tenemos una amplia cobertura que proteje carga en tránsito 7') ?>
+                            <?= __('Tenemos una amplia cobertura que protege carga en tránsito 7') ?>
                         </p>
                     </div>
                 </div>
@@ -223,7 +222,7 @@
             <div class="col-12 col-sm-12 col-md-1 col-lg-5 col-xl-5">
             </div>
             <div class="col-12 col-sm-12 col-md-12 col-lg-7 col-xl-7 left-aling">
-                <div class="d-flex justify-content-center">
+                <div class="d-flex justify-content-center pb-5">
                     <h3 class="trititle title-m">
                         <?= __('Nuestros mercados') ?>
                     </h3>

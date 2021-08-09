@@ -4,7 +4,7 @@ use Cake\I18n\I18n;
 ?>
 
 <section class="noticias">
-    <div class="d-flex justify-content-center ">
+    <div class="d-flex justify-content-center pb-5">
         <h3 class="trititle d-inline-flex">
             <?= __('Noticias de interés') ?>
         </h3>

@@ -73,6 +73,10 @@ msgstr "La industria de seguros con todas las linas marine"
 msgid "todas las linas marine"
 msgstr "todas las linas marine"
 
+#: "Pages/home.php: 12
+msgid "Contáctanos"
+msgstr "Contáctanos"
+
 #: "Pages/home.php: 24
 msgid "Más de 20 años de experiencia en seguros"
 msgstr "Más de 20 años de experiencia en seguros"
@@ -89,15 +93,12 @@ msgstr "Calificacion A-Fitch Rattings, A.M. Best, Standard & Poors, A-"
 msgid "Lo que somos"
 msgstr "Lo que somos"
 
-#: "Pages/home.php: 68
-msgid " Tenemos una amplia cobertura que proteje carga en tránsito y almacenamiento. ademas ofrecemos la capacidad de reaseguramiento"
-msgstr " Tenemos una amplia cobertura que proteje carga en tránsito y almacenamiento. ademas ofrecemos la capacidad de reaseguramiento"
 
-#: "Pages/home.php: 69
-msgid "para sabotaje, terrorismo y riesgos politicos"
-msgstr "para sabotaje, terrorismo y riesgos politicos"
+#: "Pages/home.php: 66
+msgid "Tenemos una amplia cobertura que protege carga en tránsito y almacenamiento. Además ofrecemos la capacidad de reaseguramiento para sabotaje, terrorismo y riesgos politicos"
+msgstr "Tenemos una amplia cobertura que protege carga en tránsito y almacenamiento. Además ofrecemos la capacidad de reaseguramiento para sabotaje, terrorismo y riesgos politicos"
 
-#: "Pages/home.php: 70
+#: "Pages/home.php: 67
 msgid ". Asegura tu negocio en las mejores manos"
 msgstr ". Asegura tu negocio en las mejores manos"
 
@@ -268,3 +269,33 @@ msgstr "Noticias de interés"
 #: "LatestNews/display.php: 44
 msgid "Ver todas las noticias"
 msgstr "Ver todas las noticias"
+
+#: "Pages/about.php: 46
+msgid "Sobre nosotros"
+msgstr "Sobre nosotros"
+
+#: "Pages/about.php: 50
+msgid "Somos un Managing General Agent (MGA) especializado"
+msgstr "Somos un Managing General Agent (MGA) especializado"
+
+#: "Pages/about.php: 53
+msgid "Somos un Managing General Agent (MGA) especializado en proveer capacidad para las líneas de Marine (Cargo, STP, Project Cargo, Casco, P&I, RC Marítimas) y Terrorismo.
+            Managing General Agent (License # W279031 FLORIDA Department of Financial Services)"
+msgstr "Somos un Managing General Agent (MGA) especializado en proveer capacidad para las líneas de Marine (Cargo, STP, Project Cargo, Casco, P&I, RC Marítimas) y Terrorismo.
+            Managing General Agent (License # W279031 FLORIDA Department of Financial Services)"
+
+#: "Pages/about.php: 64
+msgid "Nuestro equipo"
+msgstr "Nuestro equipo"
+
+#: "Pages/about.php: 97
+msgid "Enviar correo"
+msgstr "Enviar correo"
+
+#: "Pages/about.php: 144
+msgid "Teléfono"
+msgstr "Teléfono"
+
+#: "Pages/about.php: 129
+msgid "contáctenos"
+msgstr "contáctenos"

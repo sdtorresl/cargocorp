@@ -67,11 +67,15 @@ msgstr "EXPERIENCED | DATA DRIVEN | CAPABLE"
 
 #: "Pages/home.php: 7
 msgid "La industria de seguros con,"
-msgstr "THAT´S HOW WE PROVIDE OUTSTANDING RESULTS"
+msgstr "THAT´S HOW WE PROVIDE"
 
 #: "Pages/home.php: 8
 msgid "todas las linas marine"
 msgstr "OUTSTANDING RESULTS"
+
+#: "Pages/home.php: 12
+msgid "Contáctanos"
+msgstr "Contact us"
 
 #: "Pages/home.php: 24
 msgid "Más de 20 años de experiencia en seguros"
@@ -89,15 +93,11 @@ msgstr "First MGA assessed by AM Best as Exceptional."
 msgid "Lo que somos"
 msgstr "Who we are?"
 
-#: "Pages/home.php: 68
-msgid " Tenemos una amplia cobertura que proteje carga en tránsito y almacenamiento. ademas ofrecemos la capacidad de reaseguramiento"
-msgstr "We are a Managing General Agent (MGA)"
+#: "Pages/home.php: 66
+msgid "Tenemos una amplia cobertura que protege carga en tránsito y almacenamiento. Además ofrecemos la capacidad de reaseguramiento para sabotaje, terrorismo y riesgos politicos"
+msgstr "We are a Managing General Agent (MGA) specialized in providing capacity for the Marine lines "
 
-#: "Pages/home.php: 69
-msgid "para sabotaje, terrorismo y riesgos politicos"
-msgstr "specialized in providing capacity for the Marine lines "
-
-#: "Pages/home.php: 70
+#: "Pages/home.php: 67
 msgid ". Asegura tu negocio en las mejores manos"
 msgstr "(Cargo, STP, Project Cargo, Hull, P&I, Marine Liabilities) and Terrorism."
 
@@ -233,7 +233,7 @@ msgstr "Peru"
 
 #: "Pages/home.php: 348
 msgid "América central"
-msgstr "central américa"
+msgstr "central america"
 
 #: "Pages/home.php: 351
 msgid "Guatemala"
@@ -245,7 +245,7 @@ msgstr "Honduras"
 
 #: "Pages/home.php: 353
 msgid "Panamá"
-msgstr "Panamá"
+msgstr "Panama"
 
 #: "Pages/home.php: 354
 msgid "El Salvador"
@@ -269,8 +269,38 @@ msgstr "Mexico"
 
 #: "LatestNews/display.php: 8
 msgid "Noticias de interés"
-msgstr "Noticias de interés"
+msgstr "News of interest"
 
 #: "LatestNews/display.php: 44
 msgid "Ver todas las noticias"
-msgstr "Ver todas las noticias"
+msgstr "See all the news"
+
+#: "Pages/about.php: 46
+msgid "Sobre nosotros"
+msgstr "About us"
+
+#: "Pages/about.php: 64
+msgid "Nuestro equipo"
+msgstr "Our team"
+
+#: "Pages/about.php: 50
+msgid "Somos un Managing General Agent (MGA) especializado"
+msgstr "Somos un Managing General Agent (MGA) especializado"
+
+#: "Pages/about.php: 53
+msgid "Somos un Managing General Agent (MGA) especializado en proveer capacidad para las líneas de Marine (Cargo, STP, Project Cargo, Casco, P&I, RC Marítimas) y Terrorismo.
+            Managing General Agent (License # W279031 FLORIDA Department of Financial Services)"
+msgstr "Somos un Managing General Agent (MGA) especializado en proveer capacidad para las líneas de Marine (Cargo, STP, Project Cargo, Casco, P&I, RC Marítimas) y Terrorismo.
+            Managing General Agent (License # W279031 FLORIDA Department of Financial Services)"
+
+#: "Pages/about.php: 97
+msgid "Enviar correo"
+msgstr "Send mail"
+
+#: "Pages/about.php: 144
+msgid "Teléfono"
+msgstr "Phone"
+
+#: "Pages/about.php: 129
+msgid "contáctenos"
+msgstr "contact us"
