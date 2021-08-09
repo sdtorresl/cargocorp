@@ -1,3 +1,9 @@
+<?php
+$this->start('title');
+echo __('Sobre nosotros');
+$this->end('title');
+?>
+
 <section class="container-top-icons">
     <div class="container white-grid pl-3 pr-3" id="grid-about-us">
         <div class="row justify-content-center top-text d-flex align-content-center flex-wrap">
@@ -43,15 +49,15 @@
 
 <section class="about-us">
     <div class="d-flex justify-content-center pb-5">
-        <h3 class="trititle d-inlie-flex"><?=__('Sobre nosotros')?></h3>
+        <h3 class="uppercase-title d-inlie-flex"><?= __('Sobre nosotros') ?></h3>
     </div>
     <div>
         <h2 class="about-us-title">
-            <?=__('Somos un Managing General Agent (MGA) especializado')?>
+            <?= __('Somos un Managing General Agent (MGA) especializado') ?>
         </h2>
         <p class="about-us-text">
-        <?=__('Somos un Managing General Agent (MGA) especializado en proveer capacidad para las líneas de Marine (Cargo, STP, Project Cargo, Casco, P&I, RC Marítimas) y Terrorismo.
-            Managing General Agent (License # W279031 FLORIDA Department of Financial Services)')?>
+            <?= __('Somos un Managing General Agent (MGA) especializado en proveer capacidad para las líneas de Marine (Cargo, STP, Project Cargo, Casco, P&I, RC Marítimas) y Terrorismo.
+            Managing General Agent (License # W279031 FLORIDA Department of Financial Services)') ?>
         </p>
     </div>
 </section>
@@ -60,8 +66,8 @@
     <div class="our-team">
 
         <div class="d-flex justify-content-center pb-5">
-            <h3 class="trititle d-inlie-flex">
-                <?=__('Nuestro equipo')?>
+            <h3 class="uppercase-title d-inlie-flex">
+                <?= __('Nuestro equipo') ?>
             </h3>
         </div>
         <div class="our-team-slide">
@@ -77,7 +83,7 @@
                             <p class="team-member-name">Ana MarÍa Díaz</p>
                             <p class="team-member-ocupation">Chief Financial Officer (C.F.O.)</p>
                             <p class="team-member-description">Lorem ipsum dolor sit amet consectetur adipiscing, elit pretium dui aliquet lacus mauris gravida, neque bibendum velit metus sollicitudin. Nec himenaeos interdum sociis nisi tempor diam</p>
-                            <a href="#" class="team-member-email"><?=__('Enviar correo')?> </a>
+                            <a href="#" class="team-member-email"><?= __('Enviar correo') ?> </a>
                         </div>
                     </div>
                 </div>
@@ -94,7 +100,7 @@
                             <p class="team-member-name">Ana MarÍa Díaz</p>
                             <p class="team-member-ocupation">Chief Financial Officer (C.F.O.)</p>
                             <p class="team-member-description">Lorem ipsum dolor sit amet consectetur adipiscing, elit pretium dui aliquet lacus mauris gravida, neque bibendum velit metus sollicitudin. Nec himenaeos interdum sociis nisi tempor diam</p>
-                            <a href="#" class="team-member-email"><?=__('Enviar correo')?></a>
+                            <a href="#" class="team-member-email"><?= __('Enviar correo') ?></a>
                         </div>
                     </div>
                 </div>
@@ -111,7 +117,7 @@
                             <p class="team-member-name">Ana MarÍa Díaz</p>
                             <p class="team-member-ocupation">Chief Financial Officer (C.F.O.)</p>
                             <p class="team-member-description">Lorem ipsum dolor sit amet consectetur adipiscing, elit pretium dui aliquet lacus mauris gravida, neque bibendum velit metus sollicitudin. Nec himenaeos interdum sociis nisi tempor diam</p>
-                            <a href="#" class="team-member-email"><?=__('Enviar correo')?></a>
+                            <a href="#" class="team-member-email"><?= __('Enviar correo') ?></a>
                         </div>
                     </div>
                 </div>
@@ -125,8 +131,8 @@
         <div class="row justify-content-center">
             <div class="col-11 col-sm-11 col-md-11 col-lg-11 col-xl-11 p-0">
                 <div class="d-flex justify-content-center pb-5">
-                    <h3 class="trititle d-inlie-flex" id="translate">
-                        <?=__('contáctenos')?>
+                    <h3 class="uppercase-title d-inlie-flex" id="translate">
+                        <?= __('contáctenos') ?>
                     </h3>
                 </div>
             </div>
@@ -141,10 +147,10 @@
                         701 Brickell Avenue, Suite 1550, Miami FL 33131
                     </p>
                     <p class="contact-text">
-                    <?=__('Teléfono')?>: (305) 433 6492 / (305) 433 6342
+                        <?= __('Teléfono') ?>: (305) 433 6492 / (305) 433 6342
                     </p>
                     <p class="contact-text">
-                    <?=__('Teléfono')?>: (57) 1 317 502 5065 Fax: (305) 728 5278
+                        <?= __('Teléfono') ?>: (57) 1 317 502 5065 Fax: (305) 728 5278
                     </p>
                 </div>
                 <div class="mapouter">
@@ -158,7 +164,7 @@
             </div>
             <div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">
                 <p class="contact-title">
-                    México
+                    <?= __('México') ?>
                 </p>
                 <div class="contact-information">
                     <p class="contact-text">

@@ -1,15 +1,24 @@
+<?php
+$this->start('title');
+echo __('Inicio');
+$this->end('title');
+?>
+
 <section class="contacto-container">
     <div class="contacto">
         <h1 class="title">
             <?= __('La industria de seguros con') ?>
-        </h1>
-        <h1 class="title">
+            <br>
             <?= __('La industria de seguros con,') ?>
             <strong><?= __('todas las linas marine') ?></strong>
         </h1>
     </div>
     <div class="boton">
-        <?= $this->Html->link(__("Contáctanos"), ['controller' => 'Pages', 'action' => 'display', 'about'], ['class' => 'boton-contacto']) ?>
+        <?= $this->Html->link(
+            __("Contáctanos"),
+            ['controller' => 'Pages', 'action' => 'display', 'about'],
+            ['class' => 'boton-contacto text-capitalize']
+        ) ?>
     </div>
 
     <div class="container white-grid pl-3 pr-3">
@@ -54,51 +63,32 @@
     </div>
 </section>
 
-<section class="container-somos">
-    <div class="lo-que-somos ">
-        <div class="d-flex justify-content-center pb-3">
-            <h3 class="trititle d-flex">
-                <?= __('Lo que somos') ?>
-            </h3>
+<section id="who-we-are">
+    <div class="container justify-content-center">
+        <div class="col intro-container">
+            <h3 class="uppercase-title"><?= __('Lo que somos') ?></h3>
+            <p class="intro-description">
+                <?= __('quienes-somos-1') ?>
+            </p>
         </div>
-        <p class="text-cobertura pb-5 mb-5">
-            
-            <?= __('Tenemos una amplia cobertura que protege carga en tránsito y almacenamiento. Además ofrecemos la capacidad de reaseguramiento para sabotaje, terrorismo y riesgos politicos') ?>
-            <?= __('. Asegura tu negocio en las mejores manos') ?>
-        </p>
-
-        <div class="d-flex justify-content-center pb-3 pt-5">
-            <h3 class="trititle d-flex">
-                <?= __('titulo temporal 1') ?>
-            </h3>
+        <div class="col intro-container">
+            <h3 class="uppercase-title"><?= __('Lo que nos importa') ?></h3>
+            <p class="intro-description"><?= __('quienes-somos-2') ?></p>
         </div>
-        <p class="text-cobertura pb-5">
-            <?= __('texto temporal 1') ?>
-        </p>
-
-        <div class="d-flex justify-content-center pb-3 pt-5">
-            <h3 class="trititle d-flex mt-5">
-                <?= __('titulo temporal 2') ?>
-            </h3>
+        <div class="col intro-container">
+            <h3 class="uppercase-title"><?= __('Lo que hacemos') ?></h3>
+            <p class="intro-description"><?= __('quienes-somos-3') ?></p>
         </div>
-        <p class="text-cobertura pb-5">
-            <?= __('texto temporal 2') ?>
-        </p>
-
-        <div class="d-flex justify-content-center pb-3 pt-5">
-            <h3 class="trititle d-flex mt-5">
-                <?= __('titulo temporal 3') ?>
-            </h3>
+        <div class="col intro-container">
+            <h3 class="uppercase-title"><?= __('Como lo hacemos') ?></h3>
+            <p class="intro-description"><?= __('quienes-somos-4') ?></p>
         </div>
-        <p class="text-cobertura pb-5">
-            <?= __('texto temporal 3') ?>
-        </p>
     </div>
 </section>
 
 <section class="la-diferencia">
     <div class="d-flex justify-content-center pb-5 mb-5">
-        <h3 class="trititle d-inline-flex">
+        <h3 class="uppercase-title d-inline-flex">
             <?= __('La diferencia') ?>
         </h3>
     </div>
@@ -223,7 +213,7 @@
             </div>
             <div class="col-12 col-sm-12 col-md-12 col-lg-7 col-xl-7 left-aling">
                 <div class="d-flex justify-content-center pb-5">
-                    <h3 class="trititle title-m">
+                    <h3 class="uppercase-title title-m">
                         <?= __('Nuestros mercados') ?>
                     </h3>
                 </div>

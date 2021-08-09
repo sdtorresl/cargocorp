@@ -177,58 +177,38 @@ div.top-text {
     font-weight: 300;
     font-size: 14px;
 }
-section.container-somos {
-    position: relative;
-    background: #f9f9f9;
-    width: 100%;
-    height: 100%;
-    padding-bottom: 150px;
-    padding-top: 170px;
-    z-index: -1000;
-}
 
-div.lo-que-somos {
-    text-align: center;
+#who-we-are {
+    margin-top: 5rem;
+    padding: 5rem 0;
+}
+.intro-container {
+    display: flex;
+    flex-direction: column;
     align-items: center;
 }
-
-h3.trititle {
+.uppercase-title {
     position: relative;
-    display: flex !important;
     color: #000000;
     text-align: center;
     text-transform: uppercase;
-    font-style: normal;
-    font-weight: 400;
     font-size: 14px;
+    margin: 4rem 0 1.5rem 0;
 }
-h3.trititle::after {
+.uppercase-title::after {
     content: "";
     position: absolute;
-    top: 0px;
     bottom: -5px;
     left: 2px;
     right: 2px;
     border-bottom: 0.5px solid #000000;
 }
-
-h2.subtitle-somos {
-    font-style: normal;
-    font-weight: bold;
-    font-size: 24px;
-    color: #333333;
-    margin-left: 20%;
-    margin-right: 20%;
-    transform: translateY(-30px);
-}
-.text-cobertura {
+.intro-description {
+    text-align: center;
     font-weight: 300;
-    font-size: 18px;
-    line-height: 30px;
-    margin-left: 15%;
-    margin-right: 15%;
-    transform: translateY(30px);
+    max-width: 500px;
 }
+
 /*
 span {
     font-weight: 400;
@@ -237,8 +217,8 @@ span {
 }*/
 section.la-diferencia {
     background-color: white;
-    padding-top: 200px;
-    padding-bottom: 90px;
+    margin-top: 75px;
+    margin-bottom: 75px;
 }
 div.grid-diferencia {
     color: #333333;
@@ -257,7 +237,7 @@ div.text-d {
     font-weight: 700;
     font-size: 18px;
     margin-bottom: 8px;
-    text-transform: uppercase;
+    text-transform: capitalize;
 }
 .text-p {
     font-weight: 300;
@@ -441,7 +421,6 @@ img.mapa {
 }
 .featured-news figure {
     margin: 0;
-    //width: 200px;
     height: 100%;
     overflow: hidden;
 }
@@ -742,20 +721,6 @@ div.team-slide {
     background-color: #f9f9f9;
     padding: 25px;
 }
-div.paddings {
-    //margin-left: 200px;
-    //margin-right: 200px;
-}
-.our-team-slide > .slick-next {
-    //right: 150px !important;
-    //background: black !important;
-    //border-radius: 50% !important;
-}
-.our-team-slide > .slick-prev {
-    //left: 150px !important;
-    //background: black !important;
-    //border-radius: 50% !important;
-}
 .team-member-photo {
     min-width: 100%;
     min-height: 100%;
@@ -941,10 +906,6 @@ section.todas-las-noticias {
     div.white-grid {
         padding-bottom: 0px !important;
     }
-    h3.title-n {
-        //padding-left: 20px;
-        //padding-right: 20px;
-    }
     h3.boletin-title {
         padding-left: 10px;
         padding-right: 10px;
@@ -964,19 +925,12 @@ section.todas-las-noticias {
     .navbar-toggler {
         padding-right: 20px !important;
     }
-    h3.title-n {
-        //padding-left: 20px;
-        //padding-right: 20px;
-    }
-
-    div.contact-col {
-        //padding-left: 130px;
-    }
-    div#movil-style {
-        //justify-content: left !important;
-    }
     div.content-left {
         justify-content: left !important;
+    }
+    #who-we-are {
+        margin-top: 0rem;
+        padding: 1rem 0;
     }
 
     h3.boletin-title {
@@ -1013,14 +967,11 @@ section.todas-las-noticias {
     section.contacto-container {
         height: 100%;
     }
-    div.top-box {
-        //margin-bottom: 0px !important;
-    }
     div.white-grid {
         padding-bottom: 20px !important;
     }
     section.container-somos {
-        padding-bottom: 200px;
+        padding-bottom: 75px;
     }
     h2.subtitle-somos {
         margin-left: 25%;
@@ -1030,17 +981,8 @@ section.todas-las-noticias {
         margin-left: 25%;
         margin-right: 25%;
     }
-    section.la-diferencia {
-        padding-bottom: 90px;
-    }
     section.nuestros-productos {
         padding-top: 140px;
-    }
-    .slick-prev {
-        //left: -50px;
-    }
-    .slick-next {
-        //right: -50px;
     }
     section.noticias {
         padding-bottom: 125px;
@@ -1058,20 +1000,9 @@ section.todas-las-noticias {
         text-align: left;
         justify-content: left;
     }
-    div.big-scale {
-        //padding: 0px !important;
-    }
     div#justify-left {
         justify-content: left !important;
     }
-
-    div#movil-style {
-        //justify-content: left !important;
-    }
-    div.contact-col {
-        //padding-left: 130px;
-    }
-
     div.content-left {
         justify-content: left !important;
     }
@@ -1116,12 +1047,6 @@ section.todas-las-noticias {
         max-width: 54%;
         padding-bottom: 20px !important;
     }
-    div.top-box {
-        //margin-bottom: 0px !important;
-    }
-    section.container-somos {
-        padding-bottom: 200px;
-    }
     h2.subtitle-somos {
         margin-left: 25%;
         margin-right: 25%;
@@ -1130,17 +1055,8 @@ section.todas-las-noticias {
         margin-left: 25%;
         margin-right: 25%;
     }
-    section.la-diferencia {
-        padding-bottom: 90px;
-    }
     section.nuestros-productos {
         padding-top: 140px;
-    }
-    .slick-prev {
-        //left: -50px;
-    }
-    .slick-next {
-        //right: -50px;
     }
     section.noticias {
         padding-bottom: 125px;
@@ -1159,18 +1075,8 @@ section.todas-las-noticias {
         text-align: left;
         justify-content: left;
     }
-    div.big-scale {
-        //padding: 0px !important;
-    }
     div#justify-left {
         justify-content: left !important;
-    }
-
-    div#movil-style {
-        //justify-content: left !important;
-    }
-    div.contact-col {
-        //padding-left: 130px;
     }
 
     div.content-left {
