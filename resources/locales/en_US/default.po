@@ -95,11 +95,7 @@ msgstr "Who we are?"
 
 #: "Pages/home.php: 66
 msgid "Tenemos una amplia cobertura que protege carga en tránsito y almacenamiento. Además ofrecemos la capacidad de reaseguramiento para sabotaje, terrorismo y riesgos politicos"
-msgstr "We are a Managing General Agent (MGA) specialized in providing capacity for the Marine lines "
-
-#: "Pages/home.php: 67
-msgid ". Asegura tu negocio en las mejores manos"
-msgstr "(Cargo, STP, Project Cargo, Hull, P&I, Marine Liabilities) and Terrorism."
+msgstr "We are a Managing General Agent (MGA) specialized in providing capacity for the Marine lines (Cargo, STP, Project Cargo, Hull, P&I, Marine Liabilities) and Terrorism."
 
 #: "Pages/home.php: 75
 msgid "titulo temporal 1"
@@ -134,7 +130,7 @@ msgid "Profesionales 1"
 msgstr "experience"
 
 #: "Pages/home.php: 121
-msgid "Tenemos una amplia cobertura que proteje carga en tránsito 1"
+msgid "amplia cobertura 1"
 msgstr "We have been present on the market for over 23 years."
 
 #: "Pages/home.php: 133
@@ -142,7 +138,7 @@ msgid "Profesionales 2"
 msgstr "coverage"
 
 #: "Pages/home.php: 137
-msgid "Tenemos una amplia cobertura que proteje carga en tránsito 2"
+msgid "amplia cobertura 2"
 msgstr "We have presence in strategic countries along the region: Miami, CDMX, Bogotá."
 
 #: "Pages/home.php: 149
@@ -150,7 +146,7 @@ msgid "Profesionales 3"
 msgstr "our team"
 
 #: "Pages/home.php: 152
-msgid "Tenemos una amplia cobertura que proteje carga en tránsito 3"
+msgid "amplia cobertura 3"
 msgstr "All of our Underwriters are certified by Lloyds and ALSUM."
 
 #: "Pages/home.php: 164
@@ -162,7 +158,7 @@ msgid "Profesionales 4"
 msgstr "risk management"
 
 #: "Pages/home.php: 167
-msgid "Tenemos una amplia cobertura que proteje carga en tránsito 4"
+msgid "amplia cobertura 4"
 msgstr "Our Risk Management proposal is essential to our underwriting process."
 
 #: "Pages/home.php: 179
@@ -170,7 +166,7 @@ msgid "Profesionales 5"
 msgstr "data driven"
 
 #: "Pages/home.php: 182
-msgid "Tenemos una amplia cobertura que proteje carga en tránsito 5"
+msgid "amplia cobertura 5"
 msgstr "Data is the Key. We embrace new technology to disrupt our culture."
 
 #: "Pages/home.php: 194
@@ -178,7 +174,7 @@ msgid "Profesionales 6"
 msgstr "support"
 
 #: "Pages/home.php: 197
-msgid "Tenemos una amplia cobertura que proteje carga en tránsito 6"
+msgid "amplia cobertura 6"
 msgstr "Capacity Providers are the heart of our organization."
 
 
@@ -187,7 +183,7 @@ msgid "Profesionales 7"
 msgstr "claims advocacy"
 
 #: "Pages/home.php: 212
-msgid "Tenemos una amplia cobertura que proteje carga en tránsito 7"
+msgid "amplia cobertura 7"
 msgstr "We provide you with the benefit of our loss management experience."
 
 #: "Pages/home.php: 312
