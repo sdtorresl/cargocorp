@@ -1,38 +1,38 @@
 <section class="container-top-icons">
     <div class="container white-grid pl-3 pr-3" id="grid-about-us">
         <div class="row justify-content-center top-text d-flex align-content-center flex-wrap">
-            <div class="top-box col-10 col-sm-10 col-md-4 col-lg-4 col-xl-4 pl-0 pr-0 mb-5">
-                <div class="d-flex align-content-center pl-3">
-                    <figure class="align-content-center">
-                        <?= $this->Html->image('clock.png', ['alt' => 'clock-logo', 'class' => "image-c pr-3 pl-3"]); ?>
-                    </figure>
-                    <div>
-                        <p class="align-content-center">
-                            Más de 20 años de experiencia en seguros
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="top-box col-10 col-sm-10 col-md-4 col-lg-4 col-xl-4 pl-0 pr-0 mb-5">
+            <div class="top-box col-10 col-sm-10 col-md-4 col-lg-4 col-xl-4 px-2 pr-md-3 pl-md-4 my-4">
                 <div class="d-flex align-content-center">
                     <figure class="align-content-center">
-                        <?= $this->Html->image('world.png', ['alt' => 'world-logo', 'class' => "image-c pr-3 pl-3"]); ?>
+                        <?= $this->Html->image('clock.png', ['alt' => 'clock-logo', 'class' => "image-c pr-3"]); ?>
                     </figure>
                     <div>
                         <p class="align-content-center">
-                            Nos encontramos en más de 14 países
+                            <?= __('Más de 20 años de experiencia en seguros') ?>
                         </p>
                     </div>
                 </div>
             </div>
-            <div class="top-box col-10 col-sm-10 col-md-4 col-lg-4 col-xl-4 pl-0 pr-0 mb-5">
-                <div class="d-flex align-content-center pr-1">
+            <div class="top-box col-10 col-sm-10 col-md-4 col-lg-4 col-xl-4 px-2 px-md-3 my-4">
+                <div class="d-flex align-content-center">
                     <figure class="align-content-center">
-                        <?= $this->Html->image('badge.png', ['alt' => 'badge-logo', 'class' => "image-c pr-3 pl-3"]); ?>
+                        <?= $this->Html->image('world.png', ['alt' => 'world-logo', 'class' => "image-c pr-3"]); ?>
                     </figure>
                     <div>
                         <p class="align-content-center">
-                            Calificacion A-Fitch Rattings, A.M. Best, Standard & Poors, A-
+                            <?= __('Nos encontramos en más de 14 países') ?>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="top-box col-10 col-sm-10 col-md-4 col-lg-4 col-xl-4 px-2 pl-md-3 pr-md-4 my-4">
+                <div class="d-flex align-content-center">
+                    <figure class="align-content-center">
+                        <?= $this->Html->image('badge.png', ['alt' => 'badge-logo', 'class' => "image-c pr-3"]); ?>
+                    </figure>
+                    <div>
+                        <p class="align-content-center">
+                            <?= __('Calificacion A-Fitch Rattings, A.M. Best, Standard & Poors, A-') ?>
                         </p>
                     </div>
                 </div>
@@ -131,7 +131,7 @@
                 </div>
             </div>
         </div>
-        <div class="row">
+        <div class="row justify-content-center">
             <div class="col-10 col-sm-10 col-md-6 col-lg-6 col-xl-6">
                 <p class="contact-title">
                     Miami
@@ -159,17 +159,13 @@
                     </div>
                     <div class="mapouter">
                         <div class="gmap_canvas">
-                            <iframe width="471" height="276" id="gmap_canvas" src="https://maps.google.com/maps?q=701%20Brickell%20Avenue,&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
-                                <a href="https://getasearch.com/fmovies"></a>
-                                <br><style>.mapouter{position:relative;text-align:right;height:276px;width:471px;}</style>
-                                <a href="https://www.embedgooglemap.net">add google map</a>
-                                <style>.gmap_canvas {overflow:hidden;background:none!important;height:276px;width:471px;}</style>
+                            <iframe width="100%" height="276" id="gmap_canvas" src="https://maps.google.com/maps?q=701%20Brickell%20Avenue,&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                            <a href="https://getasearch.com/fmovies"></a>
+                            <br>
+                            <a href="https://www.embedgooglemap.net">add google map</a>
                         </div>
                     </div>
                 </div>
-                <figure>
-                    <?= $this->Html->image('temporary-map-one.png', ['alt' => 'temporary-map-one']); ?>
-                </figure>
             </div>
             <div class="col-10 col-sm-10 col-md-6 col-lg-6 col-xl-6">
                 <p class="contact-title">
@@ -198,18 +194,13 @@
                     </div>
                     <div class="mapouter">
                         <div class="gmap_canvas">
-                            <iframe width="471" height="276" id="gmap_canvas" src="https://maps.google.com/maps?q=Arist%C3%B3teles%20N%C2%B0%2077&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                            <iframe width="100%" height="276" id="gmap_canvas" src="https://maps.google.com/maps?q=Arist%C3%B3teles%20N%C2%B0%2077&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
                             <a href="https://getasearch.com/fmovies"></a>
-                            <br><style>.mapouter{position:relative;text-align:right;height:276px;width:471px;}</style>
+                            <br>
                             <a href="https://www.embedgooglemap.net">add google map</a>
-                            <style>.gmap_canvas {overflow:hidden;background:none!important;height:276px;width:471px;}</style>
                         </div>
                     </div>
                 </div>
-                <figure>
-                    <?= $this->Html->image('temporary-map-two.png', ['alt' => 'temporary-map-two']); ?>
-                    <img src="img/temporary-map-two.png" alt="">
-                </figure>
             </div>
         </div>
     </div>

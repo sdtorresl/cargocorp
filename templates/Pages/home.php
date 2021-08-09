@@ -1,11 +1,11 @@
 <section class="contacto-container">
     <div class="contacto">
-        <h1 class ="title" >
-            <?=__('La industria de seguros con')?>
+        <h1 class="title">
+            <?= __('La industria de seguros con') ?>
         </h1>
-        <h1 class ="title" >
-            <?=__('La industria de seguros con,')?>
-            <strong><?=__('todas las linas marine')?></strong>
+        <h1 class="title">
+            <?= __('La industria de seguros con,') ?>
+            <strong><?= __('todas las linas marine') ?></strong>
         </h1>
     </div>
     <div class="boton">
@@ -21,7 +21,7 @@
                     </figure>
                     <div>
                         <p class="align-content-center">
-                            <?=__('Más de 20 años de experiencia en seguros')?>
+                            <?= __('Más de 20 años de experiencia en seguros') ?>
                         </p>
                     </div>
                 </div>
@@ -29,11 +29,11 @@
             <div class="top-box col-10 col-sm-10 col-md-4 col-lg-4 col-xl-4 px-2 px-md-3 my-4">
                 <div class="d-flex align-content-center">
                     <figure class="align-content-center">
-                        <?= $this->Html->image('world.png', ['alt' => 'world-logo', 'class'=> "image-c pr-3"]); ?>
+                        <?= $this->Html->image('world.png', ['alt' => 'world-logo', 'class' => "image-c pr-3"]); ?>
                     </figure>
                     <div>
                         <p class="align-content-center">
-                            <?=__('Nos encontramos en más de 14 países')?>
+                            <?= __('Nos encontramos en más de 14 países') ?>
                         </p>
                     </div>
                 </div>
@@ -41,11 +41,11 @@
             <div class="top-box col-10 col-sm-10 col-md-4 col-lg-4 col-xl-4 px-2 pl-md-3 pr-md-4 my-4">
                 <div class="d-flex align-content-center">
                     <figure class="align-content-center">
-                        <?= $this->Html->image('badge.png', ['alt' => 'badge-logo', 'class'=> "image-c pr-3"]); ?>
+                        <?= $this->Html->image('badge.png', ['alt' => 'badge-logo', 'class' => "image-c pr-3"]); ?>
                     </figure>
                     <div>
                         <p class="align-content-center">
-                            <?= __('Calificacion A-Fitch Rattings, A.M. Best, Standard & Poors, A-')?>
+                            <?= __('Calificacion A-Fitch Rattings, A.M. Best, Standard & Poors, A-') ?>
                         </p>
                     </div>
                 </div>
@@ -58,41 +58,41 @@
     <div class="lo-que-somos ">
         <div class="d-flex justify-content-center">
             <h3 class="trititle d-flex">
-                <?=__('Lo que somos')?>
+                <?= __('Lo que somos') ?>
             </h3>
         </div>
         <h2 class="subtitle-somos"></h2>
         <p class="text-cobertura mb-5">
-            <?=__('Tenemos una amplia cobertura que proteje carga en tránsito y almacenamiento. ademas ofrecemos la capacidad de reaseguramiento')?>
-            <span><?=__('para sabotaje, terrorismo y riesgos politicos')?></span>
-            <?=__('. Asegura tu negocio en las mejores manos')?>
+            <?= __('Tenemos una amplia cobertura que proteje carga en tránsito y almacenamiento. ademas ofrecemos la capacidad de reaseguramiento') ?>
+            <span><?= __('para sabotaje, terrorismo y riesgos politicos') ?></span>
+            <?= __('. Asegura tu negocio en las mejores manos') ?>
         </p>
 
         <div class="d-flex justify-content-center">
             <h3 class="trititle d-flex mt-5">
-                <?=__('titulo temporal 1')?>
+                <?= __('titulo temporal 1') ?>
             </h3>
         </div>
         <p class="text-cobertura">
-            <?=__('texto temporal 1')?>
+            <?= __('texto temporal 1') ?>
         </p>
 
         <div class="d-flex justify-content-center">
             <h3 class="trititle d-flex mt-5">
-                <?=__('titulo temporal 2')?>
+                <?= __('titulo temporal 2') ?>
             </h3>
         </div>
         <p class="text-cobertura">
-            <?=__('texto temporal 2')?>
+            <?= __('texto temporal 2') ?>
         </p>
 
         <div class="d-flex justify-content-center">
             <h3 class="trititle d-flex mt-5">
-                <?=__('titulo temporal 3')?>
+                <?= __('titulo temporal 3') ?>
             </h3>
         </div>
         <p class="text-cobertura">
-            <?=__('texto temporal 3')?>
+            <?= __('texto temporal 3') ?>
         </p>
     </div>
 </section>
@@ -100,7 +100,7 @@
 <section class="la-diferencia">
     <div class="d-flex justify-content-center">
         <h3 class="trititle d-inline-flex">
-            <?=__('La diferencia')?>
+            <?= __('La diferencia') ?>
         </h3>
     </div>
     <div class="container p pl-5 pr-5">
@@ -112,10 +112,10 @@
                     </figure>
                     <div class="text-d">
                         <p class="title-p">
-                            <?=__('Profesionales 1')?>
+                            <?= __('Profesionales 1') ?>
                         </p>
                         <p class="text-p">
-                            <?=__('Tenemos una amplia cobertura que proteje carga en tránsito 1')?>
+                            <?= __('Tenemos una amplia cobertura que proteje carga en tránsito 1') ?>
                         </p>
                     </div>
                 </div>
@@ -127,10 +127,10 @@
                     </figure>
                     <div class="text-d">
                         <p class="title-p">
-                            <?=__('Profesionales 2')?>
+                            <?= __('Profesionales 2') ?>
                         </p>
                         <p class="text-p">
-                            <?=__('Tenemos una amplia cobertura que proteje carga en tránsito 2')?>
+                            <?= __('Tenemos una amplia cobertura que proteje carga en tránsito 2') ?>
                         </p>
                     </div>
                 </div>
@@ -142,10 +142,10 @@
                     </figure>
                     <div class="text-d">
                         <p class="title-p">
-                            <?=__('Profesionales 3')?>
+                            <?= __('Profesionales 3') ?>
                         </p>
                         <p class="text-p">
-                            <?=__('Tenemos una amplia cobertura que proteje carga en tránsito 3')?>
+                            <?= __('Tenemos una amplia cobertura que proteje carga en tránsito 3') ?>
                         </p>
                     </div>
                 </div>
@@ -157,10 +157,10 @@
                     </figure>
                     <div class="text-d">
                         <p class="title-p">
-                            <?=__('Profesionales 4')?>
+                            <?= __('Profesionales 4') ?>
                         </p>
                         <p class="text-p">
-                            <?=__('Tenemos una amplia cobertura que proteje carga en tránsito 4')?>
+                            <?= __('Tenemos una amplia cobertura que proteje carga en tránsito 4') ?>
                         </p>
                     </div>
                 </div>
@@ -172,10 +172,10 @@
                     </figure>
                     <div class="text-d">
                         <p class="title-p">
-                            <?=__('Profesionales 5')?>
+                            <?= __('Profesionales 5') ?>
                         </p>
                         <p class="text-p">
-                            <?=__('Tenemos una amplia cobertura que proteje carga en tránsito 5')?>
+                            <?= __('Tenemos una amplia cobertura que proteje carga en tránsito 5') ?>
                         </p>
                     </div>
                 </div>
@@ -187,10 +187,10 @@
                     </figure>
                     <div class="text-d">
                         <p class="title-p">
-                            <?=__('Profesionales 6')?>
+                            <?= __('Profesionales 6') ?>
                         </p>
                         <p class="text-p">
-                            <?=__('Tenemos una amplia cobertura que proteje carga en tránsito 6')?>
+                            <?= __('Tenemos una amplia cobertura que proteje carga en tránsito 6') ?>
                         </p>
                     </div>
                 </div>
@@ -202,10 +202,10 @@
                     </figure>
                     <div class="text-d">
                         <p class="title-p">
-                            <?=__('Profesionales 7')?>
+                            <?= __('Profesionales 7') ?>
                         </p>
                         <p class="text-p">
-                            <?=__('Tenemos una amplia cobertura que proteje carga en tránsito 7')?>
+                            <?= __('Tenemos una amplia cobertura que proteje carga en tránsito 7') ?>
                         </p>
                     </div>
                 </div>
@@ -225,7 +225,7 @@
             <div class="col-12 col-sm-12 col-md-12 col-lg-7 col-xl-7 left-aling">
                 <div class="d-flex justify-content-center">
                     <h3 class="trititle title-m">
-                        <?=__('Nuestros mercados')?>
+                        <?= __('Nuestros mercados') ?>
                     </h3>
                 </div>
             </div>
@@ -244,42 +244,42 @@
                         <div class="col-10 col-sm-10 col-md-4 col-lg-4 col-xl-4 ">
                             <div>
                                 <h2 class="region">
-                                    <?=__('América del sur')?>
+                                    <?= __('América del sur') ?>
                                 </h2>
                                 <ul class="country">
-                                    <li> <?=__('Argentina')?></li>
-                                    <li> <?=__('Bolivia')?></li>
-                                    <li> <?=__('Chile')?></li>
-                                    <li> <?=__('Colombia')?></li>
-                                    <li> <?=__('Ecuador')?></li>
-                                    <li> <?=__('Paraguay')?></li>
-                                    <li> <?=__('Uruguay')?></li>
-                                    <li> <?=__('Perú')?></li>
+                                    <li> <?= __('Argentina') ?></li>
+                                    <li> <?= __('Bolivia') ?></li>
+                                    <li> <?= __('Chile') ?></li>
+                                    <li> <?= __('Colombia') ?></li>
+                                    <li> <?= __('Ecuador') ?></li>
+                                    <li> <?= __('Paraguay') ?></li>
+                                    <li> <?= __('Uruguay') ?></li>
+                                    <li> <?= __('Perú') ?></li>
                                 </ul>
                             </div>
                         </div>
                         <div class="col-10 col-sm-10 col-md-4 col-lg-4 col-xl-4">
                             <div class="country">
                                 <h2 class="region">
-                                    <?=__('América central')?>
+                                    <?= __('América central') ?>
                                 </h2>
                                 <ul>
-                                    <li><?=__('Guatemala')?></li>
-                                    <li><?=__('Honduras')?></li>
-                                    <li><?=__('Panamá')?></li>
-                                    <li><?=__('El Salvador')?></li>
+                                    <li><?= __('Guatemala') ?></li>
+                                    <li><?= __('Honduras') ?></li>
+                                    <li><?= __('Panamá') ?></li>
+                                    <li><?= __('El Salvador') ?></li>
                                 </ul>
                             </div>
                         </div>
                         <div class="col-10 col-sm-10 col-md-4 col-lg-4 col-xl-4">
                             <div class="country">
                                 <h2 class="region">
-                                    <?=__('Caribe')?>
+                                    <?= __('Caribe') ?>
                                 </h2>
                                 <ul>
-                                    <li><?=__('Puerto Rico')?></li>
-                                    <li><?=__('República Dominicana')?></li>
-                                    <li class="mexico"><?=__('México')?></li>
+                                    <li><?= __('Puerto Rico') ?></li>
+                                    <li><?= __('República Dominicana') ?></li>
+                                    <li class="mexico"><?= __('México') ?></li>
                                 </ul>
                             </div>
                         </div>
