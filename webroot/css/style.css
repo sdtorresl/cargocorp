@@ -809,6 +809,18 @@ div.contact-information {
     font-size: 14px;
     line-height: 24px;
 }
+.mapouter {
+    position: relative;
+    text-align: right;
+    height: 276px;
+    width: 100%;
+}
+.gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    height: 276px;
+    width: 100%;
+}
 
 /*Estilos pagina News*/
 
