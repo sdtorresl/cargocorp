@@ -198,13 +198,13 @@ h3.trititle {
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    transform: translateY(-100px);
+    padding-bottom: 100px;
 }
 h3.trititle::after {
     content: "";
     position: absolute;
-    top: 26px;
-    bottom: 0px;
+    top: 0px;
+    bottom: 90px;
     left: 2px;
     right: 2px;
     border-bottom: 0.5px solid #000000;
