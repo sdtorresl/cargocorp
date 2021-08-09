@@ -45,24 +45,27 @@ $this->Breadcrumbs->setTemplates(
                     <p id="social-media" class="text-left">
                         <?= __('Compartir') ?>
                     </p>
-                    <div class="icons-container d-flex flex-row flex-md-column">
+                    <div class="icons-container">
+                        <?php $url =  $_SERVER['REQUEST_SCHEME'] . "://" .  $_SERVER[ 'HTTP_HOST' ] .  $_SERVER[ 'REQUEST_URI' ]; ?> 
+                        <?php $shareText = __("He visto este artículo y me ha parecido interesante");?>
+
                         <div id="facebook" class="social-media-icons">
-                            <a href="#">
+                            <a href="https://www.facebook.com/sharer/sharer.php?u=<?= $url ?>"  <?= $shareText?> target="_blank">
                                 <i class="fab fa-facebook"></i>
                             </a>
                         </div>
                         <div id="twitter" class="social-media-icons">
-                            <a href="https://twitter.com/intent/tweet?text=<?= "Check this article" ?>" target="_blank">
+                            <a href="https://twitter.com/intent/tweet?text=<?= $url ?> <?=$shareText?>" target="_blank">
                                 <i class="fab fa-twitter"></i>
                             </a>
                         </div>
                         <div id="email" class="social-media-icons">
-                            <a href="#">
+                            <a href="#" <?=$shareText?> target="_blank">
                                 <i class="fas fa-envelope"></i>
                             </a>
                         </div>
                         <div id="linkedin" class="social-media-icons">
-                            <a href="#">
+                            <a href="https://www.linkedin.com/shareArticle?mini=true&url=<?= $url ?>" <?= $shareText?> target="_blank" >
                                 <i class="fab fa-linkedin"></i>
                             </a>
                         </div>
