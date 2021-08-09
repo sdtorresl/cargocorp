@@ -21,6 +21,10 @@ $this->Breadcrumbs->setTemplates(
     ]
 );
 
+$this->start('title');
+echo I18n::getLocale() == 'en_US' ? $article->titulo_notificacion_EN : $article->titulo_notificacion_ES;
+$this->end('title');
+
 ?>
 
 <aside class="article-picture">
@@ -46,26 +50,26 @@ $this->Breadcrumbs->setTemplates(
                         <?= __('Compartir') ?>
                     </p>
                     <div class="icons-container">
-                        <?php $url =  $_SERVER['REQUEST_SCHEME'] . "://" .  $_SERVER[ 'HTTP_HOST' ] .  $_SERVER[ 'REQUEST_URI' ]; ?> 
-                        <?php $shareText = __("He visto este artículo y me ha parecido interesante");?>
+                        <?php $url =  $_SERVER['REQUEST_SCHEME'] . "://" .  $_SERVER['HTTP_HOST'] .  $_SERVER['REQUEST_URI']; ?>
+                        <?php $shareText = __("He visto este artículo y me ha parecido interesante"); ?>
 
                         <div id="facebook" class="social-media-icons">
-                            <a href="https://www.facebook.com/sharer/sharer.php?u=<?= $url ?>"  <?= $shareText?> target="_blank">
+                            <a href="https://www.facebook.com/sharer/sharer.php?u=<?= $url . '&t=' . $shareText ?>" target=" _blank">
                                 <i class="fab fa-facebook"></i>
                             </a>
                         </div>
                         <div id="twitter" class="social-media-icons">
-                            <a href="https://twitter.com/intent/tweet?text=<?= $url ?> <?=$shareText?>" target="_blank">
+                            <a href="https://twitter.com/intent/tweet?text=<?= $shareText . '&url=' . $url ?>" target=_blank">
                                 <i class="fab fa-twitter"></i>
                             </a>
                         </div>
                         <div id="email" class="social-media-icons">
-                            <a href="#" <?=$shareText?> target="_blank">
+                            <a href="#" <?= $shareText ?> target="_blank">
                                 <i class="fas fa-envelope"></i>
                             </a>
                         </div>
                         <div id="linkedin" class="social-media-icons">
-                            <a href="https://www.linkedin.com/shareArticle?mini=true&url=<?= $url ?>" <?= $shareText?> target="_blank" >
+                            <a href="https://www.linkedin.com/shareArticle?mini=true&url=<?= $url . '&text=' . $shareText ?>" target="_blank">
                                 <i class="fab fa-linkedin"></i>
                             </a>
                         </div>

@@ -94,40 +94,36 @@ msgid "Lo que somos"
 msgstr "Who we are?"
 
 #: "Pages/home.php: 66
-msgid "Tenemos una amplia cobertura que protege carga en tránsito y almacenamiento. Además ofrecemos la capacidad de reaseguramiento para sabotaje, terrorismo y riesgos politicos"
-msgstr "We are a Managing General Agent (MGA) specialized in providing capacity for the Marine lines "
-
-#: "Pages/home.php: 67
-msgid ". Asegura tu negocio en las mejores manos"
-msgstr "(Cargo, STP, Project Cargo, Hull, P&I, Marine Liabilities) and Terrorism."
+msgid "quienes-somos-1"
+msgstr "We are a Managing General Agent (MGA) specialized in providing capacity for the Marine lines (Cargo, STP, Project Cargo, Hull, P&I, Marine Liabilities) and Terrorism."
 
 #: "Pages/home.php: 75
-msgid "titulo temporal 1"
+msgid "Lo que nos importa"
 msgstr "What matters to us?"
 
 #: "Pages/home.php: 79
-msgid "texto temporal 1"
+msgid "quienes-somos-2"
 msgstr "What matters to you, matters to us. We strive to provide the highest quality and best possible experience and outcome for every one of our stakeholders."
 
 #: "Pages/home.php: 84
-msgid "titulo temporal 2"
+msgid "Lo que hacemos"
 msgstr "What we do?"
 
 #: "Pages/home.php: 88
-msgid "texto temporal 2"
+msgid "quienes-somos-3"
 msgstr "We offer reinsurance capacity in a different, diversified, sophisticated and professional manner with the support of specialized advice in risk management and loss control."
 
 #: "Pages/home.php: 93
-msgid "titulo temporal 3"
+msgid "Como lo hacemos"
 msgstr "How we do it?"
 
 #: "Pages/home.php: 97
-msgid "texto temporal 3"
+msgid "quienes-somos-4"
 msgstr "We have more than 20 years of experience and knowledge of the Latin American market, supported by specialized underwriters and great human talent supported by a unique technological platform to provide our brokers and clients with a value proposition tailored to their risks."
 
 #: "Pages/home.php: 105
 msgid "La diferencia"
-msgstr "HOW ARE WE DIFFERENT:"
+msgstr "How we are different"
 
 #: "Pages/home.php: 117
 msgid "Profesionales 1"
@@ -167,7 +163,7 @@ msgstr "Our Risk Management proposal is essential to our underwriting process."
 
 #: "Pages/home.php: 179
 msgid "Profesionales 5"
-msgstr "data driven"
+msgstr "Data driven"
 
 #: "Pages/home.php: 182
 msgid "Tenemos una amplia cobertura que proteje carga en tránsito 5"
@@ -175,12 +171,11 @@ msgstr "Data is the Key. We embrace new technology to disrupt our culture."
 
 #: "Pages/home.php: 194
 msgid "Profesionales 6"
-msgstr "support"
+msgstr "Support"
 
 #: "Pages/home.php: 197
 msgid "Tenemos una amplia cobertura que proteje carga en tránsito 6"
 msgstr "Capacity Providers are the heart of our organization."
-
 
 #: "Pages/home.php: 209
 msgid "Profesionales 7"
@@ -196,7 +191,7 @@ msgstr "We can do Risks located in?"
 
 #: "Pages/home.php: 331
 msgid "América del sur"
-msgstr "south america"
+msgstr "South America"
 
 
 #: "Pages/home.php: 334
@@ -273,7 +268,7 @@ msgstr "News of interest"
 
 #: "LatestNews/display.php: 44
 msgid "Ver todas las noticias"
-msgstr "See all the news"
+msgstr "See all news"
 
 #: "Pages/about.php: 46
 msgid "Sobre nosotros"
