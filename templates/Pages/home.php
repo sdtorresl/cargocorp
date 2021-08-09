@@ -119,7 +119,7 @@ $this->end('title');
                             <?= __('Profesionales 2') ?>
                         </p>
                         <p class="text-p">
-                            <?= __('amplia cobertura  2') ?>
+                            <?= __('amplia cobertura 2') ?>
                         </p>
                     </div>
                 </div>
