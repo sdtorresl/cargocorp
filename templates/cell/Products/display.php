@@ -5,7 +5,7 @@ use Cake\I18n\I18n;
 $langEn = I18n::getLocale() == 'en_US';
 ?>
 <section class="nuestros-productos">
-    <div class="title-box d-flex justify-content-center">
+    <div class="title-box d-flex justify-content-center js-scroll fade-in">
         <h3 class="title-n d-flex px-3">
             <?= __('Nuestros productos') ?>
         </h3>
@@ -14,13 +14,13 @@ $langEn = I18n::getLocale() == 'en_US';
         <div class="products-slider">
             <?php foreach ($products as $product) : ?>
                 <?php $title = $langEn ? $product->titulo_EN : $product->titulo_ES; ?>
-                <div class="d-inline-flex justify-content-center ">
+                <div class="d-inline-flex justify-content-center js-scroll fade-in-botton">
                     <div class="white-background pb-4">
                         <figure>
                             <?= $this->Html->image($product->imagen, ['alt' => $title, 'class' => 'image-slide']); ?>
                         </figure>
                         <div class="pl-4 pr-4">
-                            <p class="title-slide">
+                            <p class="title-slide text-uppercase">
                                 <?= $title ?>
                             </p>
                             <p class="text-slide">

@@ -101,7 +101,7 @@ $this->end('title');
                     </figure>
                     <div class="text-d">
                         <p class="title-p">
-                            <?= __('Profesionales 1') ?>
+                            <?= __('Experiencia') ?>
                         </p>
                         <p class="text-p">
                             <?= __('Tenemos una amplia cobertura que protege carga en tránsito 1') ?>
