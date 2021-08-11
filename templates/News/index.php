@@ -2,6 +2,10 @@
 
 use \Cake\I18n\I18n;
 
+$this->start('title');
+echo __('Noticias');
+$this->end('title');
+
 $featuredNews = array_slice($news->toArray(), 0, 3);
 $totalNews = array_slice($news->toArray(), 3, count($news->toArray()));
 ?>

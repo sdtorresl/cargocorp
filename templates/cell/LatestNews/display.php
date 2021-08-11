@@ -4,8 +4,8 @@ use Cake\I18n\I18n;
 ?>
 
 <section class="noticias">
-    <div class="d-flex justify-content-center ">
-        <h3 class="trititle d-inline-flex">
+    <div class="d-flex justify-content-center pb-5">
+        <h3 class="uppercase-title d-inline-flex">
             <?= __('Noticias de interés') ?>
         </h3>
     </div>
@@ -42,6 +42,10 @@ use Cake\I18n\I18n;
         <?php endforeach; ?>
     </div>
     <div class="buttom-noticias">
-        <a href="#" class="bottom-button"><?= __('Ver todas las noticias') ?></a>
+        <?= $this->Html->link(
+            __('Ver todas las noticias'),
+            ['controller' => 'News', 'action' => 'index'],
+            ['class' => 'bottom-button']
+        ); ?>
     </div>
 </section>

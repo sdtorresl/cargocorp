@@ -73,6 +73,10 @@ msgstr "La industria de seguros con todas las linas marine"
 msgid "todas las linas marine"
 msgstr "todas las linas marine"
 
+#: "Pages/home.php: 12
+msgid "Contáctanos"
+msgstr "Contáctanos"
+
 #: "Pages/home.php: 24
 msgid "Más de 20 años de experiencia en seguros"
 msgstr "Más de 20 años de experiencia en seguros"
@@ -89,41 +93,33 @@ msgstr "Calificacion A-Fitch Rattings, A.M. Best, Standard & Poors, A-"
 msgid "Lo que somos"
 msgstr "Lo que somos"
 
-#: "Pages/home.php: 68
-msgid " Tenemos una amplia cobertura que proteje carga en tránsito y almacenamiento. ademas ofrecemos la capacidad de reaseguramiento"
-msgstr " Tenemos una amplia cobertura que proteje carga en tránsito y almacenamiento. ademas ofrecemos la capacidad de reaseguramiento"
-
-#: "Pages/home.php: 69
-msgid "para sabotaje, terrorismo y riesgos politicos"
-msgstr "para sabotaje, terrorismo y riesgos politicos"
-
-#: "Pages/home.php: 70
-msgid ". Asegura tu negocio en las mejores manos"
-msgstr ". Asegura tu negocio en las mejores manos"
+#: "Pages/home.php: 66
+msgid msgid "quienes-somos-1"
+msgstr "Tenemos una amplia cobertura que protege carga en tránsito y almacenamiento. Además ofrecemos la capacidad de reaseguramiento para sabotaje, terrorismo y riesgos politicos Asegura tu negocio en las mejores manos"
 
 #: "Pages/home.php: 75
-msgid "titulo temporal 1"
-msgstr "titulo temporal 1"
+msgid "Lo que nos importa"
+msgstr "Lo que nos importa"
 
 #: "Pages/home.php: 79
-msgid "texto temporal 1"
-msgstr "texto temporal 1"
+msgid "quienes-somos-2"
+msgstr "What matters to you, matters to us. We strive to provide the highest quality and best possible experience and outcome for every one of our stakeholders."
 
 #: "Pages/home.php: 84
-msgid "titulo temporal 2"
-msgstr "titulo temporal 2"
+msgid "Lo que hacemos"
+msgstr "Lo que hacemos"
 
 #: "Pages/home.php: 88
-msgid "texto temporal 2"
-msgstr "texto temporal 2"
+msgid "quienes-somos-3"
+msgstr "We offer reinsurance capacity in a different, diversified, sophisticated and professional manner with the support of specialized advice in risk management and loss control."
 
 #: "Pages/home.php: 93
-msgid "titulo temporal 3"
-msgstr "titulo temporal 3"
+msgid "Como lo hacemos"
+msgstr "Como lo hacemos"
 
 #: "Pages/home.php: 97
-msgid "texto temporal 3"
-msgstr "texto temporal 3"
+msgid "quienes-somos-4"
+msgstr "We have more than 20 years of experience and knowledge of the Latin American market, supported by specialized underwriters and great human talent supported by a unique technological platform to provide our brokers and clients with a value proposition tailored to their risks."
 
 #: "Pages/home.php: 105
 msgid "La diferencia"
@@ -134,7 +130,7 @@ msgid "Profesionales 1"
 msgstr "Profesionales 1"
 
 #: "Pages/home.php: 121
-msgid "Tenemos una amplia cobertura que proteje carga en tránsito 1"
+msgid "amplia cobertura 1"
 msgstr "Tenemos una amplia cobertura que proteje carga en tránsito 1"
 
 #: "Pages/home.php: 133
@@ -142,7 +138,7 @@ msgid "Profesionales 2"
 msgstr "Profesionales 2"
 
 #: "Pages/home.php: 137
-msgid "Tenemos una amplia cobertura que proteje carga en tránsito 2"
+msgid "amplia cobertura 2"
 msgstr "Tenemos una amplia cobertura que proteje carga en tránsito 2"
 
 #: "Pages/home.php: 149
@@ -150,7 +146,7 @@ msgid "Profesionales 3"
 msgstr "Profesionales 3"
 
 #: "Pages/home.php: 152
-msgid "Tenemos una amplia cobertura que proteje carga en tránsito 3"
+msgid "amplia cobertura 3"
 msgstr "Tenemos una amplia cobertura que proteje carga en tránsito 3"
 
 #: "Pages/home.php: 164
@@ -158,7 +154,7 @@ msgid "Profesionales 4"
 msgstr "Profesionales 4"
 
 #: "Pages/home.php: 167
-msgid "Tenemos una amplia cobertura que proteje carga en tránsito 4"
+msgid "amplia cobertura 4"
 msgstr "Tenemos una amplia cobertura que proteje carga en tránsito 4"
 
 #: "Pages/home.php: 179
@@ -166,7 +162,7 @@ msgid "Profesionales 5"
 msgstr "Profesionales 5"
 
 #: "Pages/home.php: 182
-msgid "Tenemos una amplia cobertura que proteje carga en tránsito 5"
+msgid "amplia cobertura 5"
 msgstr "Tenemos una amplia cobertura que proteje carga en tránsito 5"
 
 #: "Pages/home.php: 194
@@ -174,7 +170,7 @@ msgid "Profesionales 6"
 msgstr "Profesionales 6"
 
 #: "Pages/home.php: 197
-msgid "Tenemos una amplia cobertura que proteje carga en tránsito 6"
+msgid "amplia cobertura 6"
 msgstr "Tenemos una amplia cobertura que proteje carga en tránsito 6"
 
 #: "Pages/home.php: 209
@@ -182,7 +178,7 @@ msgid "Profesionales 7"
 msgstr "Profesionales 7"
 
 #: "Pages/home.php: 212
-msgid "Tenemos una amplia cobertura que proteje carga en tránsito 7"
+msgid "amplia cobertura 7"
 msgstr "Tenemos una amplia cobertura que proteje carga en tránsito 7"
 
 #: "Pages/home.php: 312
@@ -268,3 +264,33 @@ msgstr "Noticias de interés"
 #: "LatestNews/display.php: 44
 msgid "Ver todas las noticias"
 msgstr "Ver todas las noticias"
+
+#: "Pages/about.php: 46
+msgid "Sobre nosotros"
+msgstr "Sobre nosotros"
+
+#: "Pages/about.php: 50
+msgid "Somos un Managing General Agent (MGA) especializado"
+msgstr "Somos un Managing General Agent (MGA) especializado"
+
+#: "Pages/about.php: 53
+msgid "Somos un Managing General Agent (MGA) especializado en proveer capacidad para las líneas de Marine (Cargo, STP, Project Cargo, Casco, P&I, RC Marítimas) y Terrorismo.
+            Managing General Agent (License # W279031 FLORIDA Department of Financial Services)"
+msgstr "Somos un Managing General Agent (MGA) especializado en proveer capacidad para las líneas de Marine (Cargo, STP, Project Cargo, Casco, P&I, RC Marítimas) y Terrorismo.
+            Managing General Agent (License # W279031 FLORIDA Department of Financial Services)"
+
+#: "Pages/about.php: 64
+msgid "Nuestro equipo"
+msgstr "Nuestro equipo"
+
+#: "Pages/about.php: 97
+msgid "Enviar correo"
+msgstr "Enviar correo"
+
+#: "Pages/about.php: 144
+msgid "Teléfono"
+msgstr "Teléfono"
+
+#: "Pages/about.php: 129
+msgid "contáctenos"
+msgstr "contáctenos"

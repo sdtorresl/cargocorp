@@ -4,8 +4,8 @@ use Cake\I18n\I18n;
 ?>
 <?php if ($mostRead != null) : ?>
 
-    <div class="d-flex justify-content-center" id="justify-left">
-        <h3 class="trititle d-inline-flex justify-content-center" id="aside-title">
+    <div class="d-flex justify-content-center pb-5 pt-5" id="justify-left">
+        <h3 class="uppercase-title d-inline-flex justify-content-center" id="aside-title">
             <?= __('Lo más leído') ?>
         </h3>
     </div>

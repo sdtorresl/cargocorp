@@ -67,11 +67,15 @@ msgstr "EXPERIENCED | DATA DRIVEN | CAPABLE"
 
 #: "Pages/home.php: 7
 msgid "La industria de seguros con,"
-msgstr "THAT´S HOW WE PROVIDE OUTSTANDING RESULTS"
+msgstr "THAT´S HOW WE PROVIDE"
 
 #: "Pages/home.php: 8
 msgid "todas las linas marine"
 msgstr "OUTSTANDING RESULTS"
+
+#: "Pages/home.php: 12
+msgid "Contáctanos"
+msgstr "Contact us"
 
 #: "Pages/home.php: 24
 msgid "Más de 20 años de experiencia en seguros"
@@ -89,52 +93,44 @@ msgstr "First MGA assessed by AM Best as Exceptional."
 msgid "Lo que somos"
 msgstr "Who we are?"
 
-#: "Pages/home.php: 68
-msgid " Tenemos una amplia cobertura que proteje carga en tránsito y almacenamiento. ademas ofrecemos la capacidad de reaseguramiento"
-msgstr "We are a Managing General Agent (MGA)"
-
-#: "Pages/home.php: 69
-msgid "para sabotaje, terrorismo y riesgos politicos"
-msgstr "specialized in providing capacity for the Marine lines "
-
-#: "Pages/home.php: 70
-msgid ". Asegura tu negocio en las mejores manos"
-msgstr "(Cargo, STP, Project Cargo, Hull, P&I, Marine Liabilities) and Terrorism."
+#: "Pages/home.php: 66
+msgid "quienes-somos-1"
+msgstr "We are a Managing General Agent (MGA) specialized in providing capacity for the Marine lines (Cargo, STP, Project Cargo, Hull, P&I, Marine Liabilities) and Terrorism."
 
 #: "Pages/home.php: 75
-msgid "titulo temporal 1"
+msgid "Lo que nos importa"
 msgstr "What matters to us?"
 
 #: "Pages/home.php: 79
-msgid "texto temporal 1"
+msgid "quienes-somos-2"
 msgstr "What matters to you, matters to us. We strive to provide the highest quality and best possible experience and outcome for every one of our stakeholders."
 
 #: "Pages/home.php: 84
-msgid "titulo temporal 2"
+msgid "Lo que hacemos"
 msgstr "What we do?"
 
 #: "Pages/home.php: 88
-msgid "texto temporal 2"
+msgid "quienes-somos-3"
 msgstr "We offer reinsurance capacity in a different, diversified, sophisticated and professional manner with the support of specialized advice in risk management and loss control."
 
 #: "Pages/home.php: 93
-msgid "titulo temporal 3"
+msgid "Como lo hacemos"
 msgstr "How we do it?"
 
 #: "Pages/home.php: 97
-msgid "texto temporal 3"
+msgid "quienes-somos-4"
 msgstr "We have more than 20 years of experience and knowledge of the Latin American market, supported by specialized underwriters and great human talent supported by a unique technological platform to provide our brokers and clients with a value proposition tailored to their risks."
 
 #: "Pages/home.php: 105
 msgid "La diferencia"
-msgstr "HOW ARE WE DIFFERENT:"
+msgstr "How we are different"
 
 #: "Pages/home.php: 117
 msgid "Profesionales 1"
 msgstr "experience"
 
 #: "Pages/home.php: 121
-msgid "Tenemos una amplia cobertura que proteje carga en tránsito 1"
+msgid "amplia cobertura 1"
 msgstr "We have been present on the market for over 23 years."
 
 #: "Pages/home.php: 133
@@ -142,7 +138,7 @@ msgid "Profesionales 2"
 msgstr "coverage"
 
 #: "Pages/home.php: 137
-msgid "Tenemos una amplia cobertura que proteje carga en tránsito 2"
+msgid "amplia cobertura 2"
 msgstr "We have presence in strategic countries along the region: Miami, CDMX, Bogotá."
 
 #: "Pages/home.php: 149
@@ -150,7 +146,7 @@ msgid "Profesionales 3"
 msgstr "our team"
 
 #: "Pages/home.php: 152
-msgid "Tenemos una amplia cobertura que proteje carga en tránsito 3"
+msgid "amplia cobertura 3"
 msgstr "All of our Underwriters are certified by Lloyds and ALSUM."
 
 #: "Pages/home.php: 164
@@ -162,32 +158,31 @@ msgid "Profesionales 4"
 msgstr "risk management"
 
 #: "Pages/home.php: 167
-msgid "Tenemos una amplia cobertura que proteje carga en tránsito 4"
+msgid "amplia cobertura 4"
 msgstr "Our Risk Management proposal is essential to our underwriting process."
 
 #: "Pages/home.php: 179
 msgid "Profesionales 5"
-msgstr "data driven"
+msgstr "Data driven"
 
 #: "Pages/home.php: 182
-msgid "Tenemos una amplia cobertura que proteje carga en tránsito 5"
+msgid "amplia cobertura 5"
 msgstr "Data is the Key. We embrace new technology to disrupt our culture."
 
 #: "Pages/home.php: 194
 msgid "Profesionales 6"
-msgstr "support"
+msgstr "Support"
 
 #: "Pages/home.php: 197
-msgid "Tenemos una amplia cobertura que proteje carga en tránsito 6"
+msgid "amplia cobertura 6"
 msgstr "Capacity Providers are the heart of our organization."
-
 
 #: "Pages/home.php: 209
 msgid "Profesionales 7"
 msgstr "claims advocacy"
 
 #: "Pages/home.php: 212
-msgid "Tenemos una amplia cobertura que proteje carga en tránsito 7"
+msgid "amplia cobertura 7"
 msgstr "We provide you with the benefit of our loss management experience."
 
 #: "Pages/home.php: 312
@@ -196,7 +191,7 @@ msgstr "We can do Risks located in?"
 
 #: "Pages/home.php: 331
 msgid "América del sur"
-msgstr "south america"
+msgstr "South America"
 
 
 #: "Pages/home.php: 334
@@ -233,7 +228,7 @@ msgstr "Peru"
 
 #: "Pages/home.php: 348
 msgid "América central"
-msgstr "central américa"
+msgstr "central america"
 
 #: "Pages/home.php: 351
 msgid "Guatemala"
@@ -245,7 +240,7 @@ msgstr "Honduras"
 
 #: "Pages/home.php: 353
 msgid "Panamá"
-msgstr "Panamá"
+msgstr "Panama"
 
 #: "Pages/home.php: 354
 msgid "El Salvador"
@@ -269,8 +264,38 @@ msgstr "Mexico"
 
 #: "LatestNews/display.php: 8
 msgid "Noticias de interés"
-msgstr "Noticias de interés"
+msgstr "News of interest"
 
 #: "LatestNews/display.php: 44
 msgid "Ver todas las noticias"
-msgstr "Ver todas las noticias"
+msgstr "See all news"
+
+#: "Pages/about.php: 46
+msgid "Sobre nosotros"
+msgstr "About us"
+
+#: "Pages/about.php: 64
+msgid "Nuestro equipo"
+msgstr "Our team"
+
+#: "Pages/about.php: 50
+msgid "Somos un Managing General Agent (MGA) especializado"
+msgstr "Somos un Managing General Agent (MGA) especializado"
+
+#: "Pages/about.php: 53
+msgid "Somos un Managing General Agent (MGA) especializado en proveer capacidad para las líneas de Marine (Cargo, STP, Project Cargo, Casco, P&I, RC Marítimas) y Terrorismo.
+            Managing General Agent (License # W279031 FLORIDA Department of Financial Services)"
+msgstr "Somos un Managing General Agent (MGA) especializado en proveer capacidad para las líneas de Marine (Cargo, STP, Project Cargo, Casco, P&I, RC Marítimas) y Terrorismo.
+            Managing General Agent (License # W279031 FLORIDA Department of Financial Services)"
+
+#: "Pages/about.php: 97
+msgid "Enviar correo"
+msgstr "Send e-mail"
+
+#: "Pages/about.php: 144
+msgid "Teléfono"
+msgstr "Phone"
+
+#: "Pages/about.php: 129
+msgid "contáctenos"
+msgstr "contact us"
