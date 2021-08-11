@@ -126,8 +126,8 @@ msgid "La diferencia"
 msgstr "La diferencia"
 
 #: "Pages/home.php: 117
-msgid "Profesionales 1"
-msgstr "Profesionales 1"
+msgid "Experiencia"
+msgstr "Experiencia"
 
 #: "Pages/home.php: 121
 msgid "amplia cobertura 1"

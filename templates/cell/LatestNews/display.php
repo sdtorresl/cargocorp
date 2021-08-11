@@ -5,13 +5,13 @@ use Cake\I18n\I18n;
 
 <section class="noticias">
     <div class="d-flex justify-content-center pb-5">
-        <h3 class="uppercase-title d-inline-flex">
+        <h3 class="uppercase-title d-inline-flex js-scroll fade-in-botton">
             <?= __('Noticias de interés') ?>
         </h3>
     </div>
     <div id="featured" class="container block-g">
         <?php foreach ($news as $value) : ?>
-            <div class="featured-news my-md-0 my-3">
+            <div class="featured-news my-md-0 my-3 js-scroll fade-in-botton">
                 <div class="picture-container">
 
                     <?php $title = I18n::getLocale() == 'en_US' ? $value->titulo_EN : $value->titulo_ES; ?>

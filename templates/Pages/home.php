@@ -21,7 +21,7 @@ $this->end('title');
         ) ?>
     </div>
 
-    <div class="container white-grid pl-3 pr-3">
+    <div id="summary" class="container white-grid pl-3 pr-3">
         <div class="row justify-content-center top-text d-flex align-content-center flex-wrap">
             <div class="top-box col-10 col-sm-10 col-md-4 col-lg-4 col-xl-4 px-2 pr-md-3 pl-md-4 my-4">
                 <div class="d-flex align-content-center">
@@ -65,21 +65,21 @@ $this->end('title');
 
 <section id="who-we-are">
     <div class="container justify-content-center">
-        <div class="col intro-container">
+        <div class="col intro-container js-scroll fade-in-bottom">
             <h3 class="uppercase-title"><?= __('Lo que somos') ?></h3>
             <p class="intro-description">
                 <?= __('quienes-somos-1') ?>
             </p>
         </div>
-        <div class="col intro-container">
+        <div class="col intro-container js-scroll fade-in-bottom">
             <h3 class="uppercase-title"><?= __('Lo que nos importa') ?></h3>
             <p class="intro-description"><?= __('quienes-somos-2') ?></p>
         </div>
-        <div class="col intro-container">
+        <div class="col intro-container js-scroll fade-in-bottom">
             <h3 class="uppercase-title"><?= __('Lo que hacemos') ?></h3>
             <p class="intro-description"><?= __('quienes-somos-3') ?></p>
         </div>
-        <div class="col intro-container">
+        <div class="col intro-container js-scroll fade-in-bottom">
             <h3 class="uppercase-title"><?= __('Como lo hacemos') ?></h3>
             <p class="intro-description"><?= __('quienes-somos-4') ?></p>
         </div>
@@ -87,7 +87,7 @@ $this->end('title');
 </section>
 
 <section class="la-diferencia">
-    <div class="d-flex justify-content-center pb-5 mb-5">
+    <div class="d-flex justify-content-center mb-5">
         <h3 class="uppercase-title d-inline-flex">
             <?= __('La diferencia') ?>
         </h3>
@@ -95,13 +95,13 @@ $this->end('title');
     <div class="container p pl-5 pr-5">
         <div class="row justify-content-center grid-diferencia">
             <div class="col-12 col-sm-10 col-md-6 col-lg-4 col-xl-4 mb-5">
-                <div class="d-flex">
+                <div class="d-flex js-scroll slide-left">
                     <figure class="differences-logo">
                         <?= $this->Html->image('engineer.png', ['alt' => 'engineer-logo']); ?>
                     </figure>
                     <div class="text-d">
                         <p class="title-p">
-                            <?= __('Profesionales 1') ?>
+                            <?= __('Experiencia') ?>
                         </p>
                         <p class="text-p">
                             <?= __('amplia cobertura 1') ?>
@@ -110,7 +110,7 @@ $this->end('title');
                 </div>
             </div>
             <div class="col-12 col-sm-10 col-md-6 col-lg-4 col-xl-4 mb-5">
-                <div class="d-flex">
+                <div class="d-flex js-scroll slide-left">
                     <figure class="differences-logo">
                         <?= $this->Html->image('clipboard.png', ['alt' => 'clipboard-logo']); ?>
                     </figure>
@@ -125,7 +125,7 @@ $this->end('title');
                 </div>
             </div>
             <div class="col-12 col-sm-10 col-md-6 col-lg-4 col-xl-4 mb-5">
-                <div class="d-flex">
+                <div class="d-flex js-scroll slide-left">
                     <figure class="differences-logo">
                         <?= $this->Html->image('boxes.png', ['alt' => 'boxes-logo']); ?>
                     </figure>
@@ -140,7 +140,7 @@ $this->end('title');
                 </div>
             </div>
             <div class="col-12 col-sm-10 col-md-6 col-lg-4 col-xl-4 mb-5">
-                <div class="d-flex">
+                <div class="d-flex js-scroll slide-left">
                     <figure class="differences-logo">
                         <?= $this->Html->image('truck.png', ['alt' => 'truck-logo']); ?>
                     </figure>
@@ -155,7 +155,7 @@ $this->end('title');
                 </div>
             </div>
             <div class="col-12 col-sm-10 col-md-6 col-lg-4 col-xl-4 mb-5">
-                <div class="d-flex">
+                <div class="d-flex js-scroll slide-left">
                     <figure class="differences-logo">
                         <?= $this->Html->image('ship-icon.png', ['alt' => 'ship-icon-logo']); ?>
                     </figure>
@@ -170,7 +170,7 @@ $this->end('title');
                 </div>
             </div>
             <div class="col-12 col-sm-10 col-md-6 col-lg-4 col-xl-4 mb-5">
-                <div class="d-flex">
+                <div class="d-flex js-scroll slide-left">
                     <figure class="differences-logo">
                         <?= $this->Html->image('shield.png', ['alt' => 'shield-logo']); ?>
                     </figure>
@@ -185,7 +185,7 @@ $this->end('title');
                 </div>
             </div>
             <div class="col-12 col-sm-10 col-md-6 col-lg-4 col-xl-4 mb-5">
-                <div class="d-flex">
+                <div class="d-flex js-scroll slide-left">
                     <figure>
                         <?= $this->Html->image('truck.png', ['alt' => 'truck-logo']); ?>
                     </figure>
@@ -212,7 +212,7 @@ $this->end('title');
             <div class="col-12 col-sm-12 col-md-1 col-lg-5 col-xl-5">
             </div>
             <div class="col-12 col-sm-12 col-md-12 col-lg-7 col-xl-7 left-aling">
-                <div class="d-flex justify-content-center pb-5">
+                <div class="d-flex justify-content-center pb-5 js-scroll fade-in">
                     <h3 class="uppercase-title title-m">
                         <?= __('Nuestros mercados') ?>
                     </h3>
@@ -231,7 +231,7 @@ $this->end('title');
                 <div class="col-12 col-sm-12 col-md-12 col-lg-7 col-xl-7">
                     <div class="row pt-5 pt-lg-0 px-4 big-scale">
                         <div class="col-10 col-sm-10 col-md-4 col-lg-4 col-xl-4 ">
-                            <div>
+                            <div class="js-scroll fade-in">
                                 <h2 class="region">
                                     <?= __('América del sur') ?>
                                 </h2>
@@ -248,11 +248,11 @@ $this->end('title');
                             </div>
                         </div>
                         <div class="col-10 col-sm-10 col-md-4 col-lg-4 col-xl-4">
-                            <div class="country">
+                            <div class="js-scroll fade-in">
                                 <h2 class="region">
                                     <?= __('América central') ?>
                                 </h2>
-                                <ul>
+                                <ul class="country">
                                     <li><?= __('Guatemala') ?></li>
                                     <li><?= __('Honduras') ?></li>
                                     <li><?= __('Panamá') ?></li>
@@ -261,11 +261,11 @@ $this->end('title');
                             </div>
                         </div>
                         <div class="col-10 col-sm-10 col-md-4 col-lg-4 col-xl-4">
-                            <div class="country">
+                            <div class="js-scroll fade-in">
                                 <h2 class="region">
                                     <?= __('Caribe') ?>
                                 </h2>
-                                <ul>
+                                <ul class="country">
                                     <li><?= __('Puerto Rico') ?></li>
                                     <li><?= __('República Dominicana') ?></li>
                                     <li class="mexico"><?= __('México') ?></li>
