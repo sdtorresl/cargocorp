@@ -104,7 +104,7 @@ $this->end('title');
                             <?= __('Experiencia') ?>
                         </p>
                         <p class="text-p">
-                            <?= __('Tenemos una amplia cobertura que protege carga en tránsito 1') ?>
+                            <?= __('amplia cobertura 1') ?>
                         </p>
                     </div>
                 </div>
@@ -119,7 +119,7 @@ $this->end('title');
                             <?= __('Profesionales 2') ?>
                         </p>
                         <p class="text-p">
-                            <?= __('Tenemos una amplia cobertura que protege carga en tránsito 2') ?>
+                            <?= __('amplia cobertura 2') ?>
                         </p>
                     </div>
                 </div>
@@ -134,7 +134,7 @@ $this->end('title');
                             <?= __('Profesionales 3') ?>
                         </p>
                         <p class="text-p">
-                            <?= __('Tenemos una amplia cobertura que protege carga en tránsito 3') ?>
+                            <?= __('amplia cobertura 3') ?>
                         </p>
                     </div>
                 </div>
@@ -149,7 +149,7 @@ $this->end('title');
                             <?= __('Profesionales 4') ?>
                         </p>
                         <p class="text-p">
-                            <?= __('Tenemos una amplia cobertura que protege carga en tránsito 4') ?>
+                            <?= __('amplia cobertura 4') ?>
                         </p>
                     </div>
                 </div>
@@ -164,7 +164,7 @@ $this->end('title');
                             <?= __('Profesionales 5') ?>
                         </p>
                         <p class="text-p">
-                            <?= __('Tenemos una amplia cobertura que protege carga en tránsito 5') ?>
+                            <?= __('amplia cobertura 5') ?>
                         </p>
                     </div>
                 </div>
@@ -179,7 +179,7 @@ $this->end('title');
                             <?= __('Profesionales 6') ?>
                         </p>
                         <p class="text-p">
-                            <?= __('Tenemos una amplia cobertura que protege carga en tránsito 6') ?>
+                            <?= __('amplia cobertura 6') ?>
                         </p>
                     </div>
                 </div>
@@ -194,7 +194,7 @@ $this->end('title');
                             <?= __('Profesionales 7') ?>
                         </p>
                         <p class="text-p">
-                            <?= __('Tenemos una amplia cobertura que protege carga en tránsito 7') ?>
+                            <?= __('amplia cobertura 7') ?>
                         </p>
                     </div>
                 </div>

@@ -94,8 +94,8 @@ msgid "Lo que somos"
 msgstr "Lo que somos"
 
 #: "Pages/home.php: 66
-msgid "quienes-somos-1"
-msgstr "We are a Managing General Agent (MGA) specialized in providing capacity for the Marine lines (Cargo, STP, Project Cargo, Hull, P&I, Marine Liabilities) and Terrorism."
+msgid msgid "quienes-somos-1"
+msgstr "Tenemos una amplia cobertura que protege carga en tránsito y almacenamiento. Además ofrecemos la capacidad de reaseguramiento para sabotaje, terrorismo y riesgos politicos Asegura tu negocio en las mejores manos"
 
 #: "Pages/home.php: 75
 msgid "Lo que nos importa"
@@ -130,7 +130,7 @@ msgid "Experiencia"
 msgstr "Experiencia"
 
 #: "Pages/home.php: 121
-msgid "Tenemos una amplia cobertura que proteje carga en tránsito 1"
+msgid "amplia cobertura 1"
 msgstr "Tenemos una amplia cobertura que proteje carga en tránsito 1"
 
 #: "Pages/home.php: 133
@@ -138,7 +138,7 @@ msgid "Profesionales 2"
 msgstr "Profesionales 2"
 
 #: "Pages/home.php: 137
-msgid "Tenemos una amplia cobertura que proteje carga en tránsito 2"
+msgid "amplia cobertura 2"
 msgstr "Tenemos una amplia cobertura que proteje carga en tránsito 2"
 
 #: "Pages/home.php: 149
@@ -146,7 +146,7 @@ msgid "Profesionales 3"
 msgstr "Profesionales 3"
 
 #: "Pages/home.php: 152
-msgid "Tenemos una amplia cobertura que proteje carga en tránsito 3"
+msgid "amplia cobertura 3"
 msgstr "Tenemos una amplia cobertura que proteje carga en tránsito 3"
 
 #: "Pages/home.php: 164
@@ -154,7 +154,7 @@ msgid "Profesionales 4"
 msgstr "Profesionales 4"
 
 #: "Pages/home.php: 167
-msgid "Tenemos una amplia cobertura que proteje carga en tránsito 4"
+msgid "amplia cobertura 4"
 msgstr "Tenemos una amplia cobertura que proteje carga en tránsito 4"
 
 #: "Pages/home.php: 179
@@ -162,7 +162,7 @@ msgid "Profesionales 5"
 msgstr "Profesionales 5"
 
 #: "Pages/home.php: 182
-msgid "Tenemos una amplia cobertura que proteje carga en tránsito 5"
+msgid "amplia cobertura 5"
 msgstr "Tenemos una amplia cobertura que proteje carga en tránsito 5"
 
 #: "Pages/home.php: 194
@@ -170,7 +170,7 @@ msgid "Profesionales 6"
 msgstr "Profesionales 6"
 
 #: "Pages/home.php: 197
-msgid "Tenemos una amplia cobertura que proteje carga en tránsito 6"
+msgid "amplia cobertura 6"
 msgstr "Tenemos una amplia cobertura que proteje carga en tránsito 6"
 
 #: "Pages/home.php: 209
@@ -178,7 +178,7 @@ msgid "Profesionales 7"
 msgstr "Profesionales 7"
 
 #: "Pages/home.php: 212
-msgid "Tenemos una amplia cobertura que proteje carga en tránsito 7"
+msgid "amplia cobertura 7"
 msgstr "Tenemos una amplia cobertura que proteje carga en tránsito 7"
 
 #: "Pages/home.php: 312
