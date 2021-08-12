@@ -13,7 +13,7 @@ use Cake\I18n\I18n;
         <div class="row justify-content-center">
             <?php foreach ($news as $key => $value) : ?>
                 <div class="col-11 col-sm-11 col-md-11 col-lg-4 col-xl-4 d-flex justify-content-center my-2">
-                    <div class="white-background boletin-slides pb-3">
+                    <div class="white-background boletin-slides pb-3 js-scroll fade-in-botton scrolled">
                         <figure>
                             <?= $this->Html->image($value->image, ['alt' => $value->titulo_ES, 'class' => "image-slide boletin-image"]); ?>
                         </figure>

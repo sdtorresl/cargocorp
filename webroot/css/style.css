@@ -363,7 +363,7 @@ a.slide-link {
 section.nuestros-mercados {
     background: #f9f9f9;
     padding-bottom: 110px;
-    padding-top: 200px;
+    padding-top: 75px;
 }
 h3.title-m {
     text-align: center;
@@ -517,6 +517,9 @@ section.article-container {
     padding-top: 20px;
     padding-bottom: 20px;
     font-size: 16px;
+}
+.article{
+    animation: fade-zoom-in 1s;  
 }
 .breadcrumb {
     background-color: #f6f6f6;
@@ -707,14 +710,24 @@ section.container-top-icons:after {
 }
 div#grid-about-us {
     transform: translateY(20px);
+    animation: fade-zoom-in 1s;
 }
 section.about-us {
     position: relative;
-    padding-top: 150px;
+    padding-top: 90px;
     padding-bottom: 100px;
     background-color: #f9f9f9;
     z-index: -1000;
 }
+
+#title-about{
+    animation: fade-zoom-in 1s;
+}
+
+#text-about-container{
+    animation: fade-zoom-in 1s;
+}
+
 h2.about-us-title {
     padding-bottom: 30px;
 }
@@ -728,8 +741,8 @@ h2.about-us-title {
     padding-right: 23%;
 }
 section.team-section {
-    padding-top: 150px;
-    padding-bottom: 200px;
+    padding-top: 75px;
+    padding-bottom: 150px;
 }
 div.team-slide {
     background-color: #f9f9f9;
@@ -812,6 +825,7 @@ div.contact-information {
 section.filtro {
     padding-top: 50px;
     padding-bottom: 50px;
+    animation: fade-zoom-in 1s;
 }
 h2.f-title {
     color: #333333;
@@ -852,6 +866,7 @@ div.pseudo-lines {
     position: relative;
     display: flex !important;
     width: 100%;
+    animation: fade-zoom-in 1s;
 }
 h3.boletin-title {
     position: relative;
@@ -885,7 +900,9 @@ div.pseudo-lines::before {
 }
 div.boletin-slides {
     width: 100%;
+    animation: fade-zoom-in 1s;
 }
+
 img.boletin-image {
     height: 235px;
 }
@@ -1079,7 +1096,7 @@ section.todas-las-noticias {
         width: 250px;
     }
     section.nuestros-mercados {
-        padding-bottom: 150px;
+        padding-bottom: 75px;
     }
     div.left-aling {
         display: flex;
