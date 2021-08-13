@@ -110,3 +110,16 @@ const handleScrollAnimation = () => {
 window.addEventListener("scroll", () => {
     handleScrollAnimation();
 });
+
+let links =document.querySelectorAll(".noticias-link");
+
+links.forEach(link => { 
+    link.addEventListener("mouseover",  function() {
+        link.parentElement.parentElement.classList.add("shadow");
+        });
+    
+    link.addEventListener("mouseout", function() {
+        link.parentElement.parentElement.classList.remove("shadow");
+        });
+    console.log('funciona!!')
+});
