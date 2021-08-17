@@ -16,7 +16,7 @@ $this->end('title');
     <div class="boton">
         <?= $this->Html->link(
             __("Contáctanos"),
-            ['controller' => 'Pages', 'action' => 'display', 'about'],
+            ['controller' => 'Contacts', 'action' => 'index'],
             ['class' => 'boton-contacto text-capitalize']
         ) ?>
     </div>
