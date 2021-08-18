@@ -48,10 +48,10 @@ $this->end('title');
 </section>
 
 <section class="about-us">
-    <div class="d-flex justify-content-center pb-5">
+    <div id="title-about" class="d-flex justify-content-center pb-5">
         <h3 class="uppercase-title d-inlie-flex"><?= __('Sobre nosotros') ?></h3>
     </div>
-    <div>
+    <div id="text-about-container">
         <h2 class="about-us-title">
             <?= __('Somos un Managing General Agent (MGA) especializado') ?>
         </h2>
@@ -63,7 +63,7 @@ $this->end('title');
 </section>
 
 <section class="container team-section">
-    <div class="our-team">
+    <div class="our-team js-scroll fade-in-botton scrolled">
 
         <div class="d-flex justify-content-center pb-5">
             <h3 class="uppercase-title d-inlie-flex">
@@ -128,7 +128,7 @@ $this->end('title');
 
 <section class="contact-us">
     <div class="container">
-        <div class="row justify-content-center">
+        <div class="row justify-content-center js-scroll fade-in-botton scrolled">
             <div class="col-11 col-sm-11 col-md-11 col-lg-11 col-xl-11 p-0">
                 <div class="d-flex justify-content-center pb-5">
                     <h3 class="uppercase-title d-inlie-flex" id="translate">
@@ -137,7 +137,7 @@ $this->end('title');
                 </div>
             </div>
         </div>
-        <div class="row ">
+        <div class="row js-scroll fade-in-botton scrolled">
             <div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">
                 <p class="contact-title">
                     Miami

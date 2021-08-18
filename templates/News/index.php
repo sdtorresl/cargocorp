@@ -73,7 +73,7 @@ $totalNews = array_slice($news->toArray(), 3, count($news->toArray()));
         <div class="row justify-content-center">
             <?php foreach ($totalNews as $newsItem) : ?>
                 <div class="col-11 col-sm-11 col-md-8 col-lg-8 col-xl-8 mb-3 block-d">
-                    <div class="d-flex container-news grey-background">
+                    <div class="d-flex container-news grey-background js-scroll fade-in-botton scrolled">
                         <figure class="align-content-center">
                             <?= $this->Html->image($newsItem->image, ['alt' => $newsItem->titulo_ES, 'class' => "image-news"]); ?>
                         </figure>
