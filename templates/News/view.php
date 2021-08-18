@@ -28,9 +28,18 @@ $this->end('title');
 ?>
 
 <aside class="article-picture">
+    <?php
+    $images[0] = 'image-1.png';
+    $images[1] = 'image-2.png';
+    $images[2] = 'image-3.jpg';
+    $images[3] = 'image-4.jpg';
+    $images[4] = 'image-5.jpg';
+    $i = rand( 0, 4 );
+?>
     <figure>
-        <?= $this->Html->image('c.png', ['alt' => 'containers-image-background']); ?>
+        <?= $this->Html->image($images[$i], ['alt' => 'containers-image-background', 'id' => 'random-image']); ?>
     </figure>
+
 </aside>
 
 <section class="article container p-0 mt-5">

@@ -533,6 +533,7 @@ div#social-media-container {
     margin-top: 15px;
     padding-top: 10px;
     padding-bottom: 10px;
+    animation: fade-zoom-in 1s;
 }
 div.icons-container {
     margin-left: 30px;
@@ -591,6 +592,7 @@ h1.article-title {
     font-weight: bold;
     font-size: 36px;
     line-height: 49px;
+    animation: fade-zoom-in 1s;
 }
 .headline {
     padding-top: 50px !important;
@@ -602,6 +604,7 @@ h1.article-title {
     font-weight: 300;
     font-size: 14px;
     margin-top: 1rem;
+    animation: fade-zoom-in 1s; 
 }
 .article-body br {
     margin-bottom: 0.7rem;
@@ -626,6 +629,7 @@ div#transparent-grid {
     overflow: hidden;
     min-height: 200px;
     max-height: 400px;
+    animation: fade-zoom-in 3s;
 }
 .product-picture figure img,
 .article-picture figure img {
