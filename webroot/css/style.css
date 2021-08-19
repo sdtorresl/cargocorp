@@ -202,6 +202,9 @@ div.top-text {
     flex-direction: column;
     align-items: center;
 }
+#aside-title{
+    animation: fade-zoom-in 1s;
+}
 .uppercase-title {
     position: relative;
     color: #000000;
@@ -522,9 +525,6 @@ section.article-container {
     padding-top: 20px;
     padding-bottom: 20px;
     font-size: 16px;
-}
-.article {
-    animation: fade-zoom-in 1s;
 }
 .breadcrumb {
     background-color: #f6f6f6;
