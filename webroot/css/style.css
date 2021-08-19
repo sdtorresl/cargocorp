@@ -202,7 +202,7 @@ div.top-text {
     flex-direction: column;
     align-items: center;
 }
-#aside-title{
+#aside-title {
     animation: fade-zoom-in 1s;
 }
 .uppercase-title {
@@ -501,7 +501,7 @@ a.noticias-link {
     font-size: 16px;
     line-height: 24px;
 }
-.shadow{
+.shadow {
     box-shadow: 0px 0px 10px lightgray;
 }
 div.buttom-noticias {
@@ -606,7 +606,7 @@ h1.article-title {
     font-weight: 300;
     font-size: 14px;
     margin-top: 1rem;
-    animation: fade-zoom-in 1s; 
+    animation: fade-zoom-in 1s;
 }
 .article-body br {
     margin-bottom: 0.7rem;
@@ -631,7 +631,7 @@ div#transparent-grid {
     overflow: hidden;
     min-height: 200px;
     max-height: 400px;
-    animation: fade-zoom-in 3s;
+    animation: fade-in 1s;
 }
 .product-picture figure img,
 .article-picture figure img {

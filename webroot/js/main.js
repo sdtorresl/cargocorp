@@ -1,7 +1,7 @@
 
 $(document).ready(function () {
     $('.products-slider').slick({
-        infinite: true,
+        infinite: false,
         slidesToShow: 3,
         slidesToScroll: 1,
         arrows: true,
@@ -111,15 +111,15 @@ window.addEventListener("scroll", () => {
     handleScrollAnimation();
 });
 
-let links =document.querySelectorAll(".noticias-link");
+let links = document.querySelectorAll(".noticias-link");
 
-links.forEach(link => { 
-    link.addEventListener("mouseover",  function() {
+links.forEach(link => {
+    link.addEventListener("mouseover", function () {
         link.parentElement.parentElement.classList.add("shadow");
-        });
-    
-    link.addEventListener("mouseout", function() {
+    });
+
+    link.addEventListener("mouseout", function () {
         link.parentElement.parentElement.classList.remove("shadow");
-        });
+    });
     console.log('funciona!!')
 });
