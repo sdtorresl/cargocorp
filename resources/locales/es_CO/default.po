@@ -294,3 +294,27 @@ msgstr "Teléfono"
 #: "Pages/about.php: 129
 msgid "contáctenos"
 msgstr "contáctenos"
+
+msgid "Nombre"
+msgstr "Nombre"
+
+msgid "Correo electrónico"
+msgstr "Correo electrónico"
+
+msgid "Motivo de contacto"
+msgstr "¿Cómo podemos ayudarte?"
+
+msgid "Mensaje"
+msgstr "Message"
+
+msgid "Soy un broker en busca de cotización"
+msgstr "Soy un broker en busca de cotización"
+
+msgid "Soy una empresa cedente que busca información adicional"
+msgstr "Soy una empresa cedente que busca información adicional"
+
+msgid "Soy un proveedor de capacidad que busca información adicional"
+msgstr "Soy un proveedor de capacidad que busca información adicional"
+
+msgid "Otras"
+msgstr "Otras"

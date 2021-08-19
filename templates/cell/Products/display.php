@@ -20,7 +20,7 @@ $langEn = I18n::getLocale() == 'en_US';
                             <?= $this->Html->image($product->imagen, ['alt' => $title, 'class' => 'image-slide']); ?>
                         </figure>
                         <div class="pl-4 pr-4">
-                            <p class="title-slide text-uppercase">
+                            <p class="title-slide">
                                 <?= $title ?>
                             </p>
                             <p class="text-slide">

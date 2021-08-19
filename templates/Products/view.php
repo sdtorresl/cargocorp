@@ -47,5 +47,6 @@ $this->end('title');
 </article>
 
 <aside>
+    <?= $this->cell('Team') ?>
     <?= $this->cell('Products') ?>
 </aside>

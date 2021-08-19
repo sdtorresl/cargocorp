@@ -20,9 +20,9 @@ class ContactsController extends AppController
     public function index()
     {
         $contactReasons = [
-            'broker' => __('Soy un broker en busca de cotización.'),
-            'cedant' => __('Soy una empresa cedente que busca información adicional.'),
-            'provider' => __('Soy un proveedor de capacidad que busca información adicional.'),
+            'broker' => __('Soy un broker en busca de cotización'),
+            'cedant' => __('Soy una empresa cedente que busca información adicional'),
+            'provider' => __('Soy un proveedor de capacidad que busca información adicional'),
             'other' => __('Otras')
         ];
 
