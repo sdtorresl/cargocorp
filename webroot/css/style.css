@@ -138,7 +138,7 @@ strong {
     animation: fade-zoom-in 1s;
 }
 
-a.boton-contacto {
+.boton-contacto {
     background-color: #ffda31;
     color: #033a74;
     font-style: normal;
@@ -151,6 +151,8 @@ a.boton-contacto {
     padding-bottom: 10px;
     padding-left: 50px;
     padding-right: 55px;
+    cursor: pointer;
+    border: none;
 }
 .boton {
     transition: all 0.125s linear;

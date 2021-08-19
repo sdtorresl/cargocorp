@@ -88,6 +88,7 @@ return [
             'username' => null,
             'password' => null,
             'client' => null,
+            'className' => null,
             'url' => env('EMAIL_TRANSPORT_DEFAULT_URL', null),
         ],
     ],

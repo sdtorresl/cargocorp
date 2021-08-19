@@ -140,35 +140,18 @@ $this->end('title');
 
         <div class="row js-scroll fade-in-botton justify-content-center mt-3">
             <div class="col-8">
-                <div class="mb-3">
-                    <label for="exampleFormControlInput1" class="form-label"><?= __('Nombre') ?></label>
-                    <input type="teext" class="form-control" id="exampleFormControlInput1" placeholder="Joseph Mills">
-                </div>
-                <div class="mb-3">
-                    <label for="exampleFormControlInput1" class="form-label"><?= __('Correo electrónico') ?></label>
-                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                <?= $this->Form->create() ?>
+                <?= $this->Form->control('name', ['label' => __('Nombre')]) ?>
+                <?= $this->Form->control('email', ['type' => 'email', 'label' => __('Correo electrónico')]) ?>
+                <div class="form-group">
+                    <label for="reason"><?= __('Motivo de contacto') ?></label>
+                    <?= $this->Form->select('reason', $contactReasons) ?>
                 </div>
                 <div class="form-group">
-                    <label for="exampleFormControlSelect1"><?= __('Tipo de consulta') ?></label>
-                    <select class="form-control" id="exampleFormControlSelect1">
-                        <option><?= __('I am a Broker looking for a quote') ?></option>
-                        <option><?= __('I am a Broker looking for a quote') ?></option>
-                        <option><?= __('I am a Broker looking for a quote') ?></option>
-                        <option><?= __('I am a Broker looking for a quote') ?></option>
-                        <option><?= __('I am a Broker looking for a quote') ?></option>
-                    </select>
+                    <label for="message"><?= __('Mensaje') ?></label>
+                    <?= $this->Form->textarea('message'); ?>
                 </div>
-                <div class="mb-3">
-                    <label for="exampleFormControlTextarea1" class="form-label"><?= __('Mensaje') ?></label>
-                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                </div>
-                <?= $this->Form->create() ?>
-                <?= $this->Form->control('name') ?>
-                <?= $this->Form->control('email', ['type' => 'email']) ?>
-                <?= $this->Form->select('type', [1, 2, 3]) ?>
-                <?= $this->Form->textarea('message'); ?>
-
-                <?= $this->Form->submit() ?>
+                <?= $this->Form->submit(__('Contáctanos'), ['class' => 'boton-contacto']) ?>
                 <?= $this->Form->end() ?>
 
             </div>
