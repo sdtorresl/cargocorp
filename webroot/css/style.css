@@ -138,7 +138,7 @@ strong {
     animation: fade-zoom-in 1s;
 }
 
-a.boton-contacto {
+.boton-contacto {
     background-color: #ffda31;
     color: #033a74;
     font-style: normal;
@@ -151,6 +151,8 @@ a.boton-contacto {
     padding-bottom: 10px;
     padding-left: 50px;
     padding-right: 55px;
+    cursor: pointer;
+    border: none;
 }
 .boton {
     transition: all 0.125s linear;
@@ -521,8 +523,8 @@ section.article-container {
     padding-bottom: 20px;
     font-size: 16px;
 }
-.article{
-    animation: fade-zoom-in 1s;  
+.article {
+    animation: fade-zoom-in 1s;
 }
 .breadcrumb {
     background-color: #f6f6f6;
@@ -727,11 +729,11 @@ section.about-us {
     z-index: -1000;
 }
 
-#title-about{
+#title-about {
     animation: fade-zoom-in 1s;
 }
 
-#text-about-container{
+#text-about-container {
     animation: fade-zoom-in 1s;
 }
 
@@ -794,10 +796,6 @@ a.team-member-email {
 section.contact-us {
     padding-bottom: 100px;
 }
-h3#translate {
-    transform: translateY(-60px);
-}
-
 div.contact-information {
     padding-bottom: 40px;
 }

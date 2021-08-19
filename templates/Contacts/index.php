@@ -128,16 +128,36 @@ $this->end('title');
 
 <section class="contact-us">
     <div class="container">
-        <div class="row justify-content-center js-scroll fade-in-botton scrolled">
-            <div class="col-11 col-sm-11 col-md-11 col-lg-11 col-xl-11 p-0">
-                <div class="d-flex justify-content-center pb-5">
+        <div class="row justify-content-center js-scroll fade-in-botton">
+            <div class="col">
+                <div class="d-flex justify-content-center">
                     <h3 class="uppercase-title d-inlie-flex" id="translate">
                         <?= __('contáctenos') ?>
                     </h3>
                 </div>
             </div>
         </div>
-        <div class="row js-scroll fade-in-botton scrolled">
+
+        <div class="row js-scroll fade-in-botton justify-content-center mt-3">
+            <div class="col-8">
+                <?= $this->Form->create() ?>
+                <?= $this->Form->control('name', ['label' => __('Nombre')]) ?>
+                <?= $this->Form->control('email', ['type' => 'email', 'label' => __('Correo electrónico')]) ?>
+                <div class="form-group">
+                    <label for="reason"><?= __('Motivo de contacto') ?></label>
+                    <?= $this->Form->select('reason', $contactReasons) ?>
+                </div>
+                <div class="form-group">
+                    <label for="message"><?= __('Mensaje') ?></label>
+                    <?= $this->Form->textarea('message'); ?>
+                </div>
+                <?= $this->Form->submit(__('Contáctanos'), ['class' => 'boton-contacto']) ?>
+                <?= $this->Form->end() ?>
+
+            </div>
+        </div>
+
+        <div class="row js-scroll fade-in-botton">
             <div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">
                 <p class="contact-title">
                     Miami
