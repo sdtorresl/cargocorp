@@ -23,7 +23,10 @@ use Cake\I18n\I18n;
                     <?= $this->Html->link(__("Noticias"), ['controller' => 'News', 'action' => 'index'], ['class' => 'menu-link']) ?>
                 </li>
                 <li class="nav-item mb-3">
-                    <?= $this->Html->link(__("Sobre nosotros"), ['controller' => 'Contacts', 'action' => 'index'], ['class' => 'menu-link']) ?>
+                    <?= $this->Html->link(__("Sobre nosotros"), ['controller' => 'Pages', 'action' => 'display', 'about'], ['class' => 'menu-link']) ?>
+                </li>
+                <li class="nav-item mb-3">
+                    <?= $this->Html->link(__("Contáctanos"), ['controller' => 'Contacts', 'action' => 'index'], ['class' => 'menu-link']) ?>
                 </li>
                 <li class="nav-item mb-3">
                     <?= $this->Html->link(__("Inicio sesión"), 'https://107.190.136.34/cargocorpuw/', ['class' => 'menu-link', 'target' => '_blank']) ?>
