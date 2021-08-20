@@ -153,10 +153,6 @@ msgstr "All of our Underwriters are certified by Lloyds and ALSUM."
 msgid "Profesionales 4"
 msgstr "risk management"
 
-#: "Pages/home.php: 164
-msgid "Profesionales 4"
-msgstr "risk management"
-
 #: "Pages/home.php: 167
 msgid "amplia cobertura 4"
 msgstr "Our Risk Management proposal is essential to our underwriting process."
@@ -192,7 +188,6 @@ msgstr "We can do Risks located in?"
 #: "Pages/home.php: 331
 msgid "América del sur"
 msgstr "South America"
-
 
 #: "Pages/home.php: 334
 msgid "Argentina"
@@ -283,10 +278,8 @@ msgid "Somos un Managing General Agent (MGA) especializado"
 msgstr "Somos un Managing General Agent (MGA) especializado"
 
 #: "Pages/about.php: 53
-msgid "Somos un Managing General Agent (MGA) especializado en proveer capacidad para las líneas de Marine (Cargo, STP, Project Cargo, Casco, P&I, RC Marítimas) y Terrorismo.
-            Managing General Agent (License # W279031 FLORIDA Department of Financial Services)"
-msgstr "Somos un Managing General Agent (MGA) especializado en proveer capacidad para las líneas de Marine (Cargo, STP, Project Cargo, Casco, P&I, RC Marítimas) y Terrorismo.
-            Managing General Agent (License # W279031 FLORIDA Department of Financial Services)"
+msgid "who we are page about"
+msgstr "We are a Managing General Agent (MGA) specialized in providing capacity for Marine lines (Cargo, STP, Project Cargo, Casco, P&I, RC Marítimas) and Terrorism"
 
 #: "Pages/about.php: 97
 msgid "Enviar correo"
