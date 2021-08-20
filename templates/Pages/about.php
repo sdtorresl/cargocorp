@@ -56,7 +56,7 @@ $this->end('title');
             <?= __('Somos un Managing General Agent (MGA) especializado') ?>
         </h2>
         <p class="about-us-text">
-            <?= __('who we are page about') ?>
+            <?= __('quienes somos pagina about') ?>
         </p>
     </div>
 </section>

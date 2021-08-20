@@ -274,7 +274,7 @@ msgid "Somos un Managing General Agent (MGA) especializado"
 msgstr "Somos un Managing General Agent (MGA) especializado"
 
 #: "Pages/about.php: 53
-msgid "who we are page about"
+msgid "quienes somos pagina about"
 msgstr "Somos un Managing General Agent (MGA) especializado en proveer capacidad para las líneas de Marine (Cargo, STP, Project Cargo, Casco, P&I, RC Marítimas) y Terrorismo. Managing General Agent (License # W279031 FLORIDA Department of Financial Services)"
 
 #: "Pages/about.php: 64

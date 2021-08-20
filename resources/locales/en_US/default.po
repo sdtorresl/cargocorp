@@ -278,7 +278,7 @@ msgid "Somos un Managing General Agent (MGA) especializado"
 msgstr "Somos un Managing General Agent (MGA) especializado"
 
 #: "Pages/about.php: 53
-msgid "who we are page about"
+msgid "quienes somos pagina about"
 msgstr "We are a Managing General Agent (MGA) specialized in providing capacity for Marine lines (Cargo, STP, Project Cargo, Casco, P&I, RC Marítimas) and Terrorism"
 
 #: "Pages/about.php: 97
