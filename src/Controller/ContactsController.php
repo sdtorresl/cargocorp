@@ -28,15 +28,18 @@ class ContactsController extends AppController
 
         $contact = new ContactForm();
         if ($this->request->is('post')) {
-            $isValid = $contact->validate($this->request->getData());
+            $contactData = $this->request->getData();
+            $isValid = $contact->validate($contactData);
 
-            if (!$isValid)
-                $this->Flash->error(__('Por favor completa todos los campos'));
-
-            if ($contact->execute($this->request->getData())) {
-                $this->Flash->success('We will get back to you soon.');
+            if (!$isValid) {
+                $this->Flash->error(__('Por favor completa todos los campos.'));
             } else {
-                $this->Flash->error('There was a problem submitting your form.');
+
+                if ($contact->execute($this->request->getData())) {
+                    $this->Flash->success(__('Hemos recibido tu mensaje, pronto nos contactaremos.'));
+                } else {
+                    $this->Flash->error('Hubo un error al enviar tu mensaje. Por favor intenta de nuevo más tarde.');
+                }
             }
         }
 

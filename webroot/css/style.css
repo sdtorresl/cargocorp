@@ -399,10 +399,17 @@ li.mexico {
     font-size: 18px;
     line-height: 25px;
 }
-img.mapa {
+.map {
+    height: 300px;
     width: 100%;
-    height: auto;
+    border-radius: 5px;
+    transition: all 0.25s ease-in-out;
 }
+.map:hover {
+    box-shadow: 4px 5px 10px #ccc;
+    transform: scale(1.005);
+}
+
 /*section news*/
 
 .featured-news {
@@ -811,18 +818,6 @@ div.contact-information {
     font-weight: 300;
     font-size: 14px;
     line-height: 24px;
-}
-.mapouter {
-    position: relative;
-    text-align: right;
-    height: 276px;
-    width: 100%;
-}
-.gmap_canvas {
-    overflow: hidden;
-    background: none !important;
-    height: 276px;
-    width: 100%;
 }
 
 /*Estilos pagina News*/

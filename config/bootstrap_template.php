@@ -28,12 +28,15 @@ return [
       </a>
     </li>',
     'inputContainer' => '<div class="form-group" {{type}}{{required}}">{{content}}</div>',
-    'inputContainerError' => '<div class="form-group input {{type}}{{required}} error">{{content}}{{error}}</div>',
+    'inputContainerError' => '<div class="form-group input is-invalid {{type}}{{required}}">
+        {{content}}
+        <div class="invalid-feedback">{{error}}</div>
+    </div>',
     'label' => '<label class="form-control-label" {{attrs}}>{{text}}</label>',
     'select' => '<div class="form-group">{{label}}<select name="{{name}}" class="form-control" {{attrs}}>{{content}}</select></div>',
     'input' => '<input type="{{type}}" name="{{name}}" class="form-control" {{attrs}}/>',
     'formGroup' => '{{label}}{{input}}',
-    'textarea' => '<div class="form-group"><textarea name="{{name}}" class="form-control" {{attrs}}>{{value}}</textarea></div>',
+    'textarea' => '<textarea name="{{name}}" {{attrs}}>{{value}}</textarea>',
     'file' => '<div class="file-field"><div class="btn"><span>' . __('Upload') . '</span><input name="{{name}}" type="file"></div><div class="file-path-wrapper"><input class="file-path" {{attrs}}></div></div>',
     'checkbox' => '<input type="checkbox" name="{{name}}" value="{{value}" {{attrs}}>',
     'nestingLabel' => '{{hidden}}<p><label{{attrs}}>{{input}}<span>{{text}}</span></label></p>',
