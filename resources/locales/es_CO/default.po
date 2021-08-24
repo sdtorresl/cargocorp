@@ -103,7 +103,7 @@ msgstr "Lo que nos importa"
 
 #: "Pages/home.php: 79
 msgid "quienes-somos-2"
-msgstr "What matters to you, matters to us. We strive to provide the highest quality and best possible experience and outcome for every one of our stakeholders."
+msgstr "quienes-somos-2"
 
 #: "Pages/home.php: 84
 msgid "Lo que hacemos"
@@ -111,7 +111,7 @@ msgstr "Lo que hacemos"
 
 #: "Pages/home.php: 88
 msgid "quienes-somos-3"
-msgstr "We offer reinsurance capacity in a different, diversified, sophisticated and professional manner with the support of specialized advice in risk management and loss control."
+msgstr "quienes-somos-3"
 
 #: "Pages/home.php: 93
 msgid "Como lo hacemos"
@@ -119,7 +119,7 @@ msgstr "Como lo hacemos"
 
 #: "Pages/home.php: 97
 msgid "quienes-somos-4"
-msgstr "We have more than 20 years of experience and knowledge of the Latin American market, supported by specialized underwriters and great human talent supported by a unique technological platform to provide our brokers and clients with a value proposition tailored to their risks."
+msgstr "quienes-somos-4"
 
 #: "Pages/home.php: 105
 msgid "La diferencia"
@@ -274,10 +274,8 @@ msgid "Somos un Managing General Agent (MGA) especializado"
 msgstr "Somos un Managing General Agent (MGA) especializado"
 
 #: "Pages/about.php: 53
-msgid "Somos un Managing General Agent (MGA) especializado en proveer capacidad para las líneas de Marine (Cargo, STP, Project Cargo, Casco, P&I, RC Marítimas) y Terrorismo.
-            Managing General Agent (License # W279031 FLORIDA Department of Financial Services)"
-msgstr "Somos un Managing General Agent (MGA) especializado en proveer capacidad para las líneas de Marine (Cargo, STP, Project Cargo, Casco, P&I, RC Marítimas) y Terrorismo.
-            Managing General Agent (License # W279031 FLORIDA Department of Financial Services)"
+msgid "quienes somos pagina about"
+msgstr "Somos un Managing General Agent (MGA) especializado en proveer capacidad para las líneas de Marine (Cargo, STP, Project Cargo, Casco, P&I, RC Marítimas) y Terrorismo. Managing General Agent (License # W279031 FLORIDA Department of Financial Services)"
 
 #: "Pages/about.php: 64
 msgid "Nuestro equipo"

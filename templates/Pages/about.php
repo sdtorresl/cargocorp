@@ -56,8 +56,7 @@ $this->end('title');
             <?= __('Somos un Managing General Agent (MGA) especializado') ?>
         </h2>
         <p class="about-us-text">
-            <?= __('Somos un Managing General Agent (MGA) especializado en proveer capacidad para las líneas de Marine (Cargo, STP, Project Cargo, Casco, P&I, RC Marítimas) y Terrorismo.
-            Managing General Agent (License # W279031 FLORIDA Department of Financial Services)') ?>
+            <?= __('quienes somos pagina about') ?>
         </p>
     </div>
 </section>
