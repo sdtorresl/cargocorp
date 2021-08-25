@@ -27,7 +27,7 @@ $cakeDescription = 'CargoCorp UW';
         <?= $cakeDescription ?> - <?= $this->fetch('title') . ' We have our Own Risk Management Team ' ?>
     </title>
 
-    <meta name="description" content="We are a Managing General Agent (MGA) specialized in providing capacity for Marine lines">
+    <meta name="description" content= <?= __("We are a Managing General Agent (MGA) specialized in providing capacity for Marine lines")?>>
     <meta name="keywords" content="Read interexting news, ">
     <meta name="robots" content="index, follow">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
