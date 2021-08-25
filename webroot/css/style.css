@@ -90,7 +90,7 @@ li.nav-item {
     border-color: #ffda31;
 }
 
-.contacto-container {
+.contact-container {
     background: #033a74;
     position: relative;
     color: white;
@@ -102,7 +102,7 @@ li.nav-item {
     z-index: 1000;
 }
 
-.contacto-container:after {
+.contact-container:after {
     content: "";
     position: absolute;
     left: 0px;
@@ -178,9 +178,7 @@ div.white-grid {
     transform: translateY(0px);
     z-index: 10000;
 }
-div.display-c {
-    display: flex !important;
-}
+
 img.image-c {
     width: 55px;
     height: auto;
@@ -230,18 +228,12 @@ div.top-text {
     max-width: 500px;
 }
 
-/*
-span {
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 24px;
-}*/
-section.la-diferencia {
+section.the-differences {
     background-color: white;
     margin-top: 75px;
     margin-bottom: 75px;
 }
-div.grid-diferencia {
+div.grid-differences {
     color: #333333;
     font-style: normal;
     font-weight: 300;
@@ -274,11 +266,7 @@ section.nuestros-productos {
     padding-bottom: 80px;
     z-index: 20;
 }
-div.title-box {
-    width: 100%;
-    height: 100%;
-    z-index: 20;
-}
+
 div.title-box {
     position: relative;
     width: 100%;
@@ -490,9 +478,7 @@ h3.noticias-title {
 div.news-text {
     padding: 20px;
 }
-div.aling {
-    vertical-align: middle;
-}
+
 a.noticias-link {
     color: #333333;
     text-decoration-line: underline;

@@ -4,8 +4,8 @@ echo __('Inicio');
 $this->end('title');
 ?>
 
-<section class="contacto-container">
-    <div class="contacto">
+<section class="contact-container">
+    <div>
         <h1 class="title">
             <?= __('La industria de seguros con') ?>
             <br>
@@ -86,14 +86,14 @@ $this->end('title');
     </div>
 </section>
 
-<section class="la-diferencia">
+<section class="the-differences">
     <div class="d-flex justify-content-center mb-5">
         <h3 class="uppercase-title d-inline-flex">
             <?= __('La diferencia') ?>
         </h3>
     </div>
     <div class="container p pl-5 pr-5">
-        <div class="row justify-content-center grid-diferencia">
+        <div class="row justify-content-center grid-differences">
             <div class="col-12 col-sm-10 col-md-6 col-lg-4 col-xl-4 mb-5">
                 <div class="d-flex js-scroll slide-left">
                     <figure class="differences-logo">

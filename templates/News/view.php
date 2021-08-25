@@ -26,7 +26,9 @@ echo I18n::getLocale() == 'en_US' ? $article->titulo_notificacion_EN : $article-
 $this->end('title');
 
 ?>
-
+<head>
+<?php $this->Html->meta('description', I18n::getLocale() == 'en_US' ? $article->descripcion_corta_EN : $article->descripcion_corta_ES); ?>
+</head>
 <aside class="article-picture">
     <?php
     $images[0] = 'image-1.png';
