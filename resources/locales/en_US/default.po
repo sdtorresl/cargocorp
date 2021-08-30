@@ -93,6 +93,10 @@ msgstr "First MGA assessed by AM Best as Exceptional."
 msgid "Lo que somos"
 msgstr "Who we are?"
 
+#: "Pages/home.php: 61
+msgid "Managing General Agent"
+msgstr "Managing General Agent"
+
 #: "Pages/home.php: 66
 msgid "quienes-somos-1"
 msgstr "We are a Managing General Agent (MGA) specialized in providing capacity for the Marine lines (Cargo, STP, Project Cargo, Hull, P&I, Marine Liabilities) and Terrorism."

@@ -90,8 +90,11 @@ li.nav-item {
     border-color: #ffda31;
 }
 
-.contacto-container {
-    background: #033a74;
+.contact-container {
+    background-image: url(/webroot/img/home-background.png);
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position: center;
     position: relative;
     color: white;
     width: 100%;
@@ -99,30 +102,40 @@ li.nav-item {
     font-style: normal;
     text-align: center;
     padding-top: 90px;
-    z-index: 1000;
+    z-index: -20;
 }
 
-.contacto-container:after {
+.contact-container:after {
     content: "";
-    position: absolute;
-    left: 0px;
+    width: 100%;
+    height: 100%;
+    top: 0px;
     right: 0px;
-    bottom: 0px;
-    border-top: 0px solid transparent;
-    border-left: 2500px solid #033a74;
-    border-bottom: 100px solid #f9f9f9;
-    transform: translateY(0px);
+    background: linear-gradient(90deg, #000000 -4.19%, rgba(51, 51, 51, 0) 99.85%);
+    position: absolute;
     z-index: -10;
 }
 
 h1.title {
     color: white;
-    font-size: 20px;
+    font-size: 38px;
     font-weight: normal;
-    margin-top: 40px;
+    margin: 0px 0px 10px 50px;
+    line-height: 52px;
+    /*margin-top: 40px;
     margin-left: 20px;
-    margin-right: 20px;
+    margin-right: 20px;*/
+    text-align: left;
     animation: fade-zoom-in 1s;
+}
+#animation-title{
+    animation: showup 7s;
+    animation-delay: 0s;
+}
+#animation-title-two{
+    color: #FFFFFF;
+    animation: slidein 7s;
+    animation-delay: 1s;
 }
 strong {
     font-weight: bolder;
@@ -136,6 +149,10 @@ strong {
     font-size: 16px;
     line-height: 22px;
     animation: fade-zoom-in 1s;
+    transition: all 0.125s linear;
+}
+.boton:hover {
+    transform: scale(1.1);
 }
 
 .boton-contacto {
@@ -154,15 +171,11 @@ strong {
     cursor: pointer;
     border: none;
 }
-.boton {
-    transition: all 0.125s linear;
-}
-.boton:hover {
-    transform: scale(1.1);
-}
 
 #summary {
     animation: fade-zoom-in 1s;
+    background:  #333333;
+    color: #FFFFFF;
 }
 div.white-grid {
     position: relative;
@@ -175,7 +188,7 @@ div.white-grid {
     padding-bottom: 20px;
     padding-left: 10px;
     padding-right: 10px;
-    transform: translateY(0px);
+    transform: translateY(54px);
     z-index: 10000;
 }
 div.display-c {
@@ -188,14 +201,22 @@ img.image-c {
 div.top-text {
     text-align: left;
     font-style: normal;
-    font-weight: 300;
+    font-weight: 700;
     font-size: 14px;
 }
 
 #who-we-are {
-    margin-top: 5rem;
-    padding: 5rem 0;
+    padding: 9rem 0;
     background: #f9f9f9;
+    z-index: -30;
+    position: relative;
+}
+#title-who-we-are{
+    color: #333333;
+    font-weight: 700;
+    font-size: 24px;
+    margin: 40px 0px 40px 0px;
+
 }
 .intro-container {
     display: flex;
@@ -759,6 +780,7 @@ section.about-us {
 h2.about-us-title {
     padding-bottom: 30px;
 }
+
 .about-us-text {
     color: #333333;
     font-weight: 300;
@@ -971,11 +993,7 @@ section.todas-las-noticias {
     div.content-left {
         justify-content: left !important;
     }
-    #who-we-are {
-        margin-top: 0rem;
-        padding: 1rem 0;
-    }
-
+   
     h3.boletin-title {
         padding-left: 10px;
         padding-right: 10px;
@@ -1007,7 +1025,7 @@ section.todas-las-noticias {
         margin-top: 10px;
         margin-right: 20px;
     }
-    section.contacto-container {
+    section.contact-container {
         height: 100%;
     }
     div.white-grid {
@@ -1083,12 +1101,18 @@ section.todas-las-noticias {
         margin-top: 10px;
         margin-right: 100px;
     }
-    section.contacto-container {
-        height: 100%;
+    section.contact-container {
+        height: 530px;
+    }
+    h1.title{
+        margin: 40px 200px 0px 200px;
+        line-height: 65px;
     }
     div.white-grid {
         max-width: 54%;
         padding-bottom: 20px !important;
+        transform: translateY(120px);
+        
     }
     h2.subtitle-somos {
         margin-left: 25%;
@@ -1124,6 +1148,10 @@ section.todas-las-noticias {
 
     div.content-left {
         justify-content: left !important;
+    }
+    #who-we-are {
+        margin-top: 0rem;
+        padding: 4rem 0;
     }
 
     footer {
@@ -1186,6 +1214,20 @@ section.todas-las-noticias {
         opacity: 1;
         transform: scale(1);
     }
+}
+
+@keyframes showup {
+    0% {opacity:0;}
+    20% {opacity:0;}
+    80% {opacity:1;}
+    100% {opacity:1;}
+}
+
+@keyframes slidein {
+    0% { margin-left:-800px;color: transparent;}
+    20% { margin-left:-800px;color: transparent;}
+    35% { margin-left:0px;}
+    100% {margin-left:0px;}
 }
 
 @keyframes slide-in-left {

@@ -4,23 +4,22 @@ echo __('Inicio');
 $this->end('title');
 ?>
 
-<section class="contacto-container">
+<section class="contact-container">
     <div class="contacto">
         <h1 class="title">
+            <div id="animation-title">
             <?= __('La industria de seguros con') ?>
-            <br>
-            <?= __('La industria de seguros con,') ?>
-            <strong><?= __('todas las linas marine') ?></strong>
+            </div>
+            
+            <div id = "animation-title-two">
+                <strong>
+                    <?= __('La industria de seguros con,') ?>
+                <br>
+                <?= __('todas las linas marine') ?>
+                </strong>
+            </div>
         </h1>
     </div>
-    <div class="boton">
-        <?= $this->Html->link(
-            __("Contáctanos"),
-            ['controller' => 'Contacts', 'action' => 'index'],
-            ['class' => 'boton-contacto text-capitalize']
-        ) ?>
-    </div>
-
     <div id="summary" class="container white-grid pl-3 pr-3">
         <div class="row justify-content-center top-text d-flex align-content-center flex-wrap">
             <div class="top-box col-10 col-sm-10 col-md-4 col-lg-4 col-xl-4 px-2 pr-md-3 pl-md-4 my-4">
@@ -67,6 +66,9 @@ $this->end('title');
     <div class="container justify-content-center">
         <div class="col intro-container js-scroll fade-in-bottom">
             <h3 class="uppercase-title"><?= __('Lo que somos') ?></h3>
+            <h2 id = "title-who-we-are">
+                <?=__('Managing General Agent')?>
+            </h2>
             <p class="intro-description">
                 <?= __('quienes-somos-1') ?>
             </p>

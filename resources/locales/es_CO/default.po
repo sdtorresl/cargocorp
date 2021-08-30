@@ -93,6 +93,11 @@ msgstr "Calificacion A-Fitch Rattings, A.M. Best, Standard & Poors, A-"
 msgid "Lo que somos"
 msgstr "Lo que somos"
 
+#: "Pages/home.php: 61
+msgid "Managing General Agent"
+msgstr "Managing General Agent"
+
+
 #: "Pages/home.php: 66
 msgid msgid "quienes-somos-1"
 msgstr "Tenemos una amplia cobertura que protege carga en tránsito y almacenamiento. Además ofrecemos la capacidad de reaseguramiento para sabotaje, terrorismo y riesgos politicos Asegura tu negocio en las mejores manos"

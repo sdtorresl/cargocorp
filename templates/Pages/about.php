@@ -10,7 +10,7 @@ $this->end('title');
             <div class="top-box col-10 col-sm-10 col-md-4 col-lg-4 col-xl-4 px-2 pr-md-3 pl-md-4 my-4">
                 <div class="d-flex align-content-center">
                     <figure class="align-content-center">
-                        <?= $this->Html->image('clock.png', ['alt' => 'clock-logo', 'class' => "image-c pr-3"]); ?>
+                        <?= $this->Html->image('clock2.png', ['alt' => 'clock-logo', 'class' => "image-c pr-3"]); ?>
                     </figure>
                     <div>
                         <p class="align-content-center">
@@ -22,7 +22,7 @@ $this->end('title');
             <div class="top-box col-10 col-sm-10 col-md-4 col-lg-4 col-xl-4 px-2 px-md-3 my-4">
                 <div class="d-flex align-content-center">
                     <figure class="align-content-center">
-                        <?= $this->Html->image('world.png', ['alt' => 'world-logo', 'class' => "image-c pr-3"]); ?>
+                        <?= $this->Html->image('world2.png', ['alt' => 'world-logo', 'class' => "image-c pr-3"]); ?>
                     </figure>
                     <div>
                         <p class="align-content-center">
@@ -34,7 +34,7 @@ $this->end('title');
             <div class="top-box col-10 col-sm-10 col-md-4 col-lg-4 col-xl-4 px-2 pl-md-3 pr-md-4 my-4">
                 <div class="d-flex align-content-center">
                     <figure class="align-content-center">
-                        <?= $this->Html->image('badge.png', ['alt' => 'badge-logo', 'class' => "image-c pr-3"]); ?>
+                        <?= $this->Html->image('badge2.png', ['alt' => 'badge-logo', 'class' => "image-c pr-3"]); ?>
                     </figure>
                     <div>
                         <p class="align-content-center">
