@@ -121,5 +121,4 @@ links.forEach(link => {
     link.addEventListener("mouseout", function () {
         link.parentElement.parentElement.classList.remove("shadow");
     });
-    console.log('funciona!!')
 });
