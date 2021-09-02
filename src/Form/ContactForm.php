@@ -24,8 +24,14 @@ class ContactForm extends Form
     public function validationDefault(Validator $validator): Validator
     {
         $validator
-            ->minLength('name', 10)
-            ->email('email');
+            ->requirePresence('name')
+            ->minLength('name', 5, __('Debe tener una longitud mínima de {0} caracteres', 5))
+            ->requirePresence('email', true, __('Debes proporcionar un correo'))
+            ->email('email', true, __('Debe ser un correo válido'))
+            ->requirePresence('reason', __('Debes seleccionar el motivo de contacto'))
+            ->notEmptyString('reason', __('Debes seleccionar el motivo de contacto'))
+            ->requirePresence('message', true, __('Debes escribir un mensaje'))
+            ->minLength('message', 10, __('Debe tener una longitud mínima de {0} caracteres', 10));
 
         return $validator;
     }
@@ -34,6 +40,7 @@ class ContactForm extends Form
     {
         try {
             Log::write('debug', 'Sending email to contact');
+            return true;
 
             // reCaptcha validation
             // $gcResponse = $this->request->getData('g-recaptcha-response');
@@ -72,7 +79,8 @@ class ContactForm extends Form
 
             return true;
         } catch (\Throwable $th) {
-            Log::write('debug', 'Error sending an email');
+            Log::write('error', 'Error sending an email');
+            Log::write('error', $th->getMessage());
 
             return false;
         }

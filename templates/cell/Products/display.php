@@ -16,7 +16,7 @@ $langEn = I18n::getLocale() == 'en_US';
                 <?php $title = $langEn ? $product->titulo_EN : $product->titulo_ES; ?>
                 <div class="d-inline-flex justify-content-center js-scroll fade-in-botton">
                     <div class="white-background pb-4">
-                        <figure>
+                        <figure class="products-figure">
                             <?= $this->Html->image($product->imagen, ['alt' => $title, 'class' => 'image-slide']); ?>
                         </figure>
                         <div class="pl-4 pr-4">

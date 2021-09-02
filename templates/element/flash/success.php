@@ -10,9 +10,15 @@ if (!isset($params['escape']) || $params['escape'] !== false) {
 }
 ?>
 
-<div class="message alert alert-success alert-dismissible fade show">
-    <?= $message ?>
-    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-        <span aria-hidden="true">&times;</span>
-    </button>
-</div>
+<?= $this->Html->script('//cdn.jsdelivr.net/npm/sweetalert2@11') ?>
+
+<script type="text/javascript">
+    Swal.fire({
+        title: '<?= __('Mensaje confirmado') ?>',
+        icon: 'success',
+        text: '<?= $message ?>',
+        showCloseButton: true,
+        focusConfirm: true,
+        confirmButtonText: '<?= __('Aceptar') ?>'
+    });
+</script>
