@@ -2,29 +2,31 @@
 $this->start('title');
 echo __('Inicio');
 $this->end('title');
+$this->start('script');
+echo $this->Html->Script('home');
+$this->end('script');
 ?>
 
-<section class="contacto-container">
-    <div class="contacto">
-        <h1 class="title">
-            <?= __('La industria de seguros con') ?>
-            <br>
-            <?= __('La industria de seguros con,') ?>
-            <strong><?= __('todas las linas marine') ?></strong>
-        </h1>
-    </div>
-    <div class="boton">
-        <?= $this->Html->link(
-            __("Contáctanos"),
-            ['controller' => 'Contacts', 'action' => 'index'],
-            ['class' => 'boton-contacto text-capitalize']
-        ) ?>
-    </div>
+<section class="main-intro-container">
 
-    <div id="summary" class="container white-grid pl-3 pr-3">
+    <h1 class="title">
+        <div id="animation-title" class="text-capitaliza">
+            <?= __('Experimentado | Impulsado por datos  | Competente') ?>
+        </div>
+
+        <div id="animation-title-two" class="text-capitalize">
+            <strong>
+                <?= __('Así es como ofrecemos') ?>
+                <br>
+                <?= __('resultados destacados') ?>
+            </strong>
+        </div>
+    </h1>
+
+    <div class="features-summary container pl-3 pr-3">
         <div class="row justify-content-center top-text d-flex align-content-center flex-wrap">
             <div class="top-box col-10 col-sm-10 col-md-4 col-lg-4 col-xl-4 px-2 pr-md-3 pl-md-4 my-4">
-                <div class="d-flex align-content-center">
+                <div class="d-flex align-items-center">
                     <figure class="align-content-center">
                         <?= $this->Html->image('clock.png', ['alt' => 'clock-logo', 'class' => "image-c pr-3"]); ?>
                     </figure>
@@ -36,7 +38,7 @@ $this->end('title');
                 </div>
             </div>
             <div class="top-box col-10 col-sm-10 col-md-4 col-lg-4 col-xl-4 px-2 px-md-3 my-4">
-                <div class="d-flex align-content-center">
+                <div class="d-flex align-items-center">
                     <figure class="align-content-center">
                         <?= $this->Html->image('world.png', ['alt' => 'world-logo', 'class' => "image-c pr-3"]); ?>
                     </figure>
@@ -48,7 +50,7 @@ $this->end('title');
                 </div>
             </div>
             <div class="top-box col-10 col-sm-10 col-md-4 col-lg-4 col-xl-4 px-2 pl-md-3 pr-md-4 my-4">
-                <div class="d-flex align-content-center">
+                <div class="d-flex align-items-center">
                     <figure class="align-content-center">
                         <?= $this->Html->image('badge.png', ['alt' => 'badge-logo', 'class' => "image-c pr-3"]); ?>
                     </figure>
@@ -65,29 +67,40 @@ $this->end('title');
 
 <section id="who-we-are">
     <div class="container justify-content-center">
-        <div class="col intro-container js-scroll fade-in-bottom">
-            <h3 class="uppercase-title"><?= __('Lo que somos') ?></h3>
-            <p class="intro-description">
-                <?= __('quienes-somos-1') ?>
-            </p>
-        </div>
-        <div class="col intro-container js-scroll fade-in-bottom">
-            <h3 class="uppercase-title"><?= __('Lo que nos importa') ?></h3>
-            <p class="intro-description"><?= __('quienes-somos-2') ?></p>
-        </div>
-        <div class="col intro-container js-scroll fade-in-bottom">
-            <h3 class="uppercase-title"><?= __('Lo que hacemos') ?></h3>
-            <p class="intro-description"><?= __('quienes-somos-3') ?></p>
-        </div>
-        <div class="col intro-container js-scroll fade-in-bottom">
-            <h3 class="uppercase-title"><?= __('Como lo hacemos') ?></h3>
-            <p class="intro-description"><?= __('quienes-somos-4') ?></p>
-        </div>
+        <aside class="intro">
+            <div class="intro-container">
+                <h3 class="uppercase-title"><?= __('Lo que somos') ?></h3>
+                <h2 class="subtitle">
+                    <?= __('Managing General Agent') ?>
+                </h2>
+                <p class="intro-description">
+                    <?= __('quienes-somos-1') ?>
+                </p>
+            </div>
+        </aside>
+        <aside class="intro">
+            <div class="intro-container">
+                <h3 class="uppercase-title"><?= __('Lo que nos importa') ?></h3>
+                <p class="intro-description"><?= __('quienes-somos-2') ?></p>
+            </div>
+        </aside>
+        <aside class="intro">
+            <div class="intro-container">
+                <h3 class="uppercase-title"><?= __('Lo que hacemos') ?></h3>
+                <p class="intro-description"><?= __('quienes-somos-3') ?></p>
+            </div>
+        </aside>
+        <aside class="intro">
+            <div class="intro-container">
+                <h3 class="uppercase-title"><?= __('Como lo hacemos') ?></h3>
+                <p class="intro-description"><?= __('quienes-somos-4') ?></p>
+            </div>
+        </aside>
     </div>
 </section>
 
-<section class="la-diferencia">
-    <div class="d-flex justify-content-center mb-5">
+<section class="difference-container">
+    <div class="d-flex justify-content-center mb-3">
         <h3 class="uppercase-title d-inline-flex">
             <?= __('La diferencia') ?>
         </h3>

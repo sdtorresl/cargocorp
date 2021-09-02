@@ -62,15 +62,15 @@ msgid "Nuestros productos"
 msgstr "Our products"
 
 #: "Pages/home.php: 4
-msgid "La industria de seguros con"
+msgid "Experimentado | Impulsado por datos  | Competente"
 msgstr "EXPERIENCED | DATA DRIVEN | CAPABLE"
 
 #: "Pages/home.php: 7
-msgid "La industria de seguros con,"
+msgid "Así es como ofrecemos"
 msgstr "THAT´S HOW WE PROVIDE"
 
 #: "Pages/home.php: 8
-msgid "todas las linas marine"
+msgid "resultados destacados"
 msgstr "OUTSTANDING RESULTS"
 
 #: "Pages/home.php: 12
@@ -92,6 +92,10 @@ msgstr "First MGA assessed by AM Best as Exceptional."
 #: "Pages/home.php: 61
 msgid "Lo que somos"
 msgstr "Who we are?"
+
+#: "Pages/home.php: 61
+msgid "Managing General Agent"
+msgstr "Managing General Agent"
 
 #: "Pages/home.php: 66
 msgid "quienes-somos-1"
@@ -316,3 +320,9 @@ msgstr "I am a Capacity Provider looking for additional information"
 
 msgid "Otras"
 msgstr "Other"
+
+msgid "Todos los derechos reservados"
+msgstr "All rights reserved"
+
+msgid "Hecho con {0} por {1}"
+msgstr "Done with {0} by {1}"
