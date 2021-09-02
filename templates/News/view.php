@@ -27,6 +27,21 @@ $this->end('title');
 
 ?>
 
+<?php 
+$shortDescription = I18n::getLocale() == 'en_US' ? $article->descripcion_corta_EN : $article->descripcion_corta_ES;
+
+if (strlen($shortDescription) < 145 ) {
+    $metaDescription = $this->Html->meta('description',$shortDescription);
+}elseif (strlen($shortDescription) > 145 ) {
+    $truncateDescription = substr($shortDescription, 0, 145);
+    $metaDescription = $this->Html->meta('description',$truncateDescription);
+};
+?>
+
+<head>
+    <?php $metaDescription ?>
+</head>
+
 <aside class="article-picture">
     <?php
     $images[0] = 'image-1.png';

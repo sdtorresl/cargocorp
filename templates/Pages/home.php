@@ -13,7 +13,6 @@ $this->end('script');
         <div id="animation-title" class="text-capitaliza">
             <?= __('Experimentado | Impulsado por datos  | Competente') ?>
         </div>
-
         <div id="animation-title-two" class="text-capitalize">
             <strong>
                 <?= __('Así es como ofrecemos') ?>
@@ -106,7 +105,7 @@ $this->end('script');
         </h3>
     </div>
     <div class="container p pl-5 pr-5">
-        <div class="row justify-content-center grid-diferencia">
+        <div class="row justify-content-center grid-differences">
             <div class="col-12 col-sm-10 col-md-6 col-lg-4 col-xl-4 mb-5">
                 <div class="d-flex js-scroll slide-left">
                     <figure class="differences-logo">

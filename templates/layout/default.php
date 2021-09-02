@@ -24,10 +24,12 @@ $cakeDescription = 'CargoCorp UW';
     <?= $this->Html->charset() ?>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>
-        <?= $cakeDescription ?> - <?= $this->fetch('title') ?>
+        <?= $cakeDescription ?> - <?= $this->fetch('title') . ' We have our Own Risk Management Team ' ?>
     </title>
-    <?= $this->Html->meta('icon') ?>
 
+    <meta name="description" content= <?= __("We are a Managing General Agent (MGA) specialized in providing capacity for Marine lines")?>>
+    <meta name="keywords" content="Read interexting news, ">
+    <meta name="robots" content="index, follow">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700;800&display=swap" rel="stylesheet">
 
@@ -39,8 +41,11 @@ $cakeDescription = 'CargoCorp UW';
     <?= $this->Html->css('/vendor/slick/slick-theme.css') ?>
     <?= $this->Html->css('style') ?>
 
+   
     <?= $this->fetch('meta') ?>
     <?= $this->fetch('css') ?>
+    <?= $this->Html->meta('icon') ?>
+
 </head>
 
 <body>

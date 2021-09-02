@@ -14,6 +14,10 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 
+#: layout/default.php:30
+msgid "We are a Managing General Agent (MGA) specialized in providing capacity for Marine lines"
+msgstr "Somos un Managing General Agent (MGA) especializado en proveer capacidad para las líneas de Marine"
+
 #: News/index.php:184
 msgid "Leer más"
 msgstr "Read more"

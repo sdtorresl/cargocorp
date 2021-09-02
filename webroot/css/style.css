@@ -191,9 +191,7 @@ strong {
     display: flex;
     align-items: center;
 }
-div.display-c {
-    display: flex !important;
-}
+
 img.image-c {
     width: 55px;
     height: auto;
@@ -251,7 +249,7 @@ div.top-text {
     background-color: white;
     margin: 1rem 0;
 }
-div.grid-diferencia {
+div.grid-differences {
     color: #333333;
     font-style: normal;
     font-weight: 300;
@@ -284,11 +282,7 @@ section.nuestros-productos {
     padding-bottom: 80px;
     z-index: 20;
 }
-div.title-box {
-    width: 100%;
-    height: 100%;
-    z-index: 20;
-}
+
 div.title-box {
     position: relative;
     width: 100%;
@@ -487,7 +481,6 @@ li.mexico {
 }
 
 section.noticias {
-    background: #ffffff;
     padding-top: 5rem;
     padding-bottom: 100px;
 }
@@ -531,9 +524,7 @@ h3.noticias-title {
 div.news-text {
     padding: 20px;
 }
-div.aling {
-    vertical-align: middle;
-}
+
 a.noticias-link {
     color: #333333;
     text-decoration-line: underline;
