@@ -91,7 +91,7 @@ li.nav-item {
 }
 
 .main-intro-container {
-    background-image: url(/webroot/img/home-background.png);
+    background-image: url('../img/home-background.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
