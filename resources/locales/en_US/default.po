@@ -308,7 +308,7 @@ msgid "Correo electrónico"
 msgstr "Email"
 
 msgid "Motivo de contacto"
-msgstr "How we can help you?"
+msgstr "How can we help you?"
 
 msgid "Mensaje"
 msgstr "Message"
@@ -330,3 +330,6 @@ msgstr "All rights reserved"
 
 msgid "Hecho con {0} por {1}"
 msgstr "Done with {0} by {1}"
+
+msgid "Elige uno"
+msgstr "Choose one"
