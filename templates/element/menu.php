@@ -31,14 +31,14 @@ use Cake\I18n\I18n;
                 <li class="nav-item mb-3">
                     <?= $this->Html->link(__("Inicio sesión"), 'https://107.190.136.34/cargocorpuw/', ['class' => 'menu-link', 'target' => '_blank']) ?>
                 </li>
-                <li class="nav-item mb-3">
-                    <?php if (I18n::getLocale() == 'en_US') {
-                        echo $this->Html->link(__("Español"), ['controller' => 'Languages', 'action' => 'es'], ['class' => 'menu-link']);
-                    } else {
-                        echo $this->Html->link(__("Inglés"), ['controller' => 'Languages', 'action' => 'en'], ['class' => 'menu-link']);
-                    }
+                <!-- <li class="nav-item mb-3">
+                   <?php// if (I18n::getLocale() == 'en_US') {
+                        //echo $this->Html->link(__("Español"), ['controller' => 'Languages', 'action' => 'es'], ['class' => 'menu-link']);
+                    //} else {
+                        //echo $this->Html->link(__("Inglés"), ['controller' => 'Languages', 'action' => 'en'], ['class' => 'menu-link']);
+                    //}
                     ?>
-                </li>
+                </li> -->
             </ul>
         </div>
     </nav>
