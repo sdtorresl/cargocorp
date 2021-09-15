@@ -5,15 +5,15 @@ use Cake\I18n\I18n;
 
 <section class="boletin" id="boletin-enlace">
     <div class="d-flex justify-content-center pseudo-lines">
-        <h3 class="d-inline-flex boletin-title">
+        <h3 class="d-inline-flex boletin-title px-3">
             <?= I18n::getLocale() == 'en_US' ? $category->nombre_EN : $category->nombre_ES ?>
         </h3>
     </div>
-    <div class="container p-0">
+    <div class="container">
         <div class="row justify-content-center">
             <?php foreach ($news as $key => $value) : ?>
-                <div class="col-sm-11 col-md-11 col-lg-4 col-xl-4 d-flex justify-content-center p-0 pb-5 pl-3 pr-2">
-                    <div class="white-background boletin-slides pb-3">
+                <div class="col-11 col-sm-11 col-md-11 col-lg-4 col-xl-4 d-flex justify-content-center my-2">
+                    <div class="white-background boletin-slides pb-3 js-scroll fade-in-botton scrolled">
                         <figure>
                             <?= $this->Html->image($value->image, ['alt' => $value->titulo_ES, 'class' => "image-slide boletin-image"]); ?>
                         </figure>

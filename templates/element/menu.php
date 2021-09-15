@@ -26,16 +26,19 @@ use Cake\I18n\I18n;
                     <?= $this->Html->link(__("Sobre nosotros"), ['controller' => 'Pages', 'action' => 'display', 'about'], ['class' => 'menu-link']) ?>
                 </li>
                 <li class="nav-item mb-3">
-                    <?= $this->Html->link(__("Inicio sesión"), 'https://107.190.136.34/cargocorpuw/', ['class' => 'menu-link', 'target' => '_blank']) ?>
+                    <?= $this->Html->link(__("Contáctanos"), ['controller' => 'Contacts', 'action' => 'index'], ['class' => 'menu-link']) ?>
                 </li>
                 <li class="nav-item mb-3">
-                    <?php if (I18n::getLocale() == 'en_US') {
-                        echo $this->Html->link(__("Español"), ['controller' => 'Languages', 'action' => 'es'], ['class' => 'menu-link']);
-                    } else {
-                        echo $this->Html->link(__("Inglés"), ['controller' => 'Languages', 'action' => 'en'], ['class' => 'menu-link']);
-                    }
-                    ?>
+                    <?= $this->Html->link(__("Inicio sesión"), 'https://107.190.136.34/cargocorpuw/', ['class' => 'menu-link', 'target' => '_blank']) ?>
                 </li>
+                <!-- <li class="nav-item mb-3">
+                   <?php// if (I18n::getLocale() == 'en_US') {
+                        //echo $this->Html->link(__("Español"), ['controller' => 'Languages', 'action' => 'es'], ['class' => 'menu-link']);
+                    //} else {
+                        //echo $this->Html->link(__("Inglés"), ['controller' => 'Languages', 'action' => 'en'], ['class' => 'menu-link']);
+                    //}
+                    ?>
+                </li> -->
             </ul>
         </div>
     </nav>

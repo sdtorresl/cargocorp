@@ -8,7 +8,13 @@
 use Cake\I18n\I18n;
 
 $englishLang = I18n::getLocale() == 'en_US';
-$title = $englishLang ? $product->titulo_EN : $product->titulo_ES
+$title = $englishLang ? $product->titulo_EN : $product->titulo_ES;
+$description = $englishLang ? $product->descripcion_corta_EN : $product->descripcion_corta_ES;
+
+$this->start('title');
+echo __('Productos');
+$this->end('title');
+
 ?>
 
 <aside class="product-picture">
@@ -20,16 +26,16 @@ $title = $englishLang ? $product->titulo_EN : $product->titulo_ES
 <section class="about-product">
     <div class="container">
         <div class="d-flex justify-content-center content-left">
-            <h3 class="trititle d-inline-flex " id="transform-title">
+            <h3 class="uppercase-title d-inline-flex " id="transform-title">
                 <?= __('Sobre el producto') ?>
             </h3>
         </div>
 
         <h2 id="about-title">
-            <?= $englishLang ? $product->titulo_EN : $product->titulo_ES ?>
+            <?= $title ?>
         </h2>
         <p id="about-text">
-            <?= $title ?>
+            <?= $description ?>
         </p>
     </div>
 </section>
@@ -41,5 +47,6 @@ $title = $englishLang ? $product->titulo_EN : $product->titulo_ES
 </article>
 
 <aside>
+    <?= $this->cell('Team') ?>
     <?= $this->cell('Products') ?>
 </aside>

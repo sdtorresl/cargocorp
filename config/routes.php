@@ -54,13 +54,13 @@ $routes->scope('/', function (RouteBuilder $builder) {
      */
     $builder->connect('/', ['controller' => 'Pages', 'action' => 'display', 'home']);
     $builder->connect('/about', ['controller' => 'Pages', 'action' => 'display', 'about']);
-    //$builder->connect('/products', ['controller' => 'Pages', 'action' => 'display', 'products']);
+    $builder->connect('/contact', ['controller' => 'Contacts', 'action' => 'index']);
 
     /*
      * ...and connect the rest of 'Pages' controller's URLs.
      */
     $builder->connect('/pages/*', 'Pages::display');
-
+    //$builder->connect('/sitemap', ['controller' => 'pages', 'action' =>'sitemap'],['_ext'=>'xml']);
     /*
      * Connect catchall routes for all controllers.
      *

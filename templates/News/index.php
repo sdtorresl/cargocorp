@@ -2,6 +2,10 @@
 
 use \Cake\I18n\I18n;
 
+$this->start('title');
+echo __('Noticias');
+$this->end('title');
+
 $featuredNews = array_slice($news->toArray(), 0, 3);
 $totalNews = array_slice($news->toArray(), 3, count($news->toArray()));
 ?>
@@ -16,7 +20,7 @@ $totalNews = array_slice($news->toArray(), 3, count($news->toArray()));
         <div class="row justify-content-center">
             <?php foreach ($newsCategories as $newsCategory) : ?>
                 <div class="col-6 col-sm-6 col-md-2 col-lg-2 col-xl-2 justify-content-center p-0">
-                    <div class="button-container <?= $currentCategory->id_categoria == $newsCategory->id_categoria ? 'active' : '' ?>">
+                    <div class="button-container my-3 <?= $currentCategory->id_categoria == $newsCategory->id_categoria ? 'active' : '' ?>">
                         <?php $title = I18n::getLocale() == 'en_US' ?  $newsCategory->nombre_EN : $newsCategory->nombre_ES; ?> </a>
                         <?= $this->Html->link($title, ['controller' => 'News', 'action' => 'index', $newsCategory->id_categoria], ['class' => 'link-button']) ?>
                     </div>
@@ -28,7 +32,7 @@ $totalNews = array_slice($news->toArray(), 3, count($news->toArray()));
 
 <section class="boletin" id="boletin-enlace">
     <div class="d-flex justify-content-center pseudo-lines">
-        <h3 class="d-inline-flex boletin-title">
+        <h3 class="d-inline-flex boletin-title px-3">
             <?= I18n::getLocale() == 'en_US' ? $currentCategory->nombre_EN : $currentCategory->nombre_ES ?>
         </h3>
     </div>
@@ -36,7 +40,7 @@ $totalNews = array_slice($news->toArray(), 3, count($news->toArray()));
     <div class="container">
         <div class="row justify-content-center">
             <?php foreach ($featuredNews as $newsItem) : ?>
-                <div class="col-sm-11 col-md-11 col-lg-4 col-xl-4 d-flex justify-content-center p-0 pb-5 pl-5 pr-5 p-desktop">
+                <div class="col-11 col-sm-11 col-md-11 col-lg-4 col-xl-4 d-flex justify-content-center my-2 p-desktop">
                     <div class="white-background boletin-slides pb-3">
                         <figure>
                             <?= $this->Html->image($newsItem->image, ['alt' => $newsItem->titulo_ES, 'class' => "image-slide boletin-image"]); ?>
@@ -66,15 +70,10 @@ $totalNews = array_slice($news->toArray(), 3, count($news->toArray()));
 
 <section class="todas-las-noticias" id="todas-las-noticias-enlace">
     <div class="container">
-        <div class="d-flex justify-content-center">
-            <h3 class="trititle d-inline-flex">
-                <?= __('Todas las noticias') ?>
-            </h3>
-        </div>
         <div class="row justify-content-center">
             <?php foreach ($totalNews as $newsItem) : ?>
                 <div class="col-11 col-sm-11 col-md-8 col-lg-8 col-xl-8 mb-3 block-d">
-                    <div class="d-flex container-news grey-background">
+                    <div class="d-flex container-news grey-background js-scroll fade-in-botton scrolled">
                         <figure class="align-content-center">
                             <?= $this->Html->image($newsItem->image, ['alt' => $newsItem->titulo_ES, 'class' => "image-news"]); ?>
                         </figure>

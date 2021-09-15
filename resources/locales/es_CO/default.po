@@ -14,6 +14,10 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 
+#: layout/default.php:30
+msgid "We are a Managing General Agent (MGA) specialized in providing capacity for Marine lines"
+msgstr "Somos un Managing General Agent (MGA) especializado en proveer capacidad para las líneas de Marine"
+
 #: News/index.php:184
 msgid "Leer más"
 msgstr "Leer más"
@@ -54,3 +58,276 @@ msgstr "Todas las noticias"
 
 msgid "Filtra tus noticias"
 msgstr "Filtra tus noticias"
+
+msgid "Sobre el producto"
+msgstr "Sobre el producto"
+
+msgid "Nuestros productos"
+msgstr "Nuestros productos"
+
+#: "Pages/home.php: 4
+msgid "Experimentado | Impulsado por datos  | Competente"
+msgstr "Experimentado | Impulsado por datos  | Competente"
+
+#: "Pages/home.php: 7
+msgid "Así es como ofrecemos"
+msgstr "Así es como ofrecemos"
+
+#: "Pages/home.php: 8
+msgid "resultados destacados"
+msgstr "resultados destacados"
+
+#: "Pages/home.php: 12
+msgid "Contáctanos"
+msgstr "Contáctanos"
+
+#: "Pages/home.php: 24
+msgid "Más de 20 años de experiencia en seguros"
+msgstr "Más de 20 años de experiencia en seguros"
+
+#: "Pages/home.php: 36
+msgid "Nos encontramos en más de 14 países"
+msgstr "Nos encontramos en más de 14 países"
+
+#: "Pages/home.php: 48
+msgid "Calificacion A-Fitch Rattings, A.M. Best, Standard & Poors, A-"
+msgstr "Calificacion A-Fitch Rattings, A.M. Best, Standard & Poors, A-"
+
+#: "Pages/home.php: 61
+msgid "Lo que somos"
+msgstr "Lo que somos"
+
+#: "Pages/home.php: 61
+msgid "Managing General Agent"
+msgstr "Managing General Agent"
+
+
+#: "Pages/home.php: 66
+msgid msgid "quienes-somos-1"
+msgstr "Tenemos una amplia cobertura que protege carga en tránsito y almacenamiento. Además ofrecemos la capacidad de reaseguramiento para sabotaje, terrorismo y riesgos politicos Asegura tu negocio en las mejores manos"
+
+#: "Pages/home.php: 75
+msgid "Lo que nos importa"
+msgstr "Lo que nos importa"
+
+#: "Pages/home.php: 79
+msgid "quienes-somos-2"
+msgstr "quienes-somos-2"
+
+#: "Pages/home.php: 84
+msgid "Lo que hacemos"
+msgstr "Lo que hacemos"
+
+#: "Pages/home.php: 88
+msgid "quienes-somos-3"
+msgstr "quienes-somos-3"
+
+#: "Pages/home.php: 93
+msgid "Como lo hacemos"
+msgstr "Como lo hacemos"
+
+#: "Pages/home.php: 97
+msgid "quienes-somos-4"
+msgstr "quienes-somos-4"
+
+#: "Pages/home.php: 105
+msgid "La diferencia"
+msgstr "La diferencia"
+
+#: "Pages/home.php: 117
+msgid "Experiencia"
+msgstr "Experiencia"
+
+#: "Pages/home.php: 121
+msgid "amplia cobertura 1"
+msgstr "Tenemos una amplia cobertura que proteje carga en tránsito 1"
+
+#: "Pages/home.php: 133
+msgid "Profesionales 2"
+msgstr "Profesionales 2"
+
+#: "Pages/home.php: 137
+msgid "amplia cobertura 2"
+msgstr "Tenemos una amplia cobertura que proteje carga en tránsito 2"
+
+#: "Pages/home.php: 149
+msgid "Profesionales 3"
+msgstr "Profesionales 3"
+
+#: "Pages/home.php: 152
+msgid "amplia cobertura 3"
+msgstr "Tenemos una amplia cobertura que proteje carga en tránsito 3"
+
+#: "Pages/home.php: 164
+msgid "Profesionales 4"
+msgstr "Profesionales 4"
+
+#: "Pages/home.php: 167
+msgid "amplia cobertura 4"
+msgstr "Tenemos una amplia cobertura que proteje carga en tránsito 4"
+
+#: "Pages/home.php: 179
+msgid "Profesionales 5"
+msgstr "Profesionales 5"
+
+#: "Pages/home.php: 182
+msgid "amplia cobertura 5"
+msgstr "Tenemos una amplia cobertura que proteje carga en tránsito 5"
+
+#: "Pages/home.php: 194
+msgid "Profesionales 6"
+msgstr "Profesionales 6"
+
+#: "Pages/home.php: 197
+msgid "amplia cobertura 6"
+msgstr "Tenemos una amplia cobertura que proteje carga en tránsito 6"
+
+#: "Pages/home.php: 209
+msgid "Profesionales 7"
+msgstr "Profesionales 7"
+
+#: "Pages/home.php: 212
+msgid "amplia cobertura 7"
+msgstr "Tenemos una amplia cobertura que proteje carga en tránsito 7"
+
+#: "Pages/home.php: 312
+msgid "Nuestros mercados"
+msgstr "Nuestros mercados"
+
+#: "Pages/home.php: 331
+msgid "América del sur"
+msgstr "América del sur"
+
+#: "Pages/home.php: 334
+msgid "Argentina"
+msgstr "Argentina"
+
+#: "Pages/home.php: 335
+msgid "Bolivia"
+msgstr "Bolivia"
+
+#: "Pages/home.php: 336
+msgid "Chile"
+msgstr "Chile"
+
+#: "Pages/home.php: 337
+msgid "Colombia"
+msgstr "Colombia"
+
+#: "Pages/home.php: 338
+msgid "Ecuador"
+msgstr "Ecuador"
+
+#: "Pages/home.php: 339
+msgid "Paraguay"
+msgstr "Paraguay"
+
+#: "Pages/home.php: 340
+msgid "Uruguay"
+msgstr "Uruguay"
+
+#: "Pages/home.php: 341
+msgid "Perú"
+msgstr "Perú"
+
+#: "Pages/home.php: 348
+msgid "América central"
+msgstr "América central"
+
+#: "Pages/home.php: 351
+msgid "Guatemala"
+msgstr "Guatemala"
+
+#: "Pages/home.php: 352
+msgid "Honduras"
+msgstr "Honduras"
+
+#: "Pages/home.php: 353
+msgid "Panamá"
+msgstr "Panamá"
+
+#: "Pages/home.php: 354
+msgid "El Salvador"
+msgstr "El Salvador"
+
+#: "Pages/home.php: 361
+msgid "Caribe"
+msgstr "Caribe"
+
+#: "Pages/home.php: 364
+msgid "Puerto Rico"
+msgstr "Puerto Rico"
+
+#: "Pages/home.php: 365
+msgid "República Dominicana"
+msgstr "República Dominicana"
+
+#: "Pages/home.php: 366
+msgid "México"
+msgstr "México"
+
+#: "LatestNews/display.php: 8
+msgid "Noticias de interés"
+msgstr "Noticias de interés"
+
+#: "LatestNews/display.php: 44
+msgid "Ver todas las noticias"
+msgstr "Ver todas las noticias"
+
+#: "Pages/about.php: 46
+msgid "Sobre nosotros"
+msgstr "Sobre nosotros"
+
+#: "Pages/about.php: 50
+msgid "Somos un Managing General Agent (MGA) especializado"
+msgstr "Somos un Managing General Agent (MGA) especializado"
+
+#: "Pages/about.php: 53
+msgid "quienes somos pagina about"
+msgstr "Somos un Managing General Agent (MGA) especializado en proveer capacidad para las líneas de Marine (Cargo, STP, Project Cargo, Casco, P&I, RC Marítimas) y Terrorismo. Managing General Agent (License # W279031 FLORIDA Department of Financial Services)"
+
+#: "Pages/about.php: 64
+msgid "Nuestro equipo"
+msgstr "Nuestro equipo"
+
+#: "Pages/about.php: 97
+msgid "Enviar correo"
+msgstr "Enviar correo"
+
+#: "Pages/about.php: 144
+msgid "Teléfono"
+msgstr "Teléfono"
+
+#: "Pages/about.php: 129
+msgid "contáctenos"
+msgstr "contáctenos"
+
+msgid "Nombre"
+msgstr "Nombre"
+
+msgid "Correo electrónico"
+msgstr "Correo electrónico"
+
+msgid "Motivo de contacto"
+msgstr "¿Cómo podemos ayudarte?"
+
+msgid "Mensaje"
+msgstr "Message"
+
+msgid "Soy un broker en busca de cotización"
+msgstr "Soy un broker en busca de cotización"
+
+msgid "Soy una empresa cedente que busca información adicional"
+msgstr "Soy una empresa cedente que busca información adicional"
+
+msgid "Soy un proveedor de capacidad que busca información adicional"
+msgstr "Soy un proveedor de capacidad que busca información adicional"
+
+msgid "Otras"
+msgstr "Otras"
+
+msgid "Todos los derechos reservados"
+msgstr "Todos los derechos reservados"
+
+msgid "Hecho con {0} por {1}"
+msgstr "Hecho con {0} por {1}"

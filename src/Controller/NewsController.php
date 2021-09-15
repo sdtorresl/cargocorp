@@ -64,6 +64,7 @@ class NewsController extends AppController
 
         $article->image = 'https://www.cargorisk.com/site/crm/files/blog/articulo_' . $article->id_blog . '/' . $article->nombre_archivo_corto;
 
-        $this->set(compact('article'));
+        $this->set('title', 'View Active Users');
+        $this->set(compact('article', 'title'));
     }
 }
