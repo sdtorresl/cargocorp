@@ -12,8 +12,6 @@ services:
     env_file:
       - app.env
     command: mysqld --character-set-server=utf8 --init-connect='SET NAMES UTF8;'
-    ports:
-      - "3306:3306"
 
   web:
     depends_on:
