@@ -42,4 +42,8 @@ nbproject/*
 # Sass preprocessor
 .sass-cache/
 
+# Database
+data/*
+
+# Environment
 app.env
