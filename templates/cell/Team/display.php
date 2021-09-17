@@ -19,7 +19,9 @@
                             <p class="team-member-name">Ana MarÍa Díaz</p>
                             <p class="team-member-ocupation">Chief Financial Officer (C.F.O.)</p>
                             <p class="team-member-description"></p>
-                            <a href="#" class="team-member-email"><?= __('Enviar correo') ?> </a>
+
+                            <a href="mailto:adiaz@cargocorpuw.com" class="team-member-email"><?= __('Enviar correo') ?> </a>
+
                         </div>
                     </div>
                 </div>
@@ -36,7 +38,9 @@
                             <p class="team-member-name">Juan Carlos Martínez</p>
                             <p class="team-member-ocupation">Chief Executive Officer (C.E.O.)</p>
                             <p class="team-member-description"></p>
-                            <a href="#" class="team-member-email"><?= __('Enviar correo') ?></a>
+
+                            <a href="mailto:jcm@cargocorpuw.com" class="team-member-email"><?= __('Enviar correo') ?></a>
+
                         </div>
                     </div>
                 </div>
@@ -53,7 +57,9 @@
                             <p class="team-member-name">Sebastián Gómez</p>
                             <p class="team-member-ocupation">Director general oficina México y Underwriter</p>
                             <p class="team-member-description"></p>
-                            <a href="#" class="team-member-email"><?= __('Enviar correo') ?></a>
+
+                            <a href="mailto:sgomez@cargocorpuw.com" class="team-member-email"><?= __('Enviar correo') ?></a>
+
                         </div>
                     </div>
                 </div>
@@ -70,7 +76,9 @@
                             <p class="team-member-name">Marcos Prada</p>
                             <p class="team-member-ocupation">Senior Marine Underwrite</p>
                             <p class="team-member-description"></p>
-                            <a href="#" class="team-member-email"><?= __('Enviar correo') ?></a>
+
+                            <a href="mailto:mprada@cargocorpuw.com" class="team-member-email"><?= __('Enviar correo') ?></a>
+
                         </div>
                     </div>
                 </div>
@@ -87,7 +95,9 @@
                             <p class="team-member-name">Karla Vital</p>
                             <p class="team-member-ocupation">Senior Underwriter</p>
                             <p class="team-member-description"></p>
-                            <a href="#" class="team-member-email"><?= __('Enviar correo') ?></a>
+
+                            <a href="mailto:kvital@cargocorpuw.com" class="team-member-email"><?= __('Enviar correo') ?></a>
+
                         </div>
                     </div>
                 </div>
@@ -104,7 +114,9 @@
                             <p class="team-member-name">Francy Díaz</p>
                             <p class="team-member-ocupation">Senior Underwriter</p>
                             <p class="team-member-description"></p>
-                            <a href="#" class="team-member-email"><?= __('Enviar correo') ?></a>
+
+                            <a href="mailto:fdiaz@cargocorpuw.com" class="team-member-email"><?= __('Enviar correo') ?></a>
+
                         </div>
                     </div>
                 </div>
@@ -121,7 +133,10 @@
                             <p class="team-member-name">Alejandra Bedoya</p>
                             <p class="team-member-ocupation">Head of Claims & Compliance</p>
                             <p class="team-member-description"></p>
-                            <a href="#" class="team-member-email"><?= __('Enviar correo') ?></a>
+
+                            <a href="mailto:abedoya@cargocorpuw.com" class="team-member-email"><?= __('Enviar correo') ?></a>
+
+
                         </div>
                     </div>
                 </div>
@@ -138,7 +153,10 @@
                             <p class="team-member-name">Ricardo Correa</p>
                             <p class="team-member-ocupation">Claims | LATAM</p>
                             <p class="team-member-description"></p>
-                            <a href="#" class="team-member-email"><?= __('Enviar correo') ?></a>
+
+                            <a href="mailto:claims@cargocorpuw.com" class="team-member-email"><?= __('Enviar correo') ?></a>
+
+
                         </div>
                     </div>
                 </div>
@@ -155,7 +173,10 @@
                             <p class="team-member-name">Diana Chaparro</p>
                             <p class="team-member-ocupation">Risk Manager</p>
                             <p class="team-member-description"></p>
-                            <a href="#" class="team-member-email"><?= __('Enviar correo') ?></a>
+
+                            <a href="mailto:dchaparro@cargocorpuw.com" class="team-member-email"><?= __('Enviar correo') ?></a>
+
+
                         </div>
                     </div>
                 </div>
@@ -172,7 +193,10 @@
                             <p class="team-member-name">Antonia Martínez</p>
                             <p class="team-member-ocupation">Head of Operations | Miami</p>
                             <p class="team-member-description"></p>
-                            <a href="#" class="team-member-email"><?= __('Enviar correo') ?></a>
+
+                            <a href="mailto:amartinez@cargocorpuw.com" class="team-member-email"><?= __('Enviar correo') ?></a>
+
+
                         </div>
                     </div>
                 </div>
