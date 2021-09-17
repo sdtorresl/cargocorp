@@ -37,7 +37,7 @@ class MostReadCell extends Cell
     public function display($categoryId, $exceptions)
     {
         $date = new Date();
-        $date->modify('-120 days');
+        $date->modify('-30 days');
 
         $this->loadModel('News');
 
