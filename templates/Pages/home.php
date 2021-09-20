@@ -55,7 +55,7 @@ $this->end('script');
                     </figure>
                     <div>
                         <p class="align-content-center">
-                            <?= __('Calificacion A-Fitch Rattings, A.M. Best, Standard & Poors, A-') ?>
+                            <?= __('MGA_Calification') ?>
                         </p>
                     </div>
                 </div>

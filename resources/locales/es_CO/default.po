@@ -90,8 +90,8 @@ msgid "Nos encontramos en más de 14 países"
 msgstr "Nos encontramos en más de 14 países"
 
 #: "Pages/home.php: 48
-msgid "Calificacion A-Fitch Rattings, A.M. Best, Standard & Poors, A-"
-msgstr "Calificacion A-Fitch Rattings, A.M. Best, Standard & Poors, A-"
+msgid "MGA_Calification"
+msgstr "MGA_Calification"
 
 #: "Pages/home.php: 61
 msgid "Lo que somos"

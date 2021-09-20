@@ -90,7 +90,7 @@ msgid "Nos encontramos en más de 14 países"
 msgstr "Own Risk Management Team"
 
 #: "Pages/home.php: 48
-msgid "Calificacion A-Fitch Rattings, A.M. Best, Standard & Poors, A-"
+msgid "MGA_Calification"
 msgstr "First MGA in LATAM to integrate artificial intelligence into their operations."
 
 #: "Pages/home.php: 61
