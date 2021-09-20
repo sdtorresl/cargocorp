@@ -788,8 +788,7 @@ div.team-slide {
     padding: 25px;
 }
 .team-member-photo {
-    min-width: 100%;
-    min-height: 100%;
+    width: 200px;
     object-fit: cover;
 }
 .team-member-name {

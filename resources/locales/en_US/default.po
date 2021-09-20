@@ -91,7 +91,7 @@ msgstr "Own Risk Management Team"
 
 #: "Pages/home.php: 48
 msgid "Calificacion A-Fitch Rattings, A.M. Best, Standard & Poors, A-"
-msgstr "First MGA assessed by AM Best as Exceptional."
+msgstr "First MGA in LATAM to integrate artificial intelligence into their operations."
 
 #: "Pages/home.php: 61
 msgid "Lo que somos"
@@ -291,7 +291,7 @@ msgstr "We are a Managing General Agent (MGA) specialized in providing capacity 
 
 #: "Pages/about.php: 97
 msgid "Enviar correo"
-msgstr "Send e-mail"
+msgstr "E-mail"
 
 #: "Pages/about.php: 144
 msgid "Teléfono"

@@ -12,7 +12,7 @@
                     <div class="row justify-content-center">
                         <div class="col-10 col-sm-10 col-md-4 col-lg-3 col-xl-3 justify-content-right px-0">
                             <figure class="h-100 d-flex justify-content-center overflow-hidden">
-                                <?= $this->Html->image('team-member-image.png', ['alt' => 'team-member-photo', 'class' => 'team-member-photo']); ?>
+                                <?= $this->Html->image('ana-diaz.jpg', ['alt' => 'team-member-photo', 'class' => 'team-member-photo']); ?>
                             </figure>
                         </div>
                         <div class="col-10 col-sm-10 col-md-6 col-lg-6 col-xl-6 team-slide">
