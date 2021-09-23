@@ -40,16 +40,6 @@ class ContactForm extends Form
     {
         try {
             Log::write('debug', 'Sending email to contact');
-            return true;
-
-            // reCaptcha validation
-            // $gcResponse = $this->request->getData('g-recaptcha-response');
-            // $http = new Client();
-            // $captchaResponse = $http->post('https://www.google.com/recaptcha/api/siteverify', [
-            //     'secret' => Configure::read('reCaptchaKeys.secret'), // TODO
-            //     'response' => $gcResponse
-            // ]);
-            // $jsonResponse = $captchaResponse->getJson();
 
             $message = 'Hemos recibido su mensaje en nuestra página web:<br><br>';
             $message .= 'Nombre: ' . $data['name'] . '<br>';

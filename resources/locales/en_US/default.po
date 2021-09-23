@@ -333,3 +333,6 @@ msgstr "Done with {0} by {1}"
 
 msgid "Elige uno"
 msgstr "Choose one"
+
+msgid "No pasaste la validación del captcha"
+msgstr "You didn\'t pass the captcha validation"

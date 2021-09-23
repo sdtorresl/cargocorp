@@ -1,7 +1,12 @@
 <?php
+
+use Cake\Core\Configure;
+
 $this->start('title');
 echo __('Contact us');
 $this->end('title');
+
+$mapsKey = Configure::read('googleMapsKey');
 ?>
 
 <aside class="product-picture">
@@ -24,7 +29,7 @@ $this->end('title');
 
         <div class="row fade-in-botton justify-content-center mt-3">
             <div class="col-8">
-                <?= $this->Form->create($contact, ['class' => 'needs-validation', 'novalidate']) ?>
+                <?= $this->Form->create($contact, ['class' => 'needs-validation', 'novalidate', 'id' => 'contact-form']) ?>
                 <?= $this->Form->control('name', ['label' => __('Nombre')]) ?>
                 <?= $this->Form->control('email', ['type' => 'email', 'label' => __('Correo electrónico')]) ?>
                 <div class="form-group">
@@ -42,7 +47,12 @@ $this->end('title');
                     }
                     ?>
                 </div>
-                <?= $this->Form->submit(__('Contáctanos'), ['class' => 'boton-contacto']) ?>
+                <?= $this->Form->submit(__('Contáctanos'), [
+                    'class' => 'boton-contacto g-recaptcha',
+                    'data-sitekey' => Configure::read('reCaptchaKeys.site_key'),
+                    'data-callback' => 'onSubmit',
+                    'data-action' => 'submit'
+                ]) ?>
                 <?= $this->Form->end() ?>
 
             </div>
@@ -90,62 +100,8 @@ $this->end('title');
     </div>
 </section>
 
+<?= $this->Html->script('https://www.google.com/recaptcha/api.js') ?>
 
-<script>
-    function initMap() {
-        // The location of Uluru
-        const mexicoLoc = {
-            lat: 19.4299669,
-            lng: -99.1935539
-        };
-        const mexicoMap = new google.maps.Map(document.getElementById("mexico-map"), {
-            zoom: 15,
-            center: mexicoLoc,
-        });
-        const mexicoMarker = new google.maps.Marker({
-            position: mexicoLoc,
-            map: mexicoMap,
-            title: 'Cargo Corp UW Mexico',
-            animation: google.maps.Animation.DROP,
-        });
+<?= $this->Html->script('contact.js') ?>
 
-        const miamiLoc = {
-            lat: 25.7668374,
-            lng: -80.1909157
-        };
-        const miamiMap = new google.maps.Map(document.getElementById("miami-map"), {
-            zoom: 15,
-            center: miamiLoc,
-        });
-        const miamiMarker = new google.maps.Marker({
-            position: miamiLoc,
-            map: miamiMap,
-            title: 'Cargo Corp UW Miami',
-            animation: google.maps.Animation.DROP,
-        });
-        miamiMarker.setMap(miamiMap);
-    }
-
-    window.addEventListener('load', function() {
-        // Fetch all the forms we want to apply custom Bootstrap validation styles to
-        var forms = document.getElementsByClassName('needs-validation');
-
-        // Loop over them and prevent submission
-        var validation = Array.prototype.filter.call(forms, function(form) {
-            form.addEventListener('submit', function(event) {
-                if (form.checkValidity() === false) {
-                    console.log("Errors in form");
-                    event.preventDefault();
-                    event.stopPropagation();
-                }
-                form.classList.add('was-validated');
-            }, false);
-        });
-
-        const invalidInput = document.querySelectorAll('.form-group.is-invalid > input');
-        invalidInput.forEach((element) => element.classList.add('is-invalid'));
-
-    }, false);
-</script>
-
-<?= $this->Html->script('https://maps.googleapis.com/maps/api/js?key=AIzaSyA2pfbu1B3r7FJHj16Mi3plmazkZmDUuEU&callback=initMap&libraries=&v=weekly') ?>
+<?= $this->Html->script('https://maps.googleapis.com/maps/api/js?key=' . $mapsKey . '&callback=initMap&libraries=&v=weekly') ?>

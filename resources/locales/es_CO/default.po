@@ -334,3 +334,6 @@ msgstr "Hecho con {0} por {1}"
 
 msgid "Elige uno"
 msgstr "Choose one"
+
+msgid "No pasaste la validación del captcha"
+msgstr "No pasaste la validación del captcha"
