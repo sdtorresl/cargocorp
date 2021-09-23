@@ -15,7 +15,10 @@
  * @var \App\View\AppView $this
  */
 
+use Cake\Core\Configure;
+
 $cakeDescription = 'CargoCorp UW';
+$analyticsID = Configure::read('googleAnalyticsID');
 ?>
 <!DOCTYPE html>
 <html>
@@ -74,6 +77,19 @@ $cakeDescription = 'CargoCorp UW';
     <?= $this->Html->script('/vendor/slick/slick.min.js'); ?>
     <?= $this->Html->script('main'); ?>
     <?= $this->fetch('script'); ?>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=<?= $analyticsID ?>"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', <?= $analyticsID ?>);
+    </script>
 </body>
 
 </html>

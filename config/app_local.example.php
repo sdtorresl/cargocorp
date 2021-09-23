@@ -104,5 +104,6 @@ return [
     /**
      * Google Maps Key
      */
-    'googleMapsKey' => 'GOOGLE_MAPS_KEY'
+    'googleMapsKey' => 'GOOGLE_MAPS_KEY',
+    'googleAnalyticsID' => 'GOOGLE_ANALYTICS',
 ];
