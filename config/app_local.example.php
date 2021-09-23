@@ -100,4 +100,9 @@ return [
         'secret' => 'reCAPTCHA_secret_key',
         'site_key' => 'reCAPTCHA_site_key',
     ],
+
+    /**
+     * Google Maps Key
+     */
+    'googleMapsKey' => 'GOOGLE_MAPS_KEY'
 ];
