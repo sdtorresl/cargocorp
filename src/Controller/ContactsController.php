@@ -33,7 +33,7 @@ class ContactsController extends AppController
             $contactData = $this->request->getData();
             $isValid = $contact->validate($contactData);
 
-            if (!$this->getCaptchaValidation()) {
+            if ($this->getCaptchaValidation()) {
                 if (!$isValid) {
                     $this->Flash->error(__('Por favor completa todos los campos.'));
                 } else {
@@ -57,7 +57,7 @@ class ContactsController extends AppController
         $gcResponse = $this->request->getData('g-recaptcha-response');
         $http = new Client();
         $captchaResponse = $http->post('https://www.google.com/recaptcha/api/siteverify', [
-            'secret' => Configure::read('reCaptchaKeys.secret'), // TODO
+            'secret' => Configure::read('reCaptchaKeys.secret'),
             'response' => $gcResponse
         ]);
         $jsonResponse = $captchaResponse->getJson();

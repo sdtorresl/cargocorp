@@ -335,4 +335,4 @@ msgid "Elige uno"
 msgstr "Choose one"
 
 msgid "No pasaste la validación del captcha"
-msgstr "You didn\'t pass the captcha validation"
+msgstr "You didn't pass the captcha validation"
